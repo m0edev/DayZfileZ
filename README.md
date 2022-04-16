@@ -11,7 +11,7 @@
   </p>
 
 
-<h3 align="center">License</h3>
+<h2 align="center">License</h2>
   <p align="center">
     <br />
     <a>I do not own any of these files. I have simply used a tool provided by Bohemia Interactive to extract the game data. All credit to Bohemia Interactive. Thank you for opening up this game to the community! </a>
