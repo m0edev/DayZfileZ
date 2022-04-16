@@ -7,7 +7,7 @@
   
   <p align="center">
     <br />
-    <a>All files you find here are extracted directly from the game. You will probaly notice that there is no models or image files. These have been removed to allow it to be uploaded to GitHub.</a>
+    <a>All files you find here are extracted directly from the game. You will probaly notice that there is no models. These have been removed to allow it to be uploaded to GitHub.</a>
   </p>
 <br />
 
