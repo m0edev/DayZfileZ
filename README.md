@@ -2,7 +2,7 @@
 <h3 align="center">Extracted DayZ Files</h3>
   
   <a href="https://github.com/m0edev/dayzfiles">
-    <img src="https://i.ibb.co/L6GC0r9/Git.png" alt="Logo" width="80" height="80">
+    <img src="https://i.ibb.co/L6GC0r9/Git.png" alt="Logo" width="200" height="200">
   </a>
   
   <p align="center">
