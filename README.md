@@ -9,7 +9,7 @@
     <br />
     <a>All these files are extracted directly from the game, Untouched vanilla goodness.</a>
   </p>
-
+<br />
 
 <h2 align="center">License</h2>
   <p align="center">
