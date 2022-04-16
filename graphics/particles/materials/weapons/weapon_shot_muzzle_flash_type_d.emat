@@ -1,0 +1,8 @@
+ParticleSprite {
+ AlbedoMap "{39B311FF276CF007}Graphics/Particles/sprites/fire_flames_03.edds" 
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+ TileU 4
+ TileV 2
+ CameraBlendFar 0.001
+}

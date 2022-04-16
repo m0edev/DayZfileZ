@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{5AF4C8CA6D8CD56C}Graphics/Materials/postprocess/godrayssun.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

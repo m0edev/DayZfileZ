@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AF3D5E6BA8E401C9}Enfusion/Gui/fonts/sdf_MetronLight72.edds"
+ Author "4780"
+ ChangeDate 912549721
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sdf_MetronLight72.tga"
+   Conversion ColorHQCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{853257EDA4B1E35D}Graphics/Particles/materials/fire/fire_flame_01.emat"
+ Author "ferko"
+ ChangeDate 45277894
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

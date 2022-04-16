@@ -1,0 +1,9 @@
+material "Graphics/Materials/postprocess/godrayssunmask.emat": SunMaskEffect
+{
+	Intensity 0.8
+	SunSize 0.15
+	VerticalStreakIntensity 0.75
+	DiagonalStreakIntensity 0.60
+	SunMask "{D6B7A741EA83B67E}graphics/textures/postprocess/sunmask.edds" noresize
+}
+

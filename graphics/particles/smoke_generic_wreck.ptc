@@ -1,0 +1,84 @@
+EffectDef {
+ Emitors {
+  EmitorDef long_smoke_rnd_size {
+   ShapeType Point
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 60
+   MaxNum 1000
+   BirthRate 3
+   BirthRateRND 0
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{008E25684854DAB8}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 15
+   SizeRND 5
+   RandomRotDir 1
+   RotMultiplier 90
+   VelAngle 0
+   RandomAngle 1
+   Velocity 1.8
+   VelocityRND 0.5
+   AirResistance 0
+   AirResistanceRND 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 20
+   LifeTimeRND 10
+   Color {
+    0 0.2532 0.2722 0.2595 1 0.2532 0.2405 0.2405
+   }
+   Alpha {
+    0 0 0.12946 0.25949 0.65476 0.10759 1 0
+   }
+   RotationSpeed {
+    0 0.70513 0.08143 0.57692 0.17929 0.16667 1 0
+   }
+   Size {
+    0 0.08861 0.44571 0.63462 1 1
+   }
+   EffectTime 0
+  }
+  EmitorDef long_smoke_rnd_size_black {
+   ShapeType Point
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 60
+   MaxNum 1000
+   BirthRate 3
+   BirthRateRND 0
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 15
+   SizeRND 5
+   RandomRotDir 1
+   RotMultiplier 90
+   VelAngle 0
+   RandomAngle 1
+   Velocity 1.8
+   VelocityRND 0.5
+   AirResistance 0
+   AirResistanceRND 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 20
+   LifeTimeRND 10
+   Color {
+    0 0.0633 0.057 0.0759 1 0.0759 0.0633 0.0696
+   }
+   Alpha {
+    0 0 0.16369 0.46203 1 0
+   }
+   RotationSpeed {
+    0 0.70513 0.08143 0.57692 0.17929 0.16667 1 0
+   }
+   Size {
+    0 0.08861 0.44571 0.63462 1 1
+   }
+   EffectTime 0
+  }
+ }
+}

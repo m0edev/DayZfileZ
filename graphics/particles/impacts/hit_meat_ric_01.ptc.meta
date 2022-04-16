@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6916AD7686E139B0}Graphics/Particles/impacts/hit_meat_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

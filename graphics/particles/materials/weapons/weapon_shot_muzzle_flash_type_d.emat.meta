@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{92B0C375CAF36CAD}Graphics/Particles/materials/weapons/weapon_shot_muzzle_flash_type_D.emat"
+ Author "3112"
+ ChangeDate -2133662033
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

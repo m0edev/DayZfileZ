@@ -1,0 +1,11 @@
+Particle {
+ AlbedoMap "{612031817F136DE0}Graphics/Particles/sprites/water_splash_01.edds" 
+ Color 0.5098 0.5098 0.5098 0
+ Diffuse 0.4745 0.4745 0.4745 1
+ Emissive 0.251 0.251 0.251 0
+ Sort translucent
+ BlendMode Additive_AlphaModulate
+ TileU 4
+ TileV 2
+ Softness 2
+}

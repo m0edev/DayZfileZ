@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CDB5B128E657C195}Graphics/Particles/explosion_landmine_01.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

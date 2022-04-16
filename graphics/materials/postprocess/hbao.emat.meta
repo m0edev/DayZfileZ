@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{620627D64CA95375}Graphics/Materials/postprocess/hbao.emat"
+ Author "inv3256"
+ ChangeDate -2044517092
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

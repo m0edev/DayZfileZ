@@ -1,0 +1,58 @@
+ambient[]={0.07,0.56999999,0.30000001,0.56999999};
+diffuse[]={1,1.2,1.2,2.5};
+forcedDiffuse[]={0.54699993,0.55599999,0.41599995,0.47};
+emmisive[]={1.5,1,0.5,0.25};
+specular[]={0.034000002,0.034000002,0.034000002,0.2};
+specularPower=300;
+PixelShaderID="TreeAdv";
+VertexShaderID="TreeAdv";
+plantWind[]={0.050000001,0.15000001,40.950001,20.5};
+class Stage1
+{
+	texture="dz\plants\tree\data\t_betulapendula_3s_leaves_no.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\plants\tree\data\t_betulapendula_3s_leaves_mca.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+treeColorization[]={-0.079999998,-15,2,0};
+class Stage3
+{
+	texture="dz\plants\tree\data\t_betulapendula_lod4_dxt5.paa";
+	uvSource="WorldPos";
+	class uvTransform
+	{
+		aside[]={256,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage4
+{
+	texture="dz\plants\tree\data\t_betulapendula_3s_leaves_windmask_co.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

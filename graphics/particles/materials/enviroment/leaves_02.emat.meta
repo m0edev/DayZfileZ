@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4369448B822FD818}Graphics/Particles/materials/enviroment/leaves_02.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

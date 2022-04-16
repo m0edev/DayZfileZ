@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FA3F1DC32F268598}Graphics/Particles/weapon_shot_mp133_01.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

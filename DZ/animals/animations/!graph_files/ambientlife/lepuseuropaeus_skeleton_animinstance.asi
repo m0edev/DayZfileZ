@@ -1,0 +1,25 @@
+$animsetinstance {
+ #template "{9968FEA53DB3D19E}DZ/animals/animations/!graph_files/AmbientLife/AmbientLife.ast"
+ #nparents 0
+ $animations {
+   "death" "{F759773571551C4A}DZ/animals/animations/hare_skeleton/death.anm"
+   "death_end" "{112B7697E791D419}DZ/animals/animations/hare_skeleton/death_end.anm"
+   "run" "{BBD490D0DE6E6F84}DZ/animals/animations/hare_skeleton/run.anm"
+   "run_escape" "{BBD490D0DE6E6F84}DZ/animals/animations/hare_skeleton/run.anm"
+   "stand_eating" "{8C61ABE5E70FD6CB}DZ/animals/animations/hare_skeleton/stand_grazing.anm"
+   "stand_eating_2_stand_nervous" "{0ADFB56E27F41146}DZ/animals/animations/hare_skeleton/stand_grazing_2_stand_nervous.anm"
+   "stand_eating_idle_1" "{2072C547BD4CC451}DZ/animals/animations/hare_skeleton/stand_grazing_idle_1.anm"
+   "stand_eating_idle_2" "{B96C7CDEA0ABF5C1}DZ/animals/animations/hare_skeleton/stand_grazing_idle_2.anm"
+   "stand_eating_idle_3" "{CE66145654091AB1}DZ/animals/animations/hare_skeleton/stand_grazing_idle_3.anm"
+   "stand_eating_idle_4" "{CE66145654091AB1}DZ/animals/animations/hare_skeleton/stand_grazing_idle_3.anm"
+   "stand_nervous" "{9F9CEC4C1F939E4A}DZ/animals/animations/hare_skeleton/stand_nervous.anm"
+   "stand_nervous_2_stand_eating" "{8E30098AC81D7B46}DZ/animals/animations/hare_skeleton/stand_nervous_2_stand_grazing.anm"
+   "start_run_F" "{09F7D321C24596E2}DZ/animals/animations/hare_skeleton/start_run_F.anm"
+   "start_run_L144" "{F442116A5A057703}DZ/animals/animations/hare_skeleton/start_run_L144.anm"
+   "start_run_L72" "{3605E4CE4C71FF24}DZ/animals/animations/hare_skeleton/start_run_L72.anm"
+   "start_run_R144" "{4E65E5A31612602C}DZ/animals/animations/hare_skeleton/start_run_R144.anm"
+   "start_run_R72" "{7665C63890D78412}DZ/animals/animations/hare_skeleton/start_run_R72.anm"
+   "walk" "{BBD490D0DE6E6F84}DZ/animals/animations/hare_skeleton/run.anm"
+   "walk_eating" "{D21330433330A466}DZ/animals/animations/hare_skeleton/walk_grazing.anm"
+  
+ }

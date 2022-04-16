@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{927896DB14218F69}Graphics/Materials/postprocess/colors.emat"
+ Author "fido"
+ ChangeDate -1722129879
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

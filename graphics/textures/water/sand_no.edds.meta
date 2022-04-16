@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{1CFAA4EC2CA1362}Graphics/Textures/Water/sand_no.edds"
+ Author "fido"
+ ChangeDate -2134105562
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "sand_no.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

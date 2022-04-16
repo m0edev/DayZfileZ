@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{24E5D35D610077E4}Graphics/Particles/weapon_shot_mp5k_02_boris.ptc"
+ Author "3112"
+ ChangeDate -1764563281
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

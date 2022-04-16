@@ -1,0 +1,5 @@
+HBAOEffect {
+ RadiusMeters 10
+ Intensity 7.5
+ NumSamples 8
+}

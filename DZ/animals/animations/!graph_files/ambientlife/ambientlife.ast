@@ -1,0 +1,38 @@
+$animsettemplate {
+ #ngrouptypes 1
+ $groupType {
+  #ngroupnames 0
+  #nanims 28
+  $anims {
+    "death"
+    "death_end"
+    "jump_run_H110_L350"
+    "jump_run_H160_L350"
+    "jump_walk_H110_L350"
+    "run"
+    "run_escape"
+    "run_turn_L144"
+    "run_turn_R144"
+    "stand_eating"
+    "stand_eating_2_stand_nervous"
+    "stand_eating_idle_1"
+    "stand_eating_idle_2"
+    "stand_eating_idle_3"
+    "stand_eating_idle_4"
+    "stand_nervous"
+    "stand_nervous_2_stand_eating"
+    "stand_nervous_idle"
+    "stand_nervous_left"
+    "stand_nervous_right"
+    "start_run_F"
+    "start_run_L144"
+    "start_run_L72"
+    "start_run_R144"
+    "start_run_R72"
+    "walk"
+    "walk_eating"
+    "walk_eating_idle_1"
+   
+  }
+ }
+}

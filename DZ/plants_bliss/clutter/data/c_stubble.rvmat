@@ -1,0 +1,40 @@
+mainLight="Sun";
+fogMode="Fog";
+ambient[]={0.89999998,0.80000001,0.40000001,2};
+diffuse[]={0.55000001,0.5,0.30000001,1};
+forcedDiffuse[]={0.1,0.1,0.1,0};
+emmisive[]={0,0,0,1};
+specular[]={0,0,0,1};
+specularPower=1;
+shadowBias=0.2;
+plantWind[]={0.029999999,0.1,0.25,50.5};
+renderFlags[]=
+{
+	"AlphaTest32"
+};
+PixelShaderID="Grass";
+VertexShaderID="Grass";
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1.0,1.0,NOHQ)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="dz\plants_bliss\clutter\data\c_stubble_windmask_co.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

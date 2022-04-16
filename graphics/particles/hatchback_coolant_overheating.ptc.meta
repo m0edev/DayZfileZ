@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6B084055ACF3ADA4}Graphics/Particles/Hatchback_coolant_overheating.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

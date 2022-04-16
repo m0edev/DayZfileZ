@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F01DE434E3A5E4C4}Graphics/Particles/breath_vapour_light.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

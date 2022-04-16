@@ -1,0 +1,13 @@
+Density=1000;
+deflection=0.050000001;
+bulletPenetrability=400;
+transparency=0;
+rough=0.30000001;
+dust=0;
+audibility=0.5;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.89999998;
+restitution=0;
+impact="Hit_Textile";
+soundHit="body";

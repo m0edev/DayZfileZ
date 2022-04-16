@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{CB7AF4FD8ACBFDFC}Graphics/Particles/materials/glow/glow1.emat"
+ Author "ferko"
+ ChangeDate 840655234
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

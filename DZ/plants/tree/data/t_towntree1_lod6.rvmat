@@ -1,0 +1,33 @@
+ambient[]={0.42899996,0.52900016,0.25400001,0.029999999};
+diffuse[]={0.20999999,0.16,0.11,1};
+forcedDiffuse[]={0.63999957,0.63499957,0.40699971,1};
+emmisive[]={1,1,1,0.2};
+specular[]={2.6822091e-009,1.7590821e-007,8.1956386e-010,1};
+specularPower=68.599998;
+PixelShaderID="TreeAdv";
+VertexShaderID="TreeAdv";
+plantWind[]={0.050000001,0.15000001,0.94999999,0.5};
+class Stage1
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1,1,NO)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.53,0.5,0.5,MCA)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

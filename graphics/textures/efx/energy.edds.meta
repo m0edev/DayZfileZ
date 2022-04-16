@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{F757E677DE9F6639}Graphics/Textures/efx/energy.edds"
+ Author "fido"
+ ChangeDate -789306842
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "energy.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

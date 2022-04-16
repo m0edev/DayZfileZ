@@ -1,0 +1,14 @@
+MetaFileClass  {
+ Name "{1CB2A649C121E980}Graphics/Particles/sprites/sparks_02.edds"
+ Author "ferko"
+ ChangeDate 1370120969
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sparks_02.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

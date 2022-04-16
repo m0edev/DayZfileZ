@@ -1,0 +1,45 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1 {
+   ShapeType Box
+   ShapeSize 0.1 0 0.1
+   MaxNum 50
+   BirthRate 10
+   BirthRateRND 0
+   LocalTransform 0
+   Material "{F59F16757162250F}Graphics/Particles/materials/smoke/steam_breath_vapour_01.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 1
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.5
+   VelocityRND 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 1
+   LifeTimeRND 0
+   Color {
+    0 0.6139 0.6266 0.6139 1 0.5886 0.6013 0.6076
+   }
+   Alpha {
+    0 0 0.25246 0.50314 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.10127 1 0.46203
+   }
+   EffectTime 0.3
+   Repeat 0
+   AlphaMast {
+    0 0.1962 1 0.18987
+   }
+  }
+ }
+}

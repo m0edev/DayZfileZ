@@ -1,0 +1,32 @@
+ambient[]={0.02,0.57999998,0.34999999,0.34999999};
+diffuse[]={0.80000001,1.2,0.60000002,0.5};
+forcedDiffuse[]={0.34999999,0.34999999,0.5,1};
+emmisive[]={1,1,1,0.5};
+specular[]={0,0,0,0.50999999};
+specularPower=8;
+PixelShaderID="TreeAdv";
+VertexShaderID="TreeAdvModNormals";
+class Stage1
+{
+	texture="dz\plants_bliss\tree\data\t_populusn3s_f_mlod_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,mca)";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

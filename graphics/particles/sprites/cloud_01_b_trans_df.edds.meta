@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A33C94C2CDE0208E}Graphics/Particles/sprites/cloud_01_b_01_df.edds"
+ Author "3112"
+ ChangeDate -1725208966
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "cloud_01_b_01_df.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+Density=1180;
+Thickness=2;
+deflection=0.5;
+bulletPenetrability=300;
+bulletPenetrabilityWithThickness=150;
+transparency=1;
+rough=0.1;
+dust=0;
+audibility=0.80000001;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.69999999;
+restitution=0.30000001;
+impact="Hit_Glass";
+soundHit="plastic";

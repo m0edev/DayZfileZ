@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{EC562AA49823}Graphics/Particles/sprites/fire_anim_04.edds"
+ Author "ferko"
+ ChangeDate 1951048257
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "fire_anim_04.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

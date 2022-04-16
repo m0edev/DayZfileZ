@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{EB744B6401945B65}Gui/textures/infected.tga"
+ Author "inv3672"
+ ChangeDate 1377527129
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "infected.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

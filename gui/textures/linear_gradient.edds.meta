@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E262CF82FD5DFF31}Gui/textures/linear_gradient.edds"
+ Author "3672"
+ ChangeDate 1188243292
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "linear_gradient.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

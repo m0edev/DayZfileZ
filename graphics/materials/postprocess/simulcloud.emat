@@ -1,0 +1,8 @@
+material "Graphics/Materials/postprocess/simulcloud.emat": CloudsEffect
+{
+	UpscaleNoise 9.0
+	FogScaleVertical 0.27
+	FogScaleHorizontal 0.94
+	SilverlineIntensity 1.0
+	NoiseTexture "{CA6BC4635F99831}graphics/textures/postprocess/simul_noise.edds" noresize
+}

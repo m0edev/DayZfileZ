@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3C1255C0F3925499}Graphics/Textures/postprocess/snowdistant.edds"
+ Author "inv1836"
+ ChangeDate 801777042
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "snowdistant.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

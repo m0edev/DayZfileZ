@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C73F199F22B2A784}Graphics/Materials/postprocess/dynamicblur.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

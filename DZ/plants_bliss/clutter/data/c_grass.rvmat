@@ -1,0 +1,40 @@
+mainLight="Sun";
+fogMode="Fog";
+ambient[]={1,1,0.85000002,2};
+diffuse[]={0.60000002,0.5,0.73500001,1};
+forcedDiffuse[]={0,0,0,1};
+emmisive[]={0,0,0,1};
+specular[]={0.015,0.035,0.015,1};
+specularPower=30;
+shadowBias=0.2;
+plantWind[]={0.059999999,0.1,0.69999999,0.25};
+renderFlags[]=
+{
+	"AlphaTest32"
+};
+PixelShaderID="Grass";
+VertexShaderID="Grass";
+class Stage2
+{
+	texture="dz\plants_bliss\clutter\data\c_grass_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="dz\plants_bliss\clutter\data\c_grass_windmask_co.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

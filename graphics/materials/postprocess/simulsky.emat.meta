@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{343A5BB4BF7375}Graphics/Materials/postprocess/simulsky.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

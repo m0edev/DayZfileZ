@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{AD76A616D0EF1ABC}Graphics/Materials/postprocess/rain.emat"
+ Author "zelenyjan"
+ ChangeDate 706454185
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

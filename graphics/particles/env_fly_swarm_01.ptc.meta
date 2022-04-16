@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9E118D1AD92B25CD}Graphics/Particles/env_fly_swarm_01.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

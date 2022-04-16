@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{F94B99D8AD61E5B}Graphics/Particles/_test_orientation.ptc"
+ Author "ferko"
+ ChangeDate 219406736
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,7 @@
+ParticleSprite {
+ AlbedoMap "{CF1EA55844B84CAD}Graphics/Particles/sprites/smoke_anim_02.edds" 
+ BlendMode AlphaBlend
+ TileU 16
+ TileV 3
+ Softness 2
+}

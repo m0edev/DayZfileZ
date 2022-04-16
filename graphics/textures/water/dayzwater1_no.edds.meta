@@ -1,0 +1,17 @@
+MetaFileClass  {
+ Name "{00043BD4DA5F1244}Textures/Water/dayzwater1_no.dds"
+ Author "miva"
+ ChangeDate 324182931
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "dayzwater1_no.dds"
+   Conversion RedGreenHQCompression
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+  DDSResourceClass LINUX : PC {
+  }
+ }
+}

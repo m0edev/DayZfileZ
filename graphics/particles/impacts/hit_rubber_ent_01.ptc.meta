@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3B20B526D202B2AA}Graphics/Particles/impacts/hit_rubber_ent_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

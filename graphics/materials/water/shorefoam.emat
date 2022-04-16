@@ -1,0 +1,7 @@
+material "Materials/water/shoreFoam.emat": MatOceanOldShore
+{
+	AlbedoMap "{CF1EAFEB98ED672B}Graphics/Textures/Water/foam_ca.edds"
+	ZWrite 0
+	NormalMap "{01CFAA4EC2CA1362}Graphics/Textures/Water/sand_no.edds"
+}
+

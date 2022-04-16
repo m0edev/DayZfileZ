@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{3D95A4E49ACDDE5}Graphics/Textures/postprocess/drop_refraction.edds"
+ Author "fido"
+ ChangeDate -1460919770
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "drop_refraction.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

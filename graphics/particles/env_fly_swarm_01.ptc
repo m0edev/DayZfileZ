@@ -1,0 +1,31 @@
+EffectDef {
+ Emitors {
+  EmitorDef scape_idea {
+   ShapeType Box
+   ShapeSize 0.5 0.5 0.5
+   MaxNum 30
+   BirthRate 10
+   BirthRateRND 10
+   Offset 0 0.5 0
+   Material "{37F2C835954FBAF0}Graphics/Particles/materials/enviroment/fly_swarm_01.emat"
+   ScaleX 1
+   ScaleY 0.5
+   SizeMultiplier 0.5
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 25
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0
+   AnimFPS 25
+   LifetimeByAnim 1
+   RandomFrame 0
+   Alpha {
+    0 0 0.12649 1 0.87574 0.98734 1 0
+   }
+   Size {
+    0 1 1 1
+   }
+  }
+ }
+}

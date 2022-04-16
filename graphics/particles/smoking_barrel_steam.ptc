@@ -1,0 +1,54 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef chamber_slow_raise {
+   ShapeType Box
+   ShapeSize 0.3 0 0
+   ConeAngle 0 0 0
+   MaxNum 999
+   BirthRate 25
+   BirthRateVel 5
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{68CF090B6BE4ED52}Graphics/Particles/materials/smoke/steam_random_weapon_01.emat"
+   SizeMultiplier 1
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 50
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0.25
+   VelAffect 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   Wind 1
+   AnimFPS 30
+   RandomFrame 1
+   LifeTime 1
+   LifeTimeRND 1.5
+   Color {
+    0 1 1 1 1 0.0823 0.0823 0.0823
+   }
+   Alpha {
+    0 0 0.075 0.25 0.2 0.1 1 0
+   }
+   RotationSpeed {
+    0 0.42405 1 1
+   }
+   Size {
+    0 0 1 1
+   }
+   EffectTime 1
+   Repeat 1
+   AirResistanceMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 1 0.49419
+   }
+  }
+ }
+}

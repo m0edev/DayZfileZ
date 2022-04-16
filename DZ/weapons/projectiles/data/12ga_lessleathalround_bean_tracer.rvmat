@@ -1,0 +1,21 @@
+ambient[]={0.075000003,0.60000002,0.15000001,0.15000001};
+diffuse[]={1,1.5,1.5,1};
+forcedDiffuse[]={0.58823532,0.58431375,0.47058824,0.47};
+emmisive[]={1,1.5,1,0.30000001};
+specular[]={0.1254902,0.23529412,0.26666668,0.2};
+specularPower=50;
+PixelShaderID="TreeAdv";
+VertexShaderID="TreeAdv";
+plantWind[]={0.050000001,0.0099999998,50.990002,10.5};
+class Stage2
+{
+	texture="dz\plants\tree\data\b_betulapendula_1f_leaves_mca.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

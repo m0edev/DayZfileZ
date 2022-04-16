@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5752D894BBBEC9BB}Graphics/Particles/sprites/stone_01.edds"
+ Author "ferko"
+ ChangeDate -1289984797
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "stone_01.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

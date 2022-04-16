@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{EBF63DBBED7D8}Graphics/Textures/postprocess/rainripplesmovable.edds"
+ Author "fido"
+ ChangeDate -1360256474
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "rainripplesmovable.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,50 @@
+PanelWidgetClass PanelModifier {
+ position 0 0
+ size 294.31299 20
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ButtonWidgetClass TextAgentName {
+   size 190.96799 18.2298
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scaled 1
+   text "Agent Name"
+   text_halign left
+  }
+  ButtonWidgetClass ButtonAgentActivate {
+   position 0.79859 0
+   size 0.1 1
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "+"
+  }
+  ButtonWidgetClass ButtonAgentDeactivate {
+   position 0.89859 0
+   size 0.1 1
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "-"
+  }
+  TextWidgetClass TextWidgetAgentCount {
+   ignorepointer 1
+   position 145.222 0
+   size 82.967 18.1187
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+ }
+}

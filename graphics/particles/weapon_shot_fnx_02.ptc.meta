@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{46C0A1D2DE27C3D3}Graphics/Particles/weapon_shot_fnx_02.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AB4DC04A7E557F14}Graphics/Particles/fire_small_barrel_01_start.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

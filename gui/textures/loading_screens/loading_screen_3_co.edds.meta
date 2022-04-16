@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0DBE2630AF5047FD}Gui/textures/loading_screens/loading_screen_3_co.tga"
+ Author "namalsk"
+ ChangeDate 140650647
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "loading_screen_3_co.tga"
+   Conversion ColorHQCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

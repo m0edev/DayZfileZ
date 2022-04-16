@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A27CC41017569B55}Graphics/Particles/blood_bleeding_01.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

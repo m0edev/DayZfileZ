@@ -1,0 +1,6 @@
+material "graphics/materials/postprocess/godraysmoon": GodRaysEffect
+{
+	Intensity 0.2
+	SunSize 0.08
+	SunMask "graphics/textures/postprocess/sunmask" noresize
+}

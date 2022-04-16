@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{715FE0014CAF1B89}Gui/fonts/sdf_MetronBook24.edds"
+ Author "inv3672"
+ ChangeDate 483648899
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sdf_MetronBook24.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

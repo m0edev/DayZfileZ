@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{81F4B79DB16A610B}Graphics/Textures/postprocess/HitDirection_03.png"
+ Author "4948"
+ ChangeDate -612144273
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "HitDirection_03.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

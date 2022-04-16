@@ -1,0 +1,12 @@
+material "graphics/materials/postprocess/depthoffieldbokeh": DepthOfFieldEffectBokeh
+{
+	Quality 1
+	FStopMin 2.4
+	FStopMax 32
+	FocalLength 100
+	LamelsCount 5
+	LamelsAngle 30
+	WetEdges 3.0
+	FStop 32.0
+	FocusDistance 100
+}

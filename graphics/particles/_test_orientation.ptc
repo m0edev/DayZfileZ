@@ -1,0 +1,12 @@
+EffectDef {
+ Emitors {
+  EmitorDef orientation_test {
+   ConeAngle 360 0 0
+   Angles 0 0 30
+   Material "{005EEA86FA4E283B}Graphics/Particles/materials/test/test_orientation.emat"
+   StretchMultiplier 1
+   Velocity 3
+   GravityMultiply 0.2
+  }
+ }
+}

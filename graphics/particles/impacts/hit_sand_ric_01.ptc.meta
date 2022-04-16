@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E8EF6EF1663DBD7F}Graphics/Particles/impacts/hit_sand_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

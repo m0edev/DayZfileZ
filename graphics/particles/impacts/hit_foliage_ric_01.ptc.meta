@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DB96686E72F4EF17}Graphics/Particles/impacts/hit_foliage_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

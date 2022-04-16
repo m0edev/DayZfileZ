@@ -1,0 +1,30 @@
+EffectDef {
+ Emitors {
+  EmitorDef power {
+   ConeAngle 0 0 0
+   MaxNum 1
+   BirthRate 1
+   Offset 0 0.04 0
+   Material "{CB7AF4FD8ACBFDFC}Graphics/Particles/materials/glow/glow1.emat"
+   CenterY 0
+   ScaleX 1
+   SizeMultiplier 0.1
+   StretchMultiplier 0
+   VelAngle 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   AirResistance 0
+   LifeTime 15
+   LifeTimeRND 0
+   Color {
+    0 1 0 0 1 1 0 0
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 0.5
+   Repeat 0
+  }
+ }
+}

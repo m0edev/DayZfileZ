@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1DA6FC64F7054DFA}Graphics/Particles/fire_small_stove_01_start.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

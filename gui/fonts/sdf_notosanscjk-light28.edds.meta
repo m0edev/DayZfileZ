@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A3A68EDD5D72DF22}Gui/fonts/sdf_NotoSansCJK-Light28.edds"
+ Author "1884"
+ ChangeDate -1778243751
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sdf_NotoSansCJK-Light28.tga"
+   Conversion RedHQCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

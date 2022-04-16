@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{1D7781513ACD6F}Graphics/Materials/water/pond_veryclear.emat"
+ Author "fido"
+ ChangeDate -938286518
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

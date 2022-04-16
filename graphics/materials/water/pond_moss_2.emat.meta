@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{65B789F6183C4CEE}Graphics/Materials/water/pond_moss_2.emat"
+ Author "prague-pc"
+ ChangeDate 868328806
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

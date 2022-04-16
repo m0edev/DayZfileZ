@@ -1,0 +1,32 @@
+ambient[]={0.35100046,0.76900029,0.99999994,1};
+diffuse[]={0.35100046,0.76900029,0.99999994,1};
+forcedDiffuse[]={0.49500078,0.49500078,0.49500078,0};
+emmisive[]={7.570535e-007,7.570535e-007,7.570535e-007,1};
+specular[]={0.15600033,0.15600033,0.15600033,1};
+specularPower=80;
+PixelShaderID="TreeAdvTrunk";
+VertexShaderID="TreeAdvTrunk";
+class Stage1
+{
+	texture="dz\structures\data\metal\metal_fence_wire_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,MCA)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};

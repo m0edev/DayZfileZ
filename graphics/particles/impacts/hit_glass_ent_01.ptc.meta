@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F6656549C02013B2}Graphics/Particles/impacts/hit_glass_ent_01.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

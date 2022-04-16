@@ -1,0 +1,10 @@
+material "Graphics/Particles/materials/flash/electric.emat": Particle
+{
+	Sort translucent
+	AlbedoMap "{5B5889B6EC66F}graphics/particles/sprites/electric.edds"
+	Color "0.000000 0.000000 0.000000 1.000000"
+	Ambient "0.000000 0.000000 0.000000 1.000000"
+	Emissive "1.000000 1.000000 1.000000 0.000000"
+	BlendMode Additive_AlphaModulate
+}
+

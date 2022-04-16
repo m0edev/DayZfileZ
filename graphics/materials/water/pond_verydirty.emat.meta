@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{D95BAE9F1E8787C}Graphics/Materials/water/pond_verydirty.emat"
+ Author "fido"
+ ChangeDate -938286518
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

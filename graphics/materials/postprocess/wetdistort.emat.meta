@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{31E5A537F857BF62}Graphics/Materials/postprocess/wetdistort.emat"
+ Author "fido"
+ ChangeDate -1655021015
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{4D5D9D938D933399}Gui/imagesets/xbox_buttons.tga"
+ Author "3672"
+ ChangeDate 180037468
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "xbox_buttons.tga"
+   Conversion ColorHQCompression
+   TiledTexture 0
+  }
+  TGAResourceClass XBOX_ONE : PC {
+   TiledTexture 0
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

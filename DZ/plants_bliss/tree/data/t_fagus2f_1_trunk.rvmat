@@ -1,0 +1,33 @@
+ambient[]={0.050000001,0.55000001,0.80000001,0.60000002};
+diffuse[]={0.44999999,0.40000001,0.30000001,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.050000001,0.050000001,0.050000001,1};
+specularPower=30;
+PixelShaderID="TreeAdvTrunk";
+VertexShaderID="TreeAdvTrunk";
+plantWind[]={0.090000004,0.02,0.99000001,0.5};
+class Stage1
+{
+	texture="dz\plants_bliss\tree\data\t_fagus_sylvatica_bark_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={0.5,0,0};
+		up[]={0,0.5,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\plants_bliss\tree\data\t_fagus2f_1_trunk_mc.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

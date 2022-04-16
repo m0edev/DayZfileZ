@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C36C2199936EEC}Graphics/Materials/water/shoreFoam.emat"
+ Author "fido"
+ ChangeDate -938286518
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,10 @@
+Particle {
+ AlbedoMap "{016B7879D4775122}Graphics/Particles/sprites/spark.edds" alpha 
+ Color 0 0 0 1
+ Ambient 0 0 0 1
+ Emissive 1 1 1 0
+ Sort translucent
+ BlendMode Additive_AlphaModulate
+ Softness 1
+ CameraBlendFar 0.001
+}

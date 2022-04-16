@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{983417D44DBB875F}Graphics/Materials/postprocess/colorgrading.emat"
+ Author "fido"
+ ChangeDate -1722129879
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

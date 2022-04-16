@@ -1,0 +1,33 @@
+ambient[]={0.1,0.55000001,0.85000002,0.85000002};
+diffuse[]={2.125,2.1500001,2.1500001,1};
+forcedDiffuse[]={1,1,1,1};
+emmisive[]={1,1,1,1};
+specular[]={0.1,0.1,0.1,0.5};
+specularPower=20;
+PixelShaderID="TreeAdvTrunk";
+VertexShaderID="TreeAdvTrunk";
+plantWind[]={0.050000001,0.0099999998,0.99000001,0.5};
+class Stage1
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1.0,1,nohq)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\plants_bliss\bush\data\b_caragana_arborescens_trunk_mca.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

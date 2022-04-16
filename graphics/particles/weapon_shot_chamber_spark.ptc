@@ -1,0 +1,118 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef chamber_glow_burst {
+   ConeAngle 360 0 120
+   MaxNum 1
+   BirthRate 0
+   Angles 0 -90 0
+   Material "{CB7AF4FD8ACBFDFC}Graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.3
+   SizeRND 0
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   RandomFrame 1
+   LifeTime 0.05
+   Color {
+    0 0.9998 0.7076 0 1 0.2627 0.1166 0.0319
+   }
+   Alpha {
+    0 0.25 1 0
+   }
+   Size {
+    0 0.5 1 1
+   }
+   EffectTime 0.06
+   Repeat 0
+  }
+  EmitorDef chamber_smoke_burst {
+   ShapeType Box
+   ShapeSize 0 0.15 0.04
+   ConeAngle 360 0 30
+   MaxNum 5
+   BirthRate 100
+   Offset 0 0 0.07
+   Angles 0 -90 0
+   LocalTransform 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 50
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 4
+   VelocityRND 1.5
+   AirResistance 5
+   AirResistanceRND 1
+   Wind 1
+   LifeTime 0
+   LifeTimeRND 0.2
+   Color {
+    0 0.9725 1 1 1 0.25 0.25 0.2442
+   }
+   Alpha {
+    0 0.85 0.25 0.2 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.1 1 1
+   }
+   EffectTime 0.06
+   Repeat 0
+   AirResistanceMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef chamber_spark_01_burst {
+   ConeAngle 360 0 120
+   MaxNum 3
+   BirthRate 200
+   Angles 0 -90 0
+   Material "{FF2A8A73FB791A62}Graphics/Particles/materials/fire/sparks_05.emat"
+   SizeMultiplier 0.01
+   SizeRND 0.05
+   RandomAngle 1
+   Velocity 1
+   VelocityRND 2
+   RandomFrame 1
+   LifeTime 0.05
+   Alpha {
+    0 1 1 0
+   }
+   Size {
+    0 0.5 1 1
+   }
+   EffectTime 0.06
+   Repeat 0
+  }
+  EmitorDef chamber_spark_02_burst {
+   ConeAngle 360 0 70
+   MaxNum 3
+   BirthRate 200
+   Offset 0 0 0.05
+   Angles 0 -90 0
+   Material "{0B22CDEBF6A47216}Graphics/Particles/materials/fire/sparks_04.emat"
+   ScaleX 0.216
+   SizeMultiplier 0.01
+   SizeRND 0.07
+   VelAngle 1
+   RandomAngle 0
+   Velocity 1
+   VelocityRND 2
+   RandomFrame 1
+   LifeTime 0.05
+   Alpha {
+    0 1 1 0
+   }
+   Size {
+    0 0.5 1 1
+   }
+   EffectTime 0.06
+   Repeat 0
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5FBF3ADA4E3A2E0C}Graphics/Particles/sprites/_test_no_material.tga"
+ Author "namalsk"
+ ChangeDate 752593044
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "_test_no_material.tga"
+   Conversion DXTCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

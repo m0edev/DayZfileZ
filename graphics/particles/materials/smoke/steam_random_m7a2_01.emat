@@ -1,0 +1,5 @@
+Particle {
+ AlbedoMap "{00DB5AFE43BFC32C}Graphics/Particles/sprites/steam_cloud.edds" 
+ Softness 2
+ CameraBlendFar 0.001
+}

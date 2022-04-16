@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{9833D8BE7A512C63}Graphics/Particles/materials/flash/electric.emat"
+ Author "ferko"
+ ChangeDate 739991938
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

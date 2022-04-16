@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{83C7771B826EA39}Graphics/Materials/postprocess/fxaa.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

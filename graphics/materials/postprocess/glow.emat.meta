@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{531BCE5AF5A7E58}Graphics/Materials/postprocess/glow.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,104 @@
+EffectDef {
+ Emitors {
+  EmitorDef smoke_front {
+   ConeAngle 360 0 5
+   MaxNum 50
+   BirthRate 60
+   Angles 0 0 -90
+   LocalTransform 0
+   Material "{36272048D469635D}Graphics/Particles/materials/smoke/steam_random_weapon_02.emat"
+   SizeMultiplier 1.5
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 50
+   RandomAngle 1
+   Velocity 20
+   VelocityRND 20
+   AirResistance 50
+   AirResistanceRND 5
+   Wind 1
+   RandomFrame 1
+   LifeTime 1
+   LifeTimeRND 1
+   Color {
+    0 0.1451 0.1451 0.1451 1 0.1898 0.2 0.2
+   }
+   Alpha {
+    0 0.04487 0.025 0.65 1 0
+   }
+   RotationSpeed {
+    0 0.09615 0.75488 0.23418 1 1
+   }
+   Size {
+    0 0.41667 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 1 0.5
+   }
+   SizeMast {
+    0 1 1 0.53797
+   }
+   AirResistanceMast {
+    0 1 1 0.5
+   }
+   VelocityMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef smoke_cone {
+   ConeAngle 360 0 80
+   MaxNum 50
+   BirthRate 300
+   Angles 0 0 -90
+   LocalTransform 0
+   Material "{36272048D469635D}Graphics/Particles/materials/smoke/steam_random_weapon_02.emat"
+   SizeMultiplier 2
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 50
+   RandomAngle 1
+   Velocity 20
+   VelocityRND 10
+   AirResistance 20
+   AirResistanceRND 10
+   Wind 1
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 0.5
+   Color {
+    0 0.0941 0.0941 0.0941 1 0.1898 0.2 0.2
+   }
+   Alpha {
+    0 0.04487 0.025 0.65 1 0
+   }
+   RotationSpeed {
+    0 0.09615 0.75488 0.23418 1 1
+   }
+   Size {
+    0 0.41667 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 1 0.22152
+   }
+   SizeMast {
+    0 1 1 0.53797
+   }
+   AirResistanceMast {
+    0 1 1 0.75
+   }
+   VelocityMast {
+    0 1 1 0.25
+   }
+  }
+ }
+}

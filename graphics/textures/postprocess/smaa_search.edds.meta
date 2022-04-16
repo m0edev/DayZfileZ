@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A3811A2355A6BF1}Textures/postprocess/smaa_search.edds"
+ Author "home-pc"
+ ChangeDate 1220715107
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "smaa_search.dds"
+   GenerateMips 0
+   TiledTexture 0
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

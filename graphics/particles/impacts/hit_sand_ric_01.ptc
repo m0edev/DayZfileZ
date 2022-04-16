@@ -1,0 +1,250 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef emitor1_debris {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 0 20 0
+   MaxNum 80
+   BirthRate 20
+   BirthRateRND 0
+   Angles 0 0 -10
+   LocalTransform 0
+   Material "{118F069016CE1546}Graphics/Particles/materials/enviroment/stones.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 720
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 4
+   VelocityRND 3
+   GravityMultiply 1.5
+   GravityMultiplyRND 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 1.3
+   LifeTimeRND 0.4
+   Color {
+    0 0.2342 0.2468 0.2468 1 0.2405 0.2278 0.2215
+   }
+   Alpha {
+    0 0.5 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.1 1 0.15
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef emitor1_debris_cloned {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 0 -20 0
+   MaxNum 80
+   BirthRate 20
+   BirthRateRND 0
+   Angles 0 0 10
+   LocalTransform 0
+   Material "{118F069016CE1546}Graphics/Particles/materials/enviroment/stones.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 720
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 4
+   VelocityRND 3
+   GravityMultiply 1.5
+   GravityMultiplyRND 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 1.3
+   LifeTimeRND 0.4
+   Color {
+    0 0.2342 0.2468 0.2468 1 0.2405 0.2278 0.2215
+   }
+   Alpha {
+    0 0.5 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.1 1 0.15
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef Dust {
+   MaxNum 3
+   BirthRate 200
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{DD4F6AF883F92F41}Graphics/Particles/materials/smoke/smoke_dust_01b.emat"
+   CenterY 0
+   ScaleX 1
+   SizeMultiplier 1
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0.4
+   VelocityRND 0.2
+   AirResistance 0.2
+   AirResistanceRND 0.3
+   GravityMultiply 0.01
+   Wind 1
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 0.5
+   LifeTimeRND 0.5
+   Color {
+    0 0.2112 0.1748 0.1562 1 0 0 0
+   }
+   Alpha {
+    0 1 0.125 0.25 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.12025 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef Dust_cloned {
+   MaxNum 3
+   BirthRate 200
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 0 0 0
+   Material "{DD4F6AF883F92F41}Graphics/Particles/materials/smoke/smoke_dust_01b.emat"
+   CenterY 0
+   ScaleX 1
+   SizeMultiplier 1
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 40
+   VelAngle 0
+   RandomAngle 0
+   Velocity 0.4
+   VelocityRND 0.2
+   AirResistance 0.2
+   GravityMultiply 0.03
+   Wind 1
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 1
+   LifeTimeRND 0.5
+   Color {
+    0 0.1753 0.149 0.1319 1 0 0 0
+   }
+   Alpha {
+    0 0 0.15 0.25 1 0
+   }
+   Size {
+    0 0.12025 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef emitor3_cone {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 0 20 0
+   MaxNum 1
+   BirthRate 80
+   BirthRateRND 0
+   Angles 0 0 -10
+   Material "{70CE85062FA7388F}Graphics/Particles/materials/smoke/smoke_dust_05.emat"
+   ScaleX 0.414
+   SizeMultiplier 0.5
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 1
+   RandomAngle 0
+   Sort 0
+   Velocity 1
+   VelocityRND 0
+   GravityMultiply 0.1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.1
+   LifeTimeRND 0.1
+   Color {
+    0 1 1 1 0.075 0.5529 0.5529 0.5529 1 0 0 0
+   }
+   Alpha {
+    0 1 0.56845 1 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.25 1 1
+   }
+   EffectTime 0.05
+   Repeat 0
+  }
+  EmitorDef emitor3_cone_cloned {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 0 -20 0
+   MaxNum 1
+   BirthRate 80
+   BirthRateRND 0
+   Angles 0 0 10
+   Material "{70CE85062FA7388F}Graphics/Particles/materials/smoke/smoke_dust_05.emat"
+   ScaleX 0.414
+   SizeMultiplier 0.5
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 1
+   RandomAngle 0
+   Sort 0
+   Velocity 1
+   VelocityRND 0
+   GravityMultiply 0.1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.1
+   LifeTimeRND 0.1
+   Color {
+    0 1 1 1 0.075 0.5529 0.5529 0.5529 1 0 0 0
+   }
+   Alpha {
+    0 1 0.56622 1 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.25 1 1
+   }
+   EffectTime 0.05
+   Repeat 0
+  }
+ }
+}

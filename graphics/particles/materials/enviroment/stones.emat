@@ -1,0 +1,9 @@
+Particle {
+ AlbedoMap "{5752D894BBBEC9BB}Graphics/Particles/sprites/stone_01.edds" 
+ Color 0 0 0 1
+ Ambient 0 0 0 1
+ Emissive 1 1 1 0
+ Sort translucent
+ TileU 4
+ TileV 2
+}

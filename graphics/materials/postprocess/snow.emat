@@ -1,0 +1,24 @@
+RainEffect {
+ DropDistance 1.7
+ DropSizeX 0.005
+ DropSizeY 0.005
+ RainFogginess 0
+ RainDensity 1.0
+ FogColorMultiplier 5
+ BackgroundColorMultiplier 5
+ RefractionScale 0
+ GodRayIntensityNear 1.5
+ GodRayIntensityFar 1.2
+ RipplesBlend 50
+ RipplesDist 100
+ Speed 0.65
+ DistantSpeed 1
+ WindAffectsSpeed 0.15
+ DropRefractionTex "{03D95A4E49ACDDE5}Graphics/Textures/postprocess/drop_refraction.edds" noresize 
+ DistantTex "{3C1255C0F3925499}Graphics/Textures/postprocess/snowdistant.edds" noresize 
+ RotationNoiseMap "{7B4F4B4EE2566E84}Graphics/Textures/postprocess/noise.edds" noresize 
+ RipplesMap  noresize 
+ MovableMap "{000EBF63DBBED7D8}Graphics/Textures/postprocess/rainripplesmovable.edds" noresize 
+ MovableNoiseMap  noresize 
+ SunMaskMat "{FAF56DD689E895BE}Graphics/Materials/postprocess/godrayssunmask.emat"
+}

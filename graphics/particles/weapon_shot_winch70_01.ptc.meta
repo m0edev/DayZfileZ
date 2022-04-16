@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8AD9831074D5E8A3}Graphics/Particles/weapon_shot_winch70_01.ptc"
+ Author "3112"
+ ChangeDate -1764563281
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

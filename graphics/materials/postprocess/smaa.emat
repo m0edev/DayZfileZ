@@ -1,0 +1,6 @@
+material "Graphics/Materials/postprocess/smaa.emat": SMAAEffect
+{
+	AreaTexture "{B1ECB8CA4FC733C}graphics/textures/postprocess/smaa_area.edds" noresize
+	SearchTexture "{A3811A2355A6BF1}graphics/textures/postprocess/smaa_search.edds" noresize
+}
+

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CD09D09634803CCF}Graphics/Materials/postprocess/filmgrainNV.emat"
+ Author "1501"
+ ChangeDate -1754044761
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

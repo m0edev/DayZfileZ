@@ -1,0 +1,8 @@
+ParticleSprite {
+ AlbedoMap "{EC0562AA00049823}Graphics/Particles/sprites/fire_anim_04.edds" 
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+ TileU 8
+ TileV 4
+ Softness 1
+}

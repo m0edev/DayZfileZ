@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{4229E57ADE39B8E}simul_noise.edds"
+ Author "zelenyjan"
+ ChangeDate 810279535
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "simul_noise.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

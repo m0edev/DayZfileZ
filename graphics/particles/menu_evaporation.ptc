@@ -1,0 +1,81 @@
+EffectDef {
+ Emitors {
+  EmitorDef init_once {
+   ShapeType Box
+   ShapeSize 0.3 7 0.3
+   ConeAngle 0 0 0
+   MaxNum 5
+   BirthRate 999
+   BirthRateRND 0
+   Offset 0 2.5 0
+   Angles 0 0 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 4
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 1
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.06
+   VelocityRND 0.06
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 15
+   LifeTimeRND 10
+   Color {
+    0 0.2405 0.2595 0.2342 1 0.2468 0.2405 0.2532
+   }
+   Alpha {
+    0 0.16456 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.72785 1 1
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef loop {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 0 0 0
+   MaxNum 999
+   BirthRate 0.2
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 4
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 0.75
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.06
+   VelocityRND 0.06
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 15
+   LifeTimeRND 10
+   Color {
+    0 0.2405 0.2595 0.2342 1 0.2468 0.2405 0.2532
+   }
+   Alpha {
+    0 0 0.34598 0.17089 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.72785 1 1
+   }
+  }
+ }
+}

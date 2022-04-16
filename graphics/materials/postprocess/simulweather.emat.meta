@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{3185D9339298D59}Graphics/Materials/postprocess/simulweather.emat"
+ Author "fido"
+ ChangeDate -696573366
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

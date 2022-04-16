@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8F9D10702312E504}Graphics/Particles/materials/weapons/weapon_shot_fnx_01.emat"
+ Author "3112"
+ ChangeDate -2133662033
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

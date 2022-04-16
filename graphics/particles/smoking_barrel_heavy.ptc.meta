@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6D441E14DF72C1D9}Graphics/Particles/smoking_barrel_heavy.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,7 @@
+Particle {
+ AlbedoMap "{C25803E83EEEDC22}Graphics/Particles/sprites/steam_random_01.edds" 
+ TileU 2
+ TileV 2
+ Softness 2
+ CameraBlendFar 0.001
+}

@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{B6C9A3D2263E9667}Graphics/Particles/sprites/glow.edds"
+ Author "ferko"
+ ChangeDate 203121026
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "glow.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

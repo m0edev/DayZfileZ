@@ -1,0 +1,829 @@
+ImageSetClass {
+ Name "dayz_inventory"
+ RefSize 2048 2048
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{21F550A0F5780D77}Gui/imagesets/dayz_inventory.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass paper {
+   Name "paper"
+   Pos 0 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass camonet {
+   Name "camonet"
+   Pos 173 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass woodenstick {
+   Name "woodenstick"
+   Pos 343 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass medicalbandage {
+   Name "medicalbandage"
+   Pos 514 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass enginebelt {
+   Name "enginebelt"
+   Pos 684 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass electricity {
+   Name "electricity"
+   Pos 855 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass magazine {
+   Name "magazine"
+   Pos 1025 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass magazine2 {
+   Name "magazine2"
+   Pos 1196 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass outofreach {
+   Name "outofreach"
+   Pos 1366 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass gorkavisor {
+   Name "gorkavisor"
+   Pos 510 510
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass dbhelmetvisor {
+   Name "dbhelmetvisor"
+   Pos 0 173
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass dbhelmetmouth {
+   Name "dbhelmetmouth"
+   Pos 170 1020
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass pistol {
+   Name "pistol"
+   Pos 173 173
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass doublewheel {
+   Name "doublewheel"
+   Pos 343 173
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass berry {
+   Name "berry"
+   Pos 514 173
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass weaponwrap {
+   Name "weaponwrap"
+   Pos 684 173
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass food {
+   Name "food"
+   Pos 0 343
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass grenade {
+   Name "grenade"
+   Pos 1196 343
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass rags {
+   Name "rags"
+   Pos 1366 343
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass seedbase {
+   Name "seedbase"
+   Pos 0 514
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass bark {
+   Name "bark"
+   Pos 173 514
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass tincan {
+   Name "tincan"
+   Pos 684 514
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass lime {
+   Name "lime"
+   Pos 1025 514
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass gascanister {
+   Name "gascanister"
+   Pos 0 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass planks {
+   Name "planks"
+   Pos 343 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass bullets {
+   Name "bullets"
+   Pos 0 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass lights {
+   Name "lights"
+   Pos 0 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass lightbulb {
+   Name "lightbulb"
+   Pos 0 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass handguard {
+   Name "handguard"
+   Pos 0 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass knife {
+   Name "knife"
+   Pos 0 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass buttstock {
+   Name "buttstock"
+   Pos 0 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass rope {
+   Name "rope"
+   Pos 0 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass feet {
+   Name "feet"
+   Pos 0 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass body {
+   Name "body"
+   Pos 173 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass vest {
+   Name "vest"
+   Pos 343 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass hips {
+   Name "hips"
+   Pos 173 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass legs {
+   Name "legs"
+   Pos 514 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass back {
+   Name "back"
+   Pos 514 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass armband {
+   Name "armband"
+   Pos 1196 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass gloves {
+   Name "gloves"
+   Pos 1025 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass hands {
+   Name "hands"
+   Pos 1537 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass eyewear {
+   Name "eyewear"
+   Pos 855 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass mask {
+   Name "mask"
+   Pos 1025 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass headgear {
+   Name "headgear"
+   Pos 684 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass bow {
+   Name "bow"
+   Pos 1196 1878
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass shoulderright {
+   Name "shoulderright"
+   Pos 514 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass plates {
+   Name "plates"
+   Pos 855 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass nails {
+   Name "nails"
+   Pos 684 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass hook {
+   Name "hook"
+   Pos 343 1707
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass disinfectant {
+   Name "disinfectant"
+   Pos 173 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass doorfront {
+   Name "doorfront"
+   Pos 343 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass doorrear {
+   Name "doorrear"
+   Pos 514 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass wheel {
+   Name "wheel"
+   Pos 684 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass stones {
+   Name "stones"
+   Pos 855 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass cookingtripod {
+   Name "cookingtripod"
+   Pos 1025 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass cookingequipment {
+   Name "cookingequipment"
+   Pos 1196 1537
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass directcooking {
+   Name "directcooking"
+   Pos 853 512
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass smoking {
+   Name "smoking"
+   Pos 1710 1020
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass barbedwire {
+   Name "barbedwire"
+   Pos 343 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass book {
+   Name "book"
+   Pos 684 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass batteryd {
+   Name "batteryd"
+   Pos 855 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass sparkplug {
+   Name "sparkplug"
+   Pos 173 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass glowplug {
+   Name "glowplug"
+   Pos 173 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass trunk {
+   Name "trunk"
+   Pos 343 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass radiator {
+   Name "radiator"
+   Pos 343 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass exhaust {
+   Name "exhaust"
+   Pos 684 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass flashlight {
+   Name "flashlight"
+   Pos 1025 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass weaponflashlight {
+   Name "weaponflashlight"
+   Pos 1196 514
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass carbattery {
+   Name "carbattery"
+   Pos 1025 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass weaponoptics {
+   Name "weaponoptics"
+   Pos 1366 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass weaponopticssmall {
+   Name "weaponopticssmall"
+   Pos 850 340
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass arrows {
+   Name "arrows"
+   Pos 1366 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass hood {
+   Name "hood"
+   Pos 855 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass firewood {
+   Name "firewood"
+   Pos 855 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass pouches {
+   Name "pouches"
+   Pos 1025 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass headlight {
+   Name "headlight"
+   Pos 1025 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass rearlight {
+   Name "rearlight"
+   Pos 1196 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass nvggoggles {
+   Name "nvggoggles"
+   Pos 680 340
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass weaponmuzzle {
+   Name "weaponmuzzle"
+   Pos 1196 173
+   Size 170 170
+   Flags 3
+  }
+  ImageSetDefClass bayonet {
+   Name "bayonet"
+   Pos 1360 850
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass christmaslights {
+   Name "christmaslights"
+   Pos 684 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass supressor {
+   Name "supressor"
+   Pos 1196 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass missing {
+   Name "missing"
+   Pos 1366 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass magazine3 {
+   Name "magazine3"
+   Pos 1025 173
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass metalwire {
+   Name "metalwire"
+   Pos 173 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass woodenlog {
+   Name "woodenlog"
+   Pos 343 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass barbedwiredown {
+   Name "barbedwiredown"
+   Pos 173 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass barbedwireup {
+   Name "barbedwireup"
+   Pos 514 1366
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass knifeholster {
+   Name "knifeholster"
+   Pos 855 1196
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass vestpouches {
+   Name "vestpouches"
+   Pos 850 170
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass chemlight {
+   Name "chemlight"
+   Pos 684 855
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass walkietalkie {
+   Name "walkietalkie"
+   Pos 173 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass vestholster {
+   Name "vestholster"
+   Pos 855 1025
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass shoulderleft {
+   Name "shoulderleft"
+   Pos 514 343
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass canteen {
+   Name "canteen"
+   Pos 684 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass ingredient {
+   Name "ingredient"
+   Pos 340 510
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass combolock {
+   Name "combolock"
+   Pos 170 340
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass tf_stones {
+   Name "tf_stones"
+   Pos 1197 1197
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass tf_flag {
+   Name "tf_flag"
+   Pos 1197 1368
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass cat_tf_pole {
+   Name "cat_tf_pole"
+   Pos 1368 171
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass cat_tf_stones {
+   Name "cat_tf_stones"
+   Pos 1368 513
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass cat_tf_log {
+   Name "cat_tf_log"
+   Pos 1368 684
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass animal_pelt {
+   Name "animal_pelt"
+   Pos 1710 170
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass wooden_sticks {
+   Name "wooden_sticks"
+   Pos 1710 680
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass tarp {
+   Name "tarp"
+   Pos 1710 850
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass barrel {
+   Name "barrel"
+   Pos 1710 1197
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass woodcrate {
+   Name "woodcrate"
+   Pos 1710 1368
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass gasmaskfilter {
+   Name "gasmaskfilter"
+   Pos 1710 1539
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass trapbait {
+   Name "trapbait"
+   Pos 1710 1709
+   Size 170 170
+   Flags 0
+  }
+ }
+ Groups {
+  ImageSetGroupClass AttachmentCategory {
+   Name "AttachmentCategory"
+   Images {
+    ImageSetDefClass cat_bb_base {
+     Name "cat_bb_base"
+     Pos 1537 173
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bb_material {
+     Name "cat_bb_material"
+     Pos 1537 343
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bb_attachments {
+     Name "cat_bb_attachments"
+     Pos 1537 514
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bb_watchtower {
+     Name "cat_bb_watchtower"
+     Pos 1537 684
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bb_watchtower_wall_1 {
+     Name "cat_bb_watchtower_wall_1"
+     Pos 1537 855
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bb_watchtower_wall_2 {
+     Name "cat_bb_watchtower_wall_2"
+     Pos 1537 1025
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bb_watchtower_wall_3 {
+     Name "cat_bb_watchtower_wall_3"
+     Pos 1537 1196
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_camonet {
+     Name "cat_camonet"
+     Pos 173 0
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_christmaslights {
+     Name "cat_christmaslights"
+     Pos 684 1196
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_tan_leather {
+     Name "cat_tan_leather"
+     Pos 1537 1537
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_bleach_cotton {
+     Name "cat_bleach_cotton"
+     Pos 1537 1366
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_color_leather {
+     Name "cat_color_leather"
+     Pos 1537 1878
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_color_cotton {
+     Name "cat_color_cotton"
+     Pos 1537 1707
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_fp_cooking {
+     Name "cat_fp_cooking"
+     Pos 1366 1537
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_fp_upgrade {
+     Name "cat_fp_upgrade"
+     Pos 855 1537
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_fp_fuel {
+     Name "cat_fp_fuel"
+     Pos 1366 1707
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_fp_kindling {
+     Name "cat_fp_kindling"
+     Pos 1366 1878
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_gp_filling {
+     Name "cat_gp_filling"
+     Pos 0 514
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_vehicle_engine {
+     Name "cat_vehicle_engine"
+     Pos 514 855
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_vehicle_body {
+     Name "cat_vehicle_body"
+     Pos 514 1196
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_vehicle_chassis {
+     Name "cat_vehicle_chassis"
+     Pos 514 1025
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_common_cargo {
+     Name "cat_common_cargo"
+     Pos 1025 343
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_fp_cooking_grill {
+     Name "cat_fp_cooking_grill"
+     Pos 340 340
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_fp_tents {
+     Name "cat_fp_tents"
+     Pos 1710 0
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_shelter_support {
+     Name "cat_shelter_support"
+     Pos 1710 510
+     Size 170 170
+     Flags 0
+    }
+    ImageSetDefClass cat_shelter_roof {
+     Name "cat_shelter_roof"
+     Pos 1710 340
+     Size 170 170
+     Flags 0
+    }
+   }
+  }
+ }
+}

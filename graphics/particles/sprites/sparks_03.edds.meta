@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E8BAE1D1CCFC81F4}Graphics/Particles/sprites/sparks_03.TGA"
+ Author "ferko"
+ ChangeDate 815555709
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sparks_03.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EEEF3BC028249129}Graphics/Particles/impacts/hit_concrete_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

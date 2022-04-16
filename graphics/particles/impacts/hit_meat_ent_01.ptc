@@ -1,0 +1,177 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1b {
+   ShapeType Point
+   ConeAngle 360 0 80
+   MaxNum 5
+   BirthRate 999
+   Offset 0 0 0.1
+   Angles 0 0 0
+   Material "{03BF5B947463775D}Graphics/Particles/materials/enviroment/blood_red_02.emat"
+   CenterX 0
+   ScaleX 1
+   SizeMultiplier 0.1
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 1
+   VelocityRND 3
+   VelAffect 0
+   GravityMultiply 1
+   LifeTime 0.3
+   LifeTimeRND 0.2
+   Color {
+    0 0.0449 0 0 1 0 0 0
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 0 1 0
+   }
+   Size {
+    0 0.17949 1 1
+   }
+   EffectTime 0.5
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.1679 0.9936 0.9936 0.9936 0.5333 0.2867 0 0 1 1 1 1
+   }
+   SizeMast {
+    0 1 1 0
+   }
+   BRateMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef emitor1 {
+   ConeAngle 360 0 90
+   Offset 0 0 0.1
+   Material "{4F0915FB17D620A0}Graphics/Particles/materials/character/blood_anim_01.emat"
+   CenterX 0
+   CenterY -1
+   SizeMultiplier 0.3
+   SizeRND 0.2
+   VelAngle 1
+   RandomAngle 0
+   Sort 0
+   Velocity 0.1
+   VelocityRND 0
+   AnimOnce 1
+   AnimFPS 60
+   LifetimeByAnim 1
+   RandomFrame 0
+   Color {
+    0 0.0235 0 0 1 0.0833 0 0.0283
+   }
+   Alpha {
+    0 1 0.04171 0.98718 0.25 0.25 1 0
+   }
+   Size {
+    0 0.38462 1 1
+   }
+   EffectTime 0.5
+   Repeat 0
+  }
+  EmitorDef emitor4 {
+   ConeAngle 360 0 90
+   BirthRate 1
+   Offset 0 0 0.1
+   Material "{11E13CB8A85BAEAF}Graphics/Particles/materials/character/blood_anim_02.emat"
+   CenterY -1
+   SizeMultiplier 0.2
+   SizeRND 0.3
+   VelAngle 1
+   RandomAngle 0
+   BillboardingType Full
+   Velocity 0.1
+   VelocityRND 0
+   AnimOnce 1
+   AnimFPS 40
+   LifetimeByAnim 1
+   RandomFrame 0
+   Color {
+    0 0.0118 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.025 1 0.25 0.25 1 0
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 0.5
+   Repeat 0
+  }
+  EmitorDef emitor3 {
+   ShapeType Box
+   ShapeSize 0.1 0 0.1
+   ConeAngle 360 0 90
+   MaxNum 1
+   BirthRate 100
+   Offset 0 0 0.1
+   Material "{5A939336004F3C25}Graphics/Particles/materials/character/blood_01.emat"
+   ScaleX 0.796
+   SizeMultiplier 0.4
+   SizeRND 0.2
+   Velocity 0.2
+   VelocityRND 0.2
+   GravityMultiply 0.1
+   GravityMultiplyRND 0.3
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.1
+   LifeTimeRND 0.2
+   Color {
+    0 0.0118 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.05592 1 1 0
+   }
+   Size {
+    0 0.4 1 1
+   }
+   EffectTime 0.05
+   Repeat 0
+  }
+  EmitorDef emitor4_stones {
+   ConeAngle 360 0 50
+   BirthRate 30
+   Offset 0 0 0.1
+   Material "{118F069016CE1546}Graphics/Particles/materials/enviroment/stones.emat"
+   ScaleX 1
+   SizeMultiplier 0.05
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 150
+   Velocity 1.5
+   VelocityRND 1
+   GravityMultiply 0.5
+   GravityMultiplyRND 0.5
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.6
+   LifeTimeRND 0.2
+   Color {
+    0 0.4118 0 0.0137 1 0.1985 0.1443 0.1087
+   }
+   Alpha {
+    0 0 0.03981 1 1 0
+   }
+   Size {
+    0 0 0.075 0.25 1 0
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+ }
+}

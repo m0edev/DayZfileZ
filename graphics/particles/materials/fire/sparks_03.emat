@@ -1,0 +1,6 @@
+ParticleSprite {
+ AlbedoMap "{E8BAE1D1CCFC81F4}Graphics/Particles/sprites/sparks_03.edds" 
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+ CameraBlendFar 0.001
+}

@@ -1,0 +1,171 @@
+ambient[]={0.55000001,0.55000001,0.55000001,1};
+diffuse[]={0.55000001,0.55000001,0.55000001,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.85000002,0.85000002,0.85000002,1};
+specularPower=30;
+PixelShaderID="Multi";
+VertexShaderID="Multi";
+class TexGen0
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,1};
+	};
+};
+class TexGen1
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={0.5,0,0};
+		up[]={0,0.5,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen2
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,1};
+	};
+};
+class TexGen3
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen4
+{
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen5
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen6
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen7
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class Stage0
+{
+	texture="dz\structures\data\wood\village_pub_planks_co.paa";
+	texGen="0";
+};
+class Stage1
+{
+	texture="dz\structures\data\roof\roof_asphalt_02_co.paa";
+	texGen="1";
+};
+class Stage2
+{
+	texture="dz\structures\data\metal\metal5color_co.paa";
+	texGen="2";
+};
+class Stage3
+{
+	texture="dz\structures\data\dirt\hay_dirt_2_co.paa";
+	texGen="3";
+};
+class Stage4
+{
+	texture="dz\structures\residential\misc\data\chickencoop_001_mask.paa";
+	texGen="4";
+};
+class Stage5
+{
+	texture="dz\structures\data\wood\village_pub_planks_dtsmdi.paa";
+	texGen="5";
+};
+class Stage6
+{
+	texture="dz\structures\data\roof\roof_asphalt_02_dtsmdi.paa";
+	texGen="6";
+};
+class Stage7
+{
+	texture="dz\structures\data\metal\metal5color_dtsmdi.paa";
+	texGen="7";
+};
+class Stage8
+{
+	texture="#(argb,8,8,3)color(1,0.00,0.05,1,DTSMDI)";
+	texGen="3";
+};
+class Stage9
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	texGen="4";
+};
+class Stage10
+{
+	texture="dz\structures\residential\misc\data\chickencoop_001_ads.paa";
+	texGen="4";
+};
+class Stage11
+{
+	texture="dz\structures\data\wood\village_pub_planks_nohq.paa";
+	texGen="0";
+};
+class Stage12
+{
+	texture="dz\structures\data\roof\roof_asphalt_02_nohq.paa";
+	texGen="1";
+};
+class Stage13
+{
+	texture="a3\structures_f_enoch\data\metal\metal5color_nohq.paa";
+	texGen="2";
+};
+class Stage14
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1,1,NOHQ)";
+	texGen="3";
+};

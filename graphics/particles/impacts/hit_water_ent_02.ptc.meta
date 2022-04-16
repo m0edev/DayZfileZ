@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E8302BC8CA0D7AA7}Graphics/Particles/impacts/hit_water_ent_02.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

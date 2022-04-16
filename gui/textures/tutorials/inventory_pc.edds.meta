@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E04C6B70FBEE704C}Gui/textures/tutorials/inventory_pc.edds"
+ Author "3672"
+ ChangeDate 46311183
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "inventory_pc.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

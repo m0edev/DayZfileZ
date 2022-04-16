@@ -1,0 +1,118 @@
+EffectDef {
+ Emitors {
+  EmitorDef short {
+   ShapeType Box
+   ShapeSize 0.5 0 0.5
+   ConeAngle 0 0 0
+   MaxNum 60
+   BirthRate 20
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{0BEA27443975BE0B}Graphics/Particles/materials/smoke/smoke_anim_02.emat"
+   SizeMultiplier 0.5
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.3
+   VelocityRND 0.2
+   VelAffect 0.2
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 1
+   LifeTimeRND 3
+   Color {
+    0 0 0 0 1 0.1519 0.1582 0.1519
+   }
+   Alpha {
+    0 0 0.31101 0.24684 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.15823 1 1
+   }
+  }
+  EmitorDef long_light {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 90 -90 90
+   MaxNum 40
+   BirthRate 5
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{0BEA27443975BE0B}Graphics/Particles/materials/smoke/smoke_anim_02.emat"
+   SizeMultiplier 4
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.2
+   VelocityRND 0.8
+   VelAffect 0.2
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 3
+   LifeTimeRND 6
+   Color {
+    0 0.0949 0.1266 0.1076 1 0.1709 0.1772 0.1835
+   }
+   Alpha {
+    0 0 0.07961 0.40506 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 1 1
+   }
+  }
+  EmitorDef long_dark {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 90 -90 90
+   MaxNum 40
+   BirthRate 5
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{0BEA27443975BE0B}Graphics/Particles/materials/smoke/smoke_anim_02.emat"
+   SizeMultiplier 4
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.45
+   VelocityRND 0.1
+   VelAffect 0.2
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 3
+   LifeTimeRND 6
+   Color {
+    0 0 0 0 1 0.0633 0.0506 0.0633
+   }
+   Alpha {
+    0 0 0.08333 0.24684 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 1 1
+   }
+  }
+ }
+}

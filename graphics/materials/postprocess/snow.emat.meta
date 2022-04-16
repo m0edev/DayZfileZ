@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C70A81898707E2F0}Graphics/Materials/postprocess/snow.emat"
+ Author "inv1836"
+ ChangeDate 1741301138
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

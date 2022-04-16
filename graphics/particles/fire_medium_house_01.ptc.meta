@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{36BBAFB26B5AD270}Graphics/Particles/fire_medium_house_01.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

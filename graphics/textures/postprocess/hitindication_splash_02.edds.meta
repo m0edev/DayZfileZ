@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{470B3DBA13EE0275}Graphics/Textures/postprocess/HidDirection_01_B.tga"
+ Author "4930"
+ ChangeDate 177384297
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "HidDirection_01_B.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

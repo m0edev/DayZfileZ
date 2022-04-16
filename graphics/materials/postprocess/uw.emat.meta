@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{8D4D757A6E9B4E6}Graphics/Materials/postprocess/uw.emat"
+ Author "fido"
+ ChangeDate -1655021015
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

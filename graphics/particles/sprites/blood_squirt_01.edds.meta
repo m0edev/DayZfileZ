@@ -1,0 +1,14 @@
+MetaFileClass  {
+ Name "{500E7A97DDD14EDE}Graphics/Particles/sprites/blood_squirt_01.edds"
+ Author "ferko"
+ ChangeDate 1974723322
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "blood_squirt_01.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

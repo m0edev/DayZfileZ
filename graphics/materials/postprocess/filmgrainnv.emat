@@ -1,0 +1,12 @@
+FilmGrainEffect {
+ Intensity 0.0
+ Sharpness 2.35
+ GrainSize 2.75
+ IntensityX0 0.0
+ IntensityX1 0.0
+ Monochromatic 1
+ Simple 0
+ Distort 1
+ Frequency 20
+ NoiseMap "{0B1C7AEDC4645C8A}System/textures/noise.edds" noresize 
+}

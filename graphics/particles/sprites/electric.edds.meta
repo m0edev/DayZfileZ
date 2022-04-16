@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{5B5889B6EC66F}Graphics/Particles/sprites/electric.edds"
+ Author "ferko"
+ ChangeDate 169566594
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "electric.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

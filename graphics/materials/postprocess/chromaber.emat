@@ -1,0 +1,5 @@
+material "graphics/materials/postprocess/chromaber": ChromAberEffect
+{
+	PowerX 0
+	PowerY 0
+}

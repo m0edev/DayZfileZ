@@ -1,0 +1,5 @@
+material "Graphics/Materials/postprocess/colorgrading.emat": ColorGradingEffect
+{
+	ColorTable "{F2465D9EB6EDA35}graphics/textures/postprocess/color_test.edds" noresize
+}
+

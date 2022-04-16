@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{493527ED2DEC0DC6}Graphics/Particles/smoke_heli_wreck_01.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

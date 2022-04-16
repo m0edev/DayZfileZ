@@ -1,0 +1,199 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1_sand {
+   ShapeType Point
+   ShapeSize 0 0 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   Material "{D7EA3AB535E9DCC6}Graphics/Particles/materials/smoke/smoke_dust_02b.emat"
+   SizeMultiplier 0.4
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 2
+   VelocityRND 1
+   GravityMultiply 0.5
+   GravityMultiplyRND 0.2
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.2
+   LifeTimeRND 0.2
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 1 0.75 1 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.2 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef emitor2_dust {
+   ShapeType Point
+   ShapeSize 0 0 0
+   MaxNum 999
+   BirthRate 100
+   BirthRateRND 0
+   Material "{DD4F6AF883F92F41}Graphics/Particles/materials/smoke/smoke_dust_01b.emat"
+   SizeMultiplier 0.6
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 1
+   VelocityRND 3
+   AirResistance 2
+   AirResistanceRND 1
+   GravityMultiply 0.5
+   GravityMultiplyRND 0.1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.2
+   LifeTimeRND 0.2
+   Color {
+    0 0.1333 0.0963 0.0408 1 0 0 0
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.45 1 1
+   }
+   EffectTime 0.05
+   Repeat 0
+  }
+  EmitorDef emitor3_cone {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 0 0 0
+   MaxNum 2
+   BirthRate 1
+   BirthRateRND 0
+   Material "{70CE85062FA7388F}Graphics/Particles/materials/smoke/smoke_dust_05.emat"
+   CenterX 0
+   CenterY -0.66
+   ScaleX 0.414
+   SizeMultiplier 1
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 1
+   RandomAngle 0
+   Sort 0
+   Velocity 0.1
+   VelocityRND 0.2
+   GravityMultiply 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.2
+   LifeTimeRND 0
+   Color {
+    0 0.2188 0.166 0.0884 1 0 0 0
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.25 1 1
+   }
+   EffectTime 0.05
+   Repeat 0
+  }
+  EmitorDef emitor3_wood {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 20
+   MaxNum 80
+   BirthRate 300
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{1D816DC83DA25617}Graphics/Particles/materials/enviroment/leaves_01.emat"
+   ScaleX 0.3
+   SizeMultiplier 0.05
+   SizeRND 0.08
+   RandomRotDir 1
+   RotMultiplier 720
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 4
+   VelocityRND 5
+   AirResistance 0.5
+   AirResistanceRND 0
+   GravityMultiply 1.5
+   GravityMultiplyRND 0
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 0.5
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 0.5 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 0.82911
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 0.075
+   Repeat 0
+  }
+  EmitorDef spark1 {
+   BirthRate 0
+   Material "{009C2EBAACD2D72A}Graphics/Particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.1
+   RandomAngle 1
+   Velocity 0.5
+   AirResistance 100
+   LifeTime 0.1
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef spark2 {
+   BirthRate 0
+   Material "{009C2EBAACD2D72A}Graphics/Particles/materials/fire/sparks1.emat"
+   ScaleX 0.373
+   SizeMultiplier 0.2
+   RandomAngle 1
+   Velocity 0.5
+   AirResistance 100
+   LifeTime 0.05
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+ }
+}

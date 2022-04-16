@@ -1,0 +1,8 @@
+ParticleSprite {
+ AlbedoMap "{500E7A97DDD14EDE}Graphics/Particles/sprites/blood_squirt_01.edds" 
+ Color 0.502 0.502 0.502 1
+ Diffuse 0.502 0.502 0.502 1
+ Ambient 0.502 0.502 0.502 1
+ TileU 3
+ Softness 2
+}

@@ -1,0 +1,46 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef chamber_burst {
+   ShapeType Box
+   ShapeSize 0 0.15 0.04
+   ConeAngle 360 0 30
+   MaxNum 100
+   BirthRate 100
+   Offset 0 0 0.07
+   Angles 270 0 90
+   LocalTransform 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 50
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 4
+   VelocityRND 1.5
+   AirResistance 5
+   AirResistanceRND 1
+   Wind 1
+   LifeTime 0
+   LifeTimeRND 0.2
+   Color {
+    0 0.719 0.719 0.719 1 0.25 0.25 0.2442
+   }
+   Alpha {
+    0 0.45 0.25 0.2 1 0
+   }
+   RotationSpeed {
+    0 0 1 0.65
+   }
+   Size {
+    0 0.45 1 1
+   }
+   EffectTime 0.06
+   Repeat 0
+   AirResistanceMast {
+    0 1 1 1
+   }
+  }
+ }
+}

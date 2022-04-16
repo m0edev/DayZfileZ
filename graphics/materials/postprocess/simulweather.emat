@@ -1,0 +1,7 @@
+material "graphics/materials/postprocess/simulweather": WeatherEffect
+{
+	ExpositionDependencyExponent 0.25
+	ExpositionMultiplier 3.0
+	ExpositionBias 0.0
+	Gamma 1.0
+}

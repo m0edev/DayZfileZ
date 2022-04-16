@@ -1,0 +1,9 @@
+ParticleSprite {
+ AlbedoMap "{5752D894BBBEC9BB}Graphics/Particles/sprites/stone_01.edds" 
+ Color 0.6078 0.6078 0.6078 1
+ Diffuse 0.6078 0.6078 0.6078 1
+ Ambient 0.5882 0.5882 0.5882 1
+ TileU 4
+ TileV 4
+ Softness 2
+}

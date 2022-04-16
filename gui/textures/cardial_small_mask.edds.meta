@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{48BFB4B086E16C62}Gui/textures/cardial_small_mask.edds"
+ Author "3672"
+ ChangeDate -863328566
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "cardial_small_mask.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

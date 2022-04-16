@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{67FEB95AE2ECC2EA}Graphics/Particles/materials/smoke/smoke_dust_01.emat"
+ Author "3112"
+ ChangeDate -557128017
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

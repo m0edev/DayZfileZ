@@ -1,0 +1,161 @@
+$animsettemplate {
+ #ngrouptypes 6
+ $groupType {
+  #ngroupnames 0
+  #nanims 62
+  $anims {
+    "!_T_pose"
+    "blabla"
+    "death_end"
+    "death_stand"
+    "jump_run_H110_L800"
+    "jump_run_H160_L800"
+    "jump_walk_H110_L800"
+    "lookat_LD_FD_RD_LZ_FZ_RZ_LU_FU_RU"
+    "resting"
+    "resting_2_stand_grazing"
+    "resting_2_stand_nervous"
+    "resting_idle_1"
+    "resting_idle_2"
+    "resting_idle_3"
+    "resting_lookat_LD_FD_RD_LZ_FZ_RZ_LU_FU_RU"
+    "run_fast"
+    "run_slow"
+    "secondary_action_stand_nervous_1"
+    "secondary_action_stand_nervous_2"
+    "secondary_action_stand_nervous_3"
+    "secondary_action_stand_nervous_4"
+    "secondary_action_stand_nervous_5"
+    "stand_grazing"
+    "stand_grazing_2_resting"
+    "stand_grazing_2_stand_nervous"
+    "stand_grazing_2_stand_nervous_slow"
+    "stand_grazing_idle_1"
+    "stand_grazing_idle_2"
+    "stand_grazing_idle_3"
+    "stand_nervous"
+    "stand_nervous_2_resting"
+    "stand_nervous_2_stand_grazing"
+    "stand_nervous_ADDbleat_1"
+    "stand_nervous_ADDbleat_2"
+    "stand_nervous_idle_1"
+    "stand_nervous_idle_2"
+    "stand_nervous_idle_3"
+    "trot_fast"
+    "trot_slow"
+    "turn_run_L144"
+    "turn_run_R144"
+    "walk_fast"
+    "walk_fast_lookat"
+    "walk_grazing"
+    "walk_grazing_idle_1"
+    "walk_grazing_idle_2"
+    "walk_grazing_idle_3"
+    "walk_grazing_lookat"
+    "walk_grazing_lookat_2_stand_nervous"
+    "walk_grazing_turn_L144"
+    "walk_grazing_turn_L144_lookat"
+    "walk_grazing_turn_L72"
+    "walk_grazing_turn_L72_lookat"
+    "walk_grazing_turn_R144"
+    "walk_grazing_turn_R144_lookat"
+    "walk_grazing_turn_R72"
+    "walk_grazing_turn_R72_lookat"
+    "walk_lookat_ADD_LD_FD_RD_LZ_FZ_RZ_LU_FU_RU"
+    "walk_opt_lookat"
+    "walk_optimal"
+    "walk_slow"
+    "walk_slow_lookat"
+   
+  }
+ }
+ $groupType "Deaths" {
+  #ngroupnames 2
+  #nanims 6
+  $groupnames {
+    "death_run"
+    "death_stand"
+   
+  }
+  $anims {
+    "death_F"
+    "death_L"
+    "death_R"
+    "death_end_F"
+    "death_end_L"
+    "death_end_R"
+   
+  }
+ }
+ $groupType "Hits" {
+  #ngroupnames 3
+  #nanims 2
+  $groupnames {
+    "Hit_low_speed"
+    "Hit_run"
+    "Hit_stand"
+   
+  }
+  $anims {
+    "Hit_L"
+    "Hit_R"
+   
+  }
+ }
+ $groupType "SecondaryActionsCalm" {
+  #ngroupnames 5
+  #nanims 5
+  $groupnames {
+    "resting"
+    "stand_grazing"
+    "stand_nervous"
+    "walk_grazing"
+    "walk_optimal"
+   
+  }
+  $anims {
+    "secondary_action_calm_1"
+    "secondary_action_calm_2"
+    "secondary_action_calm_3"
+    "secondary_action_calm_4"
+    "secondary_action_calm_5"
+   
+  }
+ }
+ $groupType "StartTurns" {
+  #ngroupnames 5
+  #nanims 5
+  $groupnames {
+    "resting_2_run"
+    "stand_grazing_2_walk"
+    "stand_nervous_2_run"
+    "stand_nervous_2_walk"
+    "stand_nervous_2_walk_lookat"
+   
+  }
+  $anims {
+    "Start_F"
+    "Start_L144"
+    "Start_L72"
+    "Start_R144"
+    "Start_R72"
+   
+  }
+ }
+ $groupType "StopTurns" {
+  #ngroupnames 3
+  #nanims 3
+  $groupnames {
+    "2_stand_grazing"
+    "2_stand_nervous"
+    "walk_lookat_2_stand_nervous"
+   
+  }
+  $anims {
+    "stop_walk_F"
+    "stop_walk_L72"
+    "stop_walk_R72"
+   
+  }
+ }
+}

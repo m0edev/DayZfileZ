@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F39B046BA39B436D}Graphics/Particles/impacts/hit_textile_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

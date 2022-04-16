@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{2E275BD75961FA54}Graphics/Textures/postprocess/rainripplesmovablenoise.edds"
+ Author "fido"
+ ChangeDate -1326702042
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "rainripplesmovablenoise.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

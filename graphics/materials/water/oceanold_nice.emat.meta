@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{7F9F45292FEB543}Graphics/Materials/water/oceanold_nice.emat"
+ Author "fido"
+ ChangeDate -938286518
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

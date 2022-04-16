@@ -1,0 +1,8 @@
+ParticleSprite {
+ AlbedoMap "{960FE452251ACE5B}Graphics/Particles/sprites/dust_04.edds" 
+ Color 0.3922 0.3922 0.3922 1
+ Diffuse 0.3922 0.3922 0.3922 1
+ Ambient 0.3922 0.3922 0.3922 1
+ BlendMode Additive_AlphaModulate
+ Softness 2
+}

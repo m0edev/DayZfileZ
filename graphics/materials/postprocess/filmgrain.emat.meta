@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{B699A1232EF587B}Graphics/Materials/postprocess/filmgrain.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

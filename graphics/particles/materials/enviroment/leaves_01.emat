@@ -1,0 +1,8 @@
+Particle {
+ AlbedoMap "{20119AC51A0D49F4}Graphics/Particles/sprites/leaves_01.edds" 
+ Color 0 0 0 1
+ Ambient 0 0 0 1
+ Emissive 1 1 1 0
+ Sort translucent
+ TileU 4
+}

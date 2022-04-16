@@ -1,0 +1,46 @@
+EffectDef {
+ Emitors {
+  EmitorDef Around {
+   ShapeType Box
+   ShapeSize 20 0 20
+   ConeAngle 0 0 0
+   MaxNum 160
+   BirthRate 30
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 5
+   Angles 0 0 0
+   Material "{E296DD98B20EC17B}Graphics/Particles/materials/smoke/smoke_dust_01_em.emat"
+   SizeMultiplier 10
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.01
+   VelocityRND 0
+   AirResistance 0
+   GravityMultiply 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 5
+   LifeTimeRND 0
+   Color {
+    0 0.875 0.912 0.5093 1 0.8241 0.9213 0.5093
+   }
+   Alpha {
+    0 0 0.09821 0.09722 1 0
+   }
+   RotationSpeed {
+    0 0 1 0
+   }
+   Size {
+    0 0.5 1 1
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B4354A4B27753619}Graphics/Particles/weapon_shot_chamber_smoke.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

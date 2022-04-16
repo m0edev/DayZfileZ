@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1B106473E3E6E911}Graphics/Particles/materials/enviroment/water_splash_01.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

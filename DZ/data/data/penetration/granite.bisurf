@@ -1,0 +1,13 @@
+Density=2750;
+deflection=1;
+bulletPenetrability=74;
+transparency=0;
+rough=0.1;
+dust=0;
+audibility=1;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.40000001;
+restitution=0.2;
+impact="Hit_Gravel";
+soundHit="hard_ground";

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{3F97F4D4B33FB3D}Graphics/Particles/steam_small_cook_01.ptc"
+ Author "ferko"
+ ChangeDate 420733328
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{754D506160ACD03F}Graphics/Materials/postprocess/ssao_low.emat"
+ Author "1501"
+ ChangeDate 1061922069
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

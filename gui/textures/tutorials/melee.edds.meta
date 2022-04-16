@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{92EF7001B2ABF5C3}Gui/textures/tutorials/melee.tga"
+ Author "3672"
+ ChangeDate -1889343652
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "melee.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

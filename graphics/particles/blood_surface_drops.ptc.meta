@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2CE1C5A388818060}Graphics/Particles/blood_surface_drops.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

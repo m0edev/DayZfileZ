@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{E495C1FCCD5EDC27}Graphics/Particles/default_01.ptc"
+ Author "ferko"
+ ChangeDate 1022124744
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

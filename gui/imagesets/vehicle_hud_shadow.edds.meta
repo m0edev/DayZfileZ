@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{203A18D5F4B1DBF9}Gui/imagesets/vehicle_hud_shadow.tga"
+ Author "3672"
+ ChangeDate 1387472732
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "vehicle_hud_shadow.tga"
+   Conversion ColorHQCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

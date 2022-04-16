@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{20119AC51A0D49F4}Graphics/Particles/sprites/leaves_01.edds"
+ Author "ferko"
+ ChangeDate 113501302
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "leaves_01.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+  DDSResourceClass LINUX : PC {
+  }
+ }
+}

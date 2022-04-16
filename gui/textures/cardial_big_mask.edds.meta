@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A794C8AEB6A0287B}Gui/textures/cardial_big_mask.tga"
+ Author "3672"
+ ChangeDate 257091420
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "cardial_big_mask.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

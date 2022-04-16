@@ -1,0 +1,24 @@
+material "Graphics/Materials/postprocess/rain.emat": RainEffect
+{
+	DropDistance 1.45
+	DropSizeX 0.003
+	DropSizeY 0.075
+	RainFogginess 0.5
+	RainDensity 1.0
+	FogColorMultiplier 0.5
+	BackgroundColorMultiplier 1.1
+	RefractionScale 0.01
+	GodRayIntensityNear 1.5
+	GodRayIntensityFar 1.2
+	RipplesBlend 50.0
+	RipplesDist 100.0
+	Speed 10
+	DistantSpeed 16
+	DropRefractionTex "{3D95A4E49ACDDE5}graphics/textures/postprocess/drop_refraction.edds" noresize
+	DistantTex "{3435F57626D5A6DB}graphics/textures/postprocess/raindistantmask.edds" noresize
+	RotationNoiseMap "{7B4F4B4EE2566E84}graphics/textures/postprocess/noise.edds" noresize
+	RipplesMap "{59E25B3D2EB94B}graphics/textures/postprocess/ripple.edds" noresize
+	MovableMap "{EBF63DBBED7D8}graphics/textures/postprocess/rainripplesmovable.edds" noresize
+	MovableNoiseMap "{2E275BD75961FA54}graphics/textures/postprocess/rainripplesmovablenoise.edds" noresize
+	SunMaskMat "{FAF56DD689E895BE}Graphics/Materials/postprocess/godrayssunmask.emat"
+}

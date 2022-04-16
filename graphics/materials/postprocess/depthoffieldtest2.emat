@@ -1,0 +1,11 @@
+material "graphics/materials/postprocess/depthoffieldTest2": DepthOfFieldEffect
+{
+	DOFLowQuality false
+	FocalDistance 0.1
+	HyperFocal 0.85
+	BlurFactor 4.0
+	SimpleDOF false
+	SimpleHyperFocalNear 0.7
+	SimpleDOFSize 2
+	SimpleDOFGauss 1
+}

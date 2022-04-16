@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{37F2C835954FBAF0}Graphics/Particles/materials/enviroment/fly_swarm_01.emat"
+ Author "3112"
+ ChangeDate -2044959095
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

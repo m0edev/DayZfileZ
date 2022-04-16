@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{F2465D9EB6EDA35}Graphics/Textures/postprocess/color_test.edds"
+ Author "fido"
+ ChangeDate -1595137498
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "color_test.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

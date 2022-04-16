@@ -1,0 +1,83 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1 {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 20
+   MaxNum 120
+   BirthRate 20
+   BirthRateRND 0
+   Material "{1342DBD29AA4AC16}Graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_cooking_01.emat"
+   SizeMultiplier 1
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.2
+   VelocityRND 0.2
+   AirResistance 0.2
+   AirResistanceRND 0.1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 0.4
+   Color {
+    0 0.1804 0.1804 0.1804 1 0.0431 0.0386 0.0405
+   }
+   Alpha {
+    0 0 0.25074 0.14557 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.25 1 1
+   }
+  }
+  EmitorDef emitor2 {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 20
+   MaxNum 120
+   BirthRate 10
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{1342DBD29AA4AC16}Graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_cooking_01.emat"
+   SizeMultiplier 2
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 50
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.5
+   VelocityRND 0.1
+   AirResistance 0.5
+   AirResistanceRND 0.1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 1
+   Color {
+    0 0.1774 0.1478 0.1398 1 0.077 0.0613 0.0394
+   }
+   Alpha {
+    0 0 0.14955 0.1519 1 0
+   }
+   RotationSpeed {
+    0 0.75 1 0.25
+   }
+   Size {
+    0 0.2 1 1
+   }
+  }
+ }
+}

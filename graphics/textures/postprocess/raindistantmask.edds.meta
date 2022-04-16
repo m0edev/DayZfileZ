@@ -1,0 +1,14 @@
+MetaFileClass  {
+ Name "{3435F57626D5A6DB}Graphics/Textures/postprocess/raindistantmask.edds"
+ Author "zelenyjan"
+ ChangeDate 1644946076
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "raindistantmask.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

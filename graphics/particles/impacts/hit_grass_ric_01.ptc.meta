@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B775FB2EA8F92CFA}Graphics/Particles/impacts/hit_grass_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

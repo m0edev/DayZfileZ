@@ -1,0 +1,263 @@
+FrameWidgetClass FrameWidget0 {
+ clipchildren 0
+ inheritalpha 0
+ color 1 0.7176 0 1
+ position 1016.78003 90.7287
+ size 399 872
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ priority 5
+ draggable 1
+ {
+  TextListboxWidgetClass w_Agents {
+   position 32 120
+   size 336 72
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   fixaspect fixwidth
+   priority 10
+   style Editor
+   "title visible" 1
+   colums "Name"
+   lines 10
+  }
+  ItemPreviewWidgetClass w_ItemPreview {
+   color 0.3333 1 0.498 1
+   position -12 -39
+   size 121 126
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+  }
+  TextWidgetClass TextWidget0 {
+   position 112 -16
+   size 184 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   style Bold
+   text "Item Debug"
+   font "gui/fonts/MetronBook22"
+   "text offset" 35 0
+   "exact text" 1
+  }
+  TextWidgetClass TextWidget1 {
+   position 32 96
+   size 336 27
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   style Normal
+   text "Agent List"
+   font "gui/fonts/MetronBook16"
+   "exact text" 0
+  }
+  TextWidgetClass w_ClassName {
+   position 112 48
+   size 280 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   style Normal
+   font "gui/fonts/MetronBook22"
+   "exact text" 1
+  }
+  TextWidgetClass TextWidget3 {
+   position 112 32
+   size 152 16
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   style Bold
+   text "Classname"
+   font "gui/fonts/Metron16"
+   "exact text" 1
+  }
+  TextListboxWidgetClass w_FloatsProper {
+   position 32 492.45697
+   size 336 211.543
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   fixaspect fixwidth
+   priority 10
+   style Editor
+   "title visible" 1
+   colums "Name;22;ValueServer;39;ValueClient;39;"
+   lines 10
+  }
+  TextWidgetClass TextWidget4 {
+   position 33.8047 459.43399
+   size 336 27
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   text "Variables Final"
+   font "gui/fonts/MetronBook16"
+   "exact text" 0
+  }
+  WindowWidgetClass WindowWidget0 {
+   color 1 0.6667 0 0.1961
+   position 0 -16
+   size 400 891.23505
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+  }
+  WindowWidgetClass WindowWidget2 {
+   color 0.4353 0.4353 0.4353 1
+   position 32 96
+   size 336 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+  }
+  WindowWidgetClass WindowWidget4 {
+   color 0.1216 0.0784 0 1
+   position 0 -16
+   size 400 96
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+  }
+  WindowWidgetClass WindowWidget5 {
+   color 0.4353 0.4353 0.4353 1
+   position 32 197.297
+   size 336 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+  }
+  TextWidgetClass DebugOutputServer {
+   ignorepointer 1
+   position 32.0999 225.138
+   size 328.33798 85.6727
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "test"
+   "exact text" 0
+   text_proportion 0.1
+  }
+  TextWidgetClass TextWidget5 {
+   position 32 197.297
+   size 336 27
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   text "Debug text server"
+   font "gui/fonts/MetronBook16"
+   "exact text" 0
+  }
+  WindowWidgetClass WindowWidget1 {
+   color 0.4353 0.4353 0.4353 1
+   position 32.9023 459.43399
+   size 336 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+  }
+  WindowWidgetClass WindowWidget3 {
+   color 0.4353 0.4353 0.4353 1
+   position 32 313.70001
+   size 336 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+  }
+  TextWidgetClass TextWidget2 {
+   position 32 313.70001
+   size 336 27
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   text "Debug text client"
+   font "gui/fonts/MetronBook16"
+   "exact text" 0
+  }
+  TextWidgetClass DebugOutputClient {
+   ignorepointer 1
+   position 32.0999 343.34601
+   size 328 86
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "test"
+   "exact text" 0
+   text_proportion 0.1
+   "size to text h" 0
+   "size to text v" 0
+  }
+  ButtonWidgetClass DebugButton1 {
+   position 0.01543 0.81954
+   size 0.97298 0.04283
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "DebugButton"
+  }
+  ButtonWidgetClass DebugButton2 {
+   position 0.01543 0.86626
+   size 0.97298 0.04283
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "DebugButton"
+  }
+  ButtonWidgetClass DebugButton3 {
+   position 0.01543 0.91298
+   size 0.97298 0.04283
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "DebugButton"
+  }
+  ButtonWidgetClass DebugButton4 {
+   position 0.01543 0.95892
+   size 0.97298 0.04283
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "DebugButton"
+  }
+ }
+}

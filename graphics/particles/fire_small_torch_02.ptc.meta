@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1074FCD6C3B8EC5E}Graphics/Particles/fire_small_torch_02.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

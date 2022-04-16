@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F703A94FECB0D29D}Graphics/Particles/weapon_shot_sks_01.ptc"
+ Author "3112"
+ ChangeDate -1764563281
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

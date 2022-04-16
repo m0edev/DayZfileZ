@@ -1,0 +1,26 @@
+EffectDef {
+ Emitors {
+  EmitorDef power {
+   ConeAngle -4 0 359
+   MaxNum 100
+   BirthRate 100
+   Angles 90 2 90
+   Material "{005EEA86FA4E283B}Graphics/Particles/materials/test/test_orientation.emat"
+   CenterY 0
+   ScaleX 1
+   SizeMultiplier 0.03
+   StretchMultiplier 1
+   VelAngle 0
+   BillboardingType Full
+   Velocity 2
+   VelocityRND 0
+   AirResistance 20
+   LifeTime 30
+   Color {
+    0 1 0.5063 0 1 0 0 0
+   }
+   EffectTime 2
+   Repeat 0
+  }
+ }
+}

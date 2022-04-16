@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{2E6C6FD65BB37E92}Graphics/Textures/efx/coronalens.edds"
+ Author "fido"
+ ChangeDate -856415706
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "coronalens.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

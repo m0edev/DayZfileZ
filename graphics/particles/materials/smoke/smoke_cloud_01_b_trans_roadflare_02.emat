@@ -1,0 +1,14 @@
+Particle {
+ AlbedoMap "{A33C94C2CDE0208E}Graphics/Particles/sprites/cloud_01_b_trans_df.edds" 
+ Color 0.7216 0.2275 0.2275 1
+ Diffuse 0.7843 0.4 0 1
+ Ambient 0.6941 0.2549 0.2549 1
+ Emissive 1 0.9255 0.7647 0
+ NormalMap "{94ACD68D2987BFA2}Graphics/Particles/sprites/cloud_01_b_nm.edds" 
+ BlendMode Additive_AlphaModulate
+ TileU 2
+ TileV 2
+ Softness 2
+ CameraBlendFar 0.001
+ BidirLightScale 0.012
+}

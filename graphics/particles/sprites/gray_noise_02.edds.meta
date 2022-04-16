@@ -1,0 +1,14 @@
+MetaFileClass  {
+ Name "{82EAAE51746ABD43}Graphics/Particles/sprites/gray_noise_02.edds"
+ Author "ferko"
+ ChangeDate 204710652
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "gray_noise_02.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

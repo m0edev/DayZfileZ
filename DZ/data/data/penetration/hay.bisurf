@@ -1,0 +1,13 @@
+Density=100;
+deflection=0.1;
+bulletPenetrability=990;
+transparency=1;
+rough=0.1;
+dust=0;
+audibility=0.40000001;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.69999999;
+restitution=0;
+impact="Hit_Foliage";
+soundHit="soft_ground";

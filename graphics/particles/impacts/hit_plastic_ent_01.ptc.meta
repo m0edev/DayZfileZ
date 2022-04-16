@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6B0128C014AC2881}Graphics/Particles/impacts/hit_plastic_ent_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

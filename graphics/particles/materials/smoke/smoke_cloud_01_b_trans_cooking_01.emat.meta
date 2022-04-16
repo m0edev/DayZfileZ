@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1342DBD29AA4AC16}Graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_cooking_01.emat"
+ Author "3112"
+ ChangeDate -590682449
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{612031817F136DE0}Graphics/Particles/sprites/water_splash_01.tga"
+ Author "ferko"
+ ChangeDate 733750471
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "water_splash_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

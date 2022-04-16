@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{5C34049E278675A6}Graphics/Particles/fire_small_torch_yellow_01.ptc"
+ Author "ferko"
+ ChangeDate 1621811910
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

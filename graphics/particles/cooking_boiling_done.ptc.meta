@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BD806E2DA82585E2}Graphics/Particles/cooking_boiling_done.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

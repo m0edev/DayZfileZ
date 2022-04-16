@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1553DBB7F0EDF26A}Graphics/Particles/impacts/hit_wood_ext_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{03BF5B947463775D}Graphics/Particles/materials/enviroment/blood_red_02.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

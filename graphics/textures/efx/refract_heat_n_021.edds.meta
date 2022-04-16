@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{1DC233FB4C868AD3}Graphics/Textures/efx/Refract_Heat_N_021.edds"
+ Author "fido"
+ ChangeDate -1761861082
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "Refract_Heat_N_021.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

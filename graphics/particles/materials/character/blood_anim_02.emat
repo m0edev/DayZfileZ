@@ -1,0 +1,5 @@
+ParticleSprite {
+ AlbedoMap "{6EEA3C8884FEA568}Graphics/Particles/sprites/blood_squirt_anim_02.edds" 
+ TileU 4
+ TileV 3
+}

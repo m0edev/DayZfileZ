@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{529D8B2C5BED777E}Graphics/Particles/smoke_generic_wreck.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

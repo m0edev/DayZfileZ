@@ -1,0 +1,8 @@
+material "graphics/materials/postprocess/godrayssun": GodRaysEffect
+{
+	Intensity 0.8
+	OverBurnIntensity 0.25
+	OverBurnStart 0.025
+	OverBurnEnd 0.175
+	SunMaskMat "graphics/materials/postprocess/godrayssunmask.emat"
+}

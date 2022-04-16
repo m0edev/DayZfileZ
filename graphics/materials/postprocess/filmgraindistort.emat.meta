@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{574B35762AB38}Graphics/Materials/postprocess/filmgrainDistort.emat"
+ Author "fido"
+ ChangeDate -1688575447
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

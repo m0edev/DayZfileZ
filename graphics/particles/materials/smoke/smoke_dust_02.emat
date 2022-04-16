@@ -1,0 +1,7 @@
+ParticleSprite {
+ AlbedoMap "{DC028712CBE7334C}Graphics/Particles/sprites/gray_noise_01.edds" 
+ Color 0.6078 0.6078 0.6078 1
+ Diffuse 0.6078 0.6078 0.6078 1
+ Ambient 0.5882 0.5882 0.5882 1
+ Softness 1
+}

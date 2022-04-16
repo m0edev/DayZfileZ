@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CC6431B8A96FFD8A}Graphics/Particles/breath_vapour_medium.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

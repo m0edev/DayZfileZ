@@ -1,0 +1,7 @@
+material "graphics/materials/postprocess/radialblur": RadialBlurEffect
+{
+	PowerX 0
+	PowerY 0
+	OffsetX 0.05
+	OffsetY 0.05
+}

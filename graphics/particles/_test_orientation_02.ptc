@@ -1,0 +1,47 @@
+EffectDef {
+ Emitors {
+  EmitorDef orientation_test {
+   ConeAngle 0 0 0
+   MaxNum 100
+   BirthRate 100
+   Material "{005EEA86FA4E283B}Graphics/Particles/materials/test/test_orientation.emat"
+   CenterY 0
+   ScaleX 1
+   SizeMultiplier 0.01
+   StretchMultiplier 1
+   VelAngle 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 10
+   AirResistance 20
+   LifeTime 30
+   Color {
+    0 1 0 0 1 0 1 1
+   }
+   EffectTime 2
+   Repeat 0
+  }
+  EmitorDef orientation_test_cloned {
+   ConeAngle 0 0 0
+   MaxNum 100
+   BirthRate 100
+   Angles 0 90 0
+   Material "{005EEA86FA4E283B}Graphics/Particles/materials/test/test_orientation.emat"
+   CenterY 0
+   ScaleX 1
+   SizeMultiplier 0.01
+   StretchMultiplier 1
+   VelAngle 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 10
+   AirResistance 20
+   LifeTime 30
+   Color {
+    0 0 1 0 1 0 0 1
+   }
+   EffectTime 2
+   Repeat 0
+  }
+ }
+}

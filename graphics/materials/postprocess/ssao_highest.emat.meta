@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{A3559ADAF4FBE4DB}Graphics/Materials/postprocess/ssao_highest.emat"
+ Author "fido"
+ ChangeDate -1655021015
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

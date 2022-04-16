@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{16B7879D4775122}Graphics/Particles/sprites/spark.edds"
+ Author "ferko"
+ ChangeDate 1226039696
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "spark.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

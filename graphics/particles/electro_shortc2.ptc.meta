@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{38373116635BA}Graphics/Particles/electro_shortc2.ptc"
+ Author "ferko"
+ ChangeDate 1109090690
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{59E25B3D2EB94B}Graphics/Textures/postprocess/ripple.edds"
+ Author "fido"
+ ChangeDate -1326702042
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "ripple.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

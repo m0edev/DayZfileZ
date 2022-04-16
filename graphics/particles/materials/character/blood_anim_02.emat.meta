@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{11E13CB8A85BAEAF}Graphics/Particles/materials/character/blood_anim_02.emat"
+ Author "3112"
+ ChangeDate -490543441
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

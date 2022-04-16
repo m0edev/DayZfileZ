@@ -1,0 +1,14 @@
+material "Graphics/Materials/postprocess/filmgrainDistort.emat": FilmGrainEffect
+{
+	Intensity 0
+	Sharpness 1
+	GrainSize 2
+	IntensityX0 100
+	IntensityX1 100
+	Monochromatic false
+	Simple false
+	Distort true
+	Frequency 100
+	NoiseMap "{B1C7AEDC4645C8A}System/textures/noise.edds" noresize
+}
+

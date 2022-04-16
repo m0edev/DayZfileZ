@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{A74B7290B3B72DEC}Graphics/Particles/fire_medium_camp_01.ptc"
+ Author "ferko"
+ ChangeDate 1484022470
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

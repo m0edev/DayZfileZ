@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{51D5302D7F1F843D}Graphics/Particles/sprites/fire_anim_02.tga"
+ Author "3112"
+ ChangeDate 1975248538
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "fire_anim_02.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

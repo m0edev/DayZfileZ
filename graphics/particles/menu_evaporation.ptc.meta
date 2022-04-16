@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3687BA3C40CD313C}Graphics/Particles/menu_evaporation.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CF1EAFEB98ED672B}graphics/textures/water/foam_ca.edds"
+ Author "home-pc"
+ ChangeDate -310074781
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "foam_ca.dds"
+   Conversion RedHQCompression
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

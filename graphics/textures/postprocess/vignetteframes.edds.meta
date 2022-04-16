@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BB641F832BB8EBC0}Graphics/Textures/postprocess/VignetteFrames.edds"
+ Author "4929"
+ ChangeDate -1723159763
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "VignetteFrames.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

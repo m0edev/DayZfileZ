@@ -1,0 +1,40 @@
+mainLight="Sun";
+fogMode="Fog";
+ambient[]={1,1,1,1.7};
+diffuse[]={1.9,3.7,1.5,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.5,0.5,0.1,1};
+specularPower=128;
+shadowBias=0.44999999;
+plantWind[]={0.2,0.25,0.30000001,0.2};
+renderFlags[]=
+{
+	"AlphaTest32"
+};
+PixelShaderID="Grass";
+VertexShaderID="Grass";
+class Stage2
+{
+	texture="dz\plants\clutter\data\c_anthoxanthum_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="dz\plants\clutter\data\c_anthoxanthum_mask_co.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

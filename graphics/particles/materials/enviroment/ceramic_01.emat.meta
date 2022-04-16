@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4580B8A43D2C2E83}Graphics/Particles/materials/enviroment/ceramic_01.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

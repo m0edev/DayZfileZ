@@ -1,0 +1,147 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef Flame_2D_v {
+   ShapeType Sphere
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   LOD 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset -0.01 0 0
+   Angles 0 0 -90
+   LocalTransform 1
+   Material "{92B0C375CAF36CAD}Graphics/Particles/materials/weapons/weapon_shot_muzzle_flash_type_D.emat"
+   CenterX 0
+   CenterY -1
+   ScaleX 0.496
+   ScaleY 1
+   SizeMultiplier 0.2
+   SizeRND 0
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 1
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType None
+   Velocity 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution -1
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.03
+   LifeTimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 1
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 0.03
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 0
+   }
+   SizeMast {
+    0 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitorDef Flame_2D_h {
+   ShapeType Sphere
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   LOD 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset -0.01 0 0
+   Angles 0 90 -90
+   LocalTransform 1
+   Material "{92B0C375CAF36CAD}Graphics/Particles/materials/weapons/weapon_shot_muzzle_flash_type_D.emat"
+   CenterX 0
+   CenterY -1
+   ScaleX 0.496
+   ScaleY 1
+   SizeMultiplier 0.2
+   SizeRND 0
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 1
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType None
+   Velocity 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution -1
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.03
+   LifeTimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 1
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 0.03
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 0
+   }
+   SizeMast {
+    0 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+material "graphics/materials/postprocess/rotblur": RotBlurEffect
+{
+	Power 0
+	MinAnglePerSec 10
+	MaxAnglePerSec 100
+	MinDepth 2.5
+	MaxDepth 4.5
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{BEA27443975BEB}Graphics/Particles/materials/smoke/smoke_anim_02.emat"
+ Author "ferko"
+ ChangeDate 622584208
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

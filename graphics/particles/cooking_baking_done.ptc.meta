@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A4AD98650F4A1C45}Graphics/Particles/cooking_baking_done.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

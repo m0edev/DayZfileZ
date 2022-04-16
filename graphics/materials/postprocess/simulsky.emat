@@ -1,0 +1,5 @@
+material "graphics/materials/postprocess/simulsky": SkyEffect
+{
+	SkyTexLerp 0.1
+	Overcast 0.1
+}

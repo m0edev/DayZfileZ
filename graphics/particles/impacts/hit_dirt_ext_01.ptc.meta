@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3982144F351FC071}Graphics/Particles/impacts/hit_dirt_ext_01.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

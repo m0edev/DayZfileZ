@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5EB280478FF3F10D}Graphics/Particles/smoke_medium_camp_01.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

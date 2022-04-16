@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{CF1EA55844B84CAD}Graphics/Particles/sprites/smoke_anim_02.edds"
+ Author "ferko"
+ ChangeDate 790339983
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "smoke_anim_02.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{0084BE5F7442BD4B}Gui/textures/loading_screens/loading_screen_2_co.tga"
+ Author "3672"
+ ChangeDate 1018898268
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "loading_screen_2_co.tga"
+   Conversion ColorHQCompression
+   GenerateMips 0
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

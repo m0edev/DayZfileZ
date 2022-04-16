@@ -1,0 +1,19 @@
+material "graphics/materials/postprocess/wetdistort": WetDistortEffect
+{
+	BlurPower 0.5
+        LocalBlurPower 0.4
+	EffectPowerTop 0
+	EffectPowerBottom 0
+	WaveSpeedX1 4.1
+	WaveSpeedX2 3.7
+	WaveSpeedY1 2.5
+	WaveSpeedY2 1.85
+	WaveAmpX1 0.0054
+	WaveAmpX2 0.0041
+	WaveAmpY1 0.009
+	WaveAmpY2 0.007
+	PhaseRandX 0.5
+	PhaseRandY 0.3
+	PhasePosX 10
+	PhasePosY 6
+}

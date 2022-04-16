@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{69C7A84F7075404A}Graphics/Particles/smoking_barrel_small.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

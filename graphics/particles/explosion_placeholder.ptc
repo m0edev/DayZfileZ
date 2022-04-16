@@ -1,0 +1,71 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef smoke {
+   ShapeType Point
+   ConeAngle 180 -360 0
+   MaxNum 100
+   BirthRate 9999
+   Angles 0 90 0
+   LocalTransform 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 4
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 100
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 10
+   VelocityRND 40
+   AirResistance 8
+   AirResistanceRND 5
+   GravityMultiply 0.2
+   GravityMultiplyRND 1
+   Wind 1
+   LifeTime 1
+   LifeTimeRND 2
+   Color {
+    0 0.7608 0.7608 0.7608 0.1151 0.3383 0.2822 0.26 1 0.4706 0.4706 0.4706
+   }
+   Alpha {
+    0 1 0.03869 0.36709 1 0
+   }
+   RotationSpeed {
+    0 0.09615 1 1
+   }
+   Size {
+    0 0.3 0.1 0.55 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef wanna_be_hole {
+   ShapeType Sphere
+   ShapeSize 0.02 0.02 0.02
+   ConeAngle 0 0 0
+   MaxNum 1
+   BirthRate 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 0.5
+   RandomRotDir 1
+   StretchMultiplier 0
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0
+   LifeTime 30
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 1 0.87094 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   EffectTime 1
+   Repeat 0
+  }
+ }
+}

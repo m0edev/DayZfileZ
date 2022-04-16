@@ -1,0 +1,25 @@
+material "Materials/water/pond_verydirty.emat": MatWaterPool
+{
+	Color "0.02 0.015 0.005 0"
+	ZWrite 0
+	WaterExtinction 1
+	DepthScattering 0.8
+	NormalMap "{00043BD4DA5F1244}Graphics/Textures/Water/dayzwater1_no.edds"
+	NormalPower 0.1
+	NormalMapping 0.1
+	SunPower 256
+	SunInfluence 4
+	RefractScale 0.5
+	EnvironmentMap "{001392F222D3EC22}Graphics/Textures/Water/envForest_co.edds"
+	ReflectionColor "0.2 0.3 0.4 0"
+	WetFloor 0.5
+	WindInfl 0.2
+	FoamMap "{CF1EAFEB98ED672B}Graphics/Textures/Water/foam_ca.edds"
+	FoamTerrainBlend 0.5
+	FoamMapping 2
+	FoamMove 0.5
+	FoamPower 1
+	FoamColor "0.3 0.25 0.2 0"
+	TimeMul 0.7
+}
+

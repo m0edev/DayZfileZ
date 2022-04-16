@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{214D9C1A37B3A94A}Graphics/Particles/materials/smoke/smoke_debris_01.emat"
+ Author "3112"
+ ChangeDate -557128017
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

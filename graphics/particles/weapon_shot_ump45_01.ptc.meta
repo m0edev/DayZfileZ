@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AB87801D750054EB}Graphics/Particles/weapon_shot_ump45_01.ptc"
+ Author "3112"
+ ChangeDate -1764563281
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

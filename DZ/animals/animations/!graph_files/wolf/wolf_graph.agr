@@ -1,0 +1,59 @@
+$AnimGraph 7 {
+	#AnimSetTemplate "{3097480539CE7B70}DZ/animals/animations/!graph_files/Wolf/Wolf.ast"
+	#AnimSyncTable "{267D34E1911C5729}DZ/animals/animations/!graph_files/Herbivores/Herbivores_synctables.asy"
+	$Controls {
+		$Commands {
+			 CMD_Attack -1
+			 CMD_AttackSuccess -1
+			 CMD_Death -1
+			 CMD_JumpType -1
+			 CMD_LookAt -1
+			 CMD_AnimCallBack -1
+			 CMD_Hit -1
+			 CMD_LookAtXChange -1
+		}
+		$Vars {
+			#Var speed float 0.0 0.0 5.0 ""
+			#Var turn float 0.0 -180.0 180.0 ""
+			#Var behaviorAction int 2 0 14 ""
+			#Var alertLevel int 1 0 4 ""
+			#Var lookXAngle float 0.0 -180.0 180.0 ""
+			#Var lookYAngle float 0.0 -90.0 90.0 ""
+			#Var SlopeAngleX float 0.0 -90.0 90.0 ""
+			#Var SlopeAngleZ float 0.0 -90.0 90.0 ""
+			#Var InjuryLevel int 0 0 2 ""
+			#Var behaviorSlotID int 0 0 31 ""
+		}
+		$Expressions {
+		}
+		$DebugControls {
+			
+			#DCtrl 2 "" "LookAt_TurnOff" "" "CMD_LookAt" 0.0 0
+			
+			#DCtrl 2 "" "Attacktest" "" "CMD_Attack" 0.0 5
+			
+			#DCtrl 2 "" "speed = 0" "" "CMD_AnimCallBack" 0.0 4
+			
+			#DCtrl 2 "" "attackSuccessTest" "" "CMD_AttackSuccess" 0.0 0
+			
+			#DCtrl 2 "" "AttackProxi_test" "" "CMD_Attack" 0.0 2
+			
+			#DCtrl 2 "" "DeathHead_F" "" "CMD_Death" 0.0 5
+			
+			#DCtrl 2 "" "Jump110" "" "CMD_JumpType" 0.0 100
+			
+			#DCtrl 2 "" "Jump160" "" "CMD_JumpType" 0.0 101
+			
+			#DCtrl 2 "" "HitHead_F" "" "CMD_Hit" 0.0 5
+			
+			#DCtrl 2 "" "HitHead_L" "" "CMD_Hit" 0.0 6
+			
+			#DCtrl 2 "" "HitHead_R" "" "CMD_Hit" 0.0 7
+			
+			#DCtrl 2 "" "DeathChest_L" "" "CMD_Death" 0.0 10
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/Wolf/Wolf_MainGraph.agr"
+	}
+}

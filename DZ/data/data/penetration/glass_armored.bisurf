@@ -1,0 +1,13 @@
+Density=2400;
+deflection=1;
+bulletPenetrability=50;
+transparency=1;
+rough=0;
+dust=0;
+audibility=1.25;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.1;
+restitution=0.1;
+impact="Hit_Glass_Thin";
+soundHit="glass_armored";

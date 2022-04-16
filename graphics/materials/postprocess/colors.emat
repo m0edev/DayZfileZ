@@ -1,0 +1,13 @@
+material "graphics/materials/postprocess/colors": ColorsEffect
+{
+	Brightness 1
+	Contrast 1
+	Offset 0
+
+	OverlayFactor 0
+	OverlayColor "1 1 1 0"
+
+	Saturation 1
+	ColorizationColor "1 1 1 0"
+	DesaturationWeights "0.299 0.587 0.114 0"
+}

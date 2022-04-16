@@ -1,0 +1,38 @@
+ImageSetClass {
+ Name "VignetteFrames"
+ RefSize 1924 1084
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{BB641F832BB8EBC0}Graphics/Textures/postprocess/VignetteFrames.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass Mask {
+   Name "Mask"
+   Pos 1 1
+   Size 960 540
+   Flags 0
+  }
+  ImageSetDefClass Moto {
+   Name "Moto"
+   Pos 963 543
+   Size 960 540
+   Flags 0
+  }
+  ImageSetDefClass Helm {
+   Name "Helm"
+   Pos 1 543
+   Size 960 540
+   Flags 0
+  }
+  ImageSetDefClass Breath {
+   Name "Breath"
+   Pos 963 1
+   Size 960 540
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

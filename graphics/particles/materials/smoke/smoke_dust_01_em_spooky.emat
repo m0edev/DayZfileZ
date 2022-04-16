@@ -1,0 +1,8 @@
+ParticleSprite {
+ AlbedoMap "{00DB5AFE43BFC32C}Graphics/Particles/sprites/steam_cloud.edds" 
+ Color 1.0 1.0 1.0 1
+ Diffuse 1.0 1.0 1.0 1
+ Ambient 1.0 1.0 1.0 1
+ Emissive 0.5 0.8 0.9 0
+ Softness 2
+}

@@ -1,0 +1,1603 @@
+FrameWidgetClass FrameWidget {
+ visible 1
+ color 0 0 0 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 5
+ {
+  WindowWidgetClass MenuWindow {
+   visible 1
+   disabled 0
+   inheritalpha 0
+   color 0 0 0 0.502
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   style Colorable
+   {
+    WindowWidgetClass TabsWindowWidget1 {
+     visible 1
+     clipchildren 1
+     inheritalpha 0
+     color 0 0 0 0.498
+     size 0.99 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Colorable
+     {
+      ButtonWidgetClass OutputButtonWidget {
+       position 0.6017 8
+       size 0.1 0.625
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       userID 0
+       style Default
+       text "Prints"
+       text_proportion 0.8
+       switch once
+      }
+      ButtonWidgetClass ItemsButtonWidget {
+       position 0.12 10
+       size 0.1 0.635
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       userID 0
+       style Default
+       text "Items"
+       text_proportion 0.8
+       switch once
+      }
+      ButtonWidgetClass ConfigsButtonWidget {
+       position 0.24 8
+       size 0.1 0.625
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       userID 0
+       style Default
+       text "Configs"
+       text_proportion 0.8
+       switch once
+      }
+      ButtonWidgetClass EnScriptButtonWidget {
+       position 0.3617 8
+       size 0.1 0.625
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       userID 0
+       style Default
+       text "EnfScript Client"
+       text_proportion 0.8
+       switch once
+      }
+      ButtonWidgetClass GeneralButtonWidget {
+       position 0 8
+       size 0.1 0.625
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       userID 0
+       style Default
+       text "General"
+       text_proportion 0.8
+       switch once
+      }
+      ButtonWidgetClass EnScriptButtonWidgetServer {
+       position 0.4817 8
+       size 0.1 0.625
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       userID 0
+       style Default
+       text "EnfScript Server"
+       text_proportion 0.8
+       switch once
+      }
+     }
+    }
+    PanelWidgetClass ItemsPanel {
+     visible 1
+     clipchildren 1
+     inheritalpha 0
+     color 0 0.2235 0.0549 0.6275
+     position 0.0034 0.0411
+     size 0.99 0.9
+     style DayZDefaultPanel
+     {
+      ImageWidgetClass FilterBackground {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.01 0.01
+       size 0.98 0.035
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass CategoryBackground {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.01 0.055
+       size 0.98 0.035
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass ItemsBackground {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.01 0.1
+       size 0.31 0.85
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass ItemsBackground2 {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.01 0.955
+       size 0.31 0.0354
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass PresetsBackground {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.34 0.1
+       size 0.31 0.585
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass ItemsPresetsBackground {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.68 0.1
+       size 0.31 0.89
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      EditBoxWidgetClass ObjectFilter {
+       inheritalpha 0
+       color 1 1 1 1
+       position 0.012 0.015
+       size 0.97 0.025
+       hexactsize 0
+       vexactsize 0
+       priority 1
+       style Default
+       text "object name"
+       "exact text" 0
+       "text color" 1 1 1 1
+      }
+      CheckBoxWidgetClass ItemCategory0 {
+       position 0.01 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory0"
+      }
+      CheckBoxWidgetClass ItemCategory1 {
+       position 0.1 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory1"
+      }
+      CheckBoxWidgetClass ItemCategory2 {
+       position 0.19 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory2"
+      }
+      CheckBoxWidgetClass ItemCategory3 {
+       position 0.28 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory3"
+      }
+      CheckBoxWidgetClass ItemCategory4 {
+       position 0.37 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory4"
+      }
+      CheckBoxWidgetClass ItemCategory5 {
+       position 0.46 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory5"
+      }
+      CheckBoxWidgetClass ItemCategory6 {
+       position 0.55 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory6"
+      }
+      CheckBoxWidgetClass ItemCategory7 {
+       position 0.64 0.0625
+       size 0.08 21
+       vexactsize 1
+       style Default
+       text "ItemCategory7"
+      }
+      CheckBoxWidgetClass ItemCategory8 {
+       position 0.73 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory8"
+      }
+      CheckBoxWidgetClass ItemCategory9 {
+       position 0.82 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory9"
+      }
+      CheckBoxWidgetClass ItemCategory10 {
+       position 0.91 0.0625
+       size 0.08 20
+       vexactsize 1
+       style Default
+       text "ItemCategory10"
+      }
+      TextWidgetClass Item {
+       ignorepointer 0
+       position 0.02 0.11
+       size 0.29 30
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "ITEM"
+       "exact text" 0
+       "text valign" center
+      }
+      TextListboxWidgetClass ObjectsList {
+       visible 1
+       position 0.02 0.15
+       size 0.29 0.78
+       colums ""
+       lines 30
+      }
+      ButtonWidgetClass ItemNameCopy {
+       position 0.02 0.965
+       size 0.11 20
+       vexactsize 1
+       style Default
+       text "Copy To Clipboard"
+       text_proportion 0.8
+      }
+      TextWidgetClass Presets {
+       inheritalpha 0
+       color 1 1 1 1
+       position 0.35 0.11
+       size 0.29 30
+       halign left
+       vexactsize 1
+       text "PRESETS"
+       "exact text" 0
+       "text halign" left
+       "text valign" center
+      }
+      TextListboxWidgetClass PresetList {
+       position 0.35 0.15
+       size 0.29 0.45
+       lines 19
+      }
+      ButtonWidgetClass NewPresetButton {
+       position 0.35 0.65
+       size 0.06 20
+       vexactsize 1
+       style Default
+       text "New"
+       text_proportion 0.8
+      }
+      ButtonWidgetClass SetDefaultPresetButton {
+       position 0.425 0.65
+       size 0.06 20
+       vexactsize 1
+       style Default
+       text "Default"
+       text_proportion 0.8
+      }
+      ButtonWidgetClass DeletePresetButton {
+       position 0.5 0.65
+       size 0.06 20
+       vexactsize 1
+       style Default
+       text "Delete"
+       text_proportion 0.8
+      }
+      ButtonWidgetClass RenamePresetButton {
+       position 0.5795 0.65
+       size 0.06 20
+       vexactsize 1
+       style Default
+       text "Rename"
+       text_proportion 0.8
+      }
+      TextWidgetClass PresetItems {
+       inheritalpha 0
+       position 0.69 0.11
+       size 0.29 30
+       halign left
+       vexactsize 1
+       text "ITEMS IN PRESETS"
+       "exact text" 0
+       "text halign" left
+       "text valign" center
+      }
+      TextListboxWidgetClass PresetItemsList {
+       position 0.69 0.15
+       size 0.29 0.79
+       lines 30
+      }
+      ButtonWidgetClass AddToPresetButton {
+       position 0.65159 0.32984
+       size 0.02688 0.05072
+       style Default
+       text ">>"
+       font "gui/fonts/system"
+      }
+      ButtonWidgetClass RemoveFromPresetButton {
+       position 0.65155 0.38657
+       size 0.02749 0.04604
+       style Default
+       text "<<"
+       font "gui/fonts/system"
+      }
+      ButtonWidgetClass ItemMoveUpButton {
+       disabled 0
+       position 0.69 0.95
+       size 0.075 20
+       vexactsize 1
+       style Default
+       text "Up"
+      }
+      ButtonWidgetClass ItemMoveDownButton {
+       disabled 0
+       position 0.77 0.95
+       size 0.075 20
+       vexactsize 1
+       style Default
+       text "Down"
+      }
+      ImageWidgetClass ButtonsBackground {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.34 0.695
+       size 0.31 0.295
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      TextWidgetClass ObjectName {
+       position 0.35 0.705
+       size 0.07 35
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "Object:"
+       "exact text" 0
+       "text valign" center
+      }
+      TextWidgetClass SelectedObject {
+       inheritalpha 0
+       color 1 1 1 1
+       position 0.425 0.705
+       size 0.22 35
+       halign left
+       hexactpos 0
+       vexactpos 0
+       vexactsize 1
+       draggable 0
+       "exact text" 0
+       "text halign" center
+       "text valign" center
+      }
+      TextWidgetClass DamageLabel {
+       position 0.35 0.7493
+       size 0.07 30
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "Health :"
+       "exact text" 0
+       "text valign" center
+      }
+      EditBoxWidgetClass DamageValue {
+       position 0.425 0.7486
+       size 0.05 30
+       valign top
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "1.0"
+      }
+      TextWidgetClass QuantityLabel {
+       position 0.35 0.7865
+       size 0.07 30
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "Quantity :"
+       "exact text" 0
+       "text valign" center
+      }
+      EditBoxWidgetClass QuantityValue {
+       position 0.425 0.7879
+       size 0.05 30
+       valign top
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "1.0"
+      }
+      TextWidgetClass DistanceLabel {
+       inheritalpha 0
+       color 1 1 1 1
+       position 0.35 0.8265
+       size 0.07 30
+       halign left
+       vexactsize 1
+       style Normal
+       text "Distance :"
+       "exact text" 0
+       "text valign" center
+      }
+      EditBoxWidgetClass SpawnDistance {
+       position 0.425 0.8298
+       size 0.05 30
+       valign top
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "1.0"
+      }
+      ButtonWidgetClass ButtonSpawnInInv {
+       position 0.35 0.91
+       size 0.14 30
+       vexactsize 1
+       style Default
+       text "Spawn In Inventory"
+       text_proportion 0.8
+       text_halign left
+      }
+      ButtonWidgetClass SpawnAsAttachment {
+       position 0.35 0.95
+       size 0.14 30
+       vexactsize 1
+       style Default
+       text "Spawn As Attachment"
+       text_proportion 0.8
+       text_halign left
+      }
+      ButtonWidgetClass ButtonSpawnInGround {
+       position 0.505 0.91
+       size 0.14 30
+       vexactsize 1
+       style Default
+       text "Spawn On Ground"
+       text_proportion 0.8
+       text_halign right
+      }
+      ButtonWidgetClass SpawnSpecial {
+       position 0.505 0.95
+       size 0.14 30
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "Spawn Ground Special"
+       text_proportion 0.8
+       text_halign right
+      }
+      ButtonWidgetClass ButtonDrawItem {
+       position 0.35 0.87
+       size 0.10575 30
+       vexactsize 1
+       style Default
+       text "Draw Items In World"
+       text_proportion 0.8
+       text_halign left
+      }
+      ButtonWidgetClass ButtonDrawItemClear {
+       position 0.545 0.87
+       size 0.1 30
+       vexactsize 1
+       style Default
+       text "Clear Items"
+       text_proportion 0.8
+       text_halign right
+      }
+      CheckBoxWidgetClass ShowProtectedCheckbox {
+       position 0.209 0.965
+       size 0.101 20
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "Show Protected"
+      }
+      EditBoxWidgetClass DrawItemDistance {
+       position 0.47 0.87
+       size 0.0662 30.517
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+      }
+      CheckBoxWidgetClass ForceClearCheckbox {
+       clipchildren 0
+       inheritalpha 0
+       position 0.35 0.61
+       size 0.29 27
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 1
+       text "Clear Inventory"
+       font "gui/fonts/Metron12"
+      }
+     }
+    }
+    PanelWidgetClass ConfigsPanel {
+     visible 1
+     inheritalpha 1
+     position 0 0.0411
+     size 0.99 0.9
+     style rover_sim_black
+     {
+      PanelWidgetClass ConfigClasses {
+       visible 1
+       ignorepointer 1
+       position 0.01 0.01
+       size 0.98 0.03
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style blank
+       {
+        WindowWidgetClass ClassesBck0 {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.498
+         position 0 0
+         size 1 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 0
+         style Colorable
+        }
+        TextWidgetClass ClassesTitle {
+         visible 1
+         ignorepointer 0
+         position 0 0.01
+         size 0.12 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text "Config Classes:"
+         "exact text" 0
+         "text valign" center
+        }
+        PanelWidgetClass ClassesPanel {
+         ignorepointer 1
+         position 0.125 0
+         size 0.8 0.025
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scriptclass "AutoHeightSpacer"
+         "next right" "0"
+         {
+          ScriptParamsClass {
+           AlignChilds 1
+          }
+         }
+        }
+       }
+      }
+      ImageWidgetClass BackgroundFilter {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.01 0.05
+       size 0.325 0.04
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass BackgroundHierarchy {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.01 0.095
+       size 0.325 0.895
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      ImageWidgetClass BackgroundVariables {
+       ignorepointer 1
+       color 0.0902 0.0784 0.0784 0.6275
+       position 0.34 0.05
+       size 0.65 0.94
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       mode blend
+      }
+      EditBoxWidgetClass ObjectConfigFilter {
+       inheritalpha 1
+       color 1 1 1 1
+       position 0.015 0.057
+       size 0.315 0.025
+       hexactsize 0
+       vexactsize 0
+       scaled 0
+       priority 1
+       style Editor
+       text ""
+       "text color" 1 1 1 1
+      }
+      TextListboxWidgetClass ConfigHierarchy {
+       position 0.015 0.11
+       size 0.315 0.87
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       "title visible" 0
+       colums ""
+       lines 45
+      }
+      TextListboxWidgetClass ConfigVariables {
+       position 0.345 0.06
+       size 0.64 0.92
+       hexactsize 0
+       draggable 0
+       "next left" ""
+       "title visible" 0
+       colums ""
+       lines 60
+      }
+     }
+    }
+    PanelWidgetClass EnScriptPanel {
+     visible 1
+     inheritalpha 0
+     color 0 0.1922 0.0471 1
+     position 0 0.05556
+     size 1.28 0.87778
+     style DayZDefaultPanel
+     {
+      ButtonWidgetClass RunButton {
+       visible 1
+       position 0.00741 0.00699
+       size 0.098 0.051
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "Run"
+       text_proportion 0.8
+       font "gui/fonts/Metron"
+      }
+      PanelWidgetClass PanelWidget0 {
+       position 0.007 0.017
+       size 0.753 0.91581
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style editor_quad
+       {
+        MultilineEditBoxWidgetClass MultilineEditBoxWidget0 {
+         position 0 0
+         size 0.99 0.99
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DayZNormal
+         text "Print(\"Hello World\");"
+         font "gui/fonts/Metron16"
+         "exact text" 1
+         lines 20
+        }
+       }
+      }
+      TextWidgetClass TextWidget0 {
+       ignorepointer 1
+       position 0.11356 0.0324
+       size 0.65114 0.02511
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "(tip: you can access any item you are currently watching [CTRL+RMB/Watch]  using the '_item' keyword here)"
+      }
+     }
+    }
+    PanelWidgetClass GeneralPanel {
+     visible 1
+     inheritalpha 1
+     position 0.0011 0.05
+     size 1 0.88
+     halign center_ref
+     vexactpos 0
+     style rover_sim_black
+     {
+      TextListboxWidgetClass DiagToggle {
+       visible 0
+       clipchildren 0
+       position 0.26 0
+       size 0.25 0.45
+       halign right_ref
+       hexactpos 0
+       hexactsize 0
+       "title visible" 1
+       colums "DEBUG DIALOGS"
+       lines 15
+       {
+        ButtonWidgetClass DiagToggleButton {
+         position 0 -0.08
+         size 1 0.08
+         halign right_ref
+         valign bottom_ref
+         hexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Editor
+         text "TOGGLE"
+         font "gui/fonts/Metron"
+        }
+       }
+      }
+      TextListboxWidgetClass DiagDrawmode {
+       visible 0
+       clipchildren 0
+       size 0.25 0.45
+       halign right_ref
+       hexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Default
+       "title visible" 1
+       colums "DRAW MODE"
+       lines 15
+       {
+        ButtonWidgetClass DiagDrawButton {
+         position 0 -0.08
+         size 1 0.08
+         halign right_ref
+         valign bottom_ref
+         hexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Editor
+         text "DRAW"
+         font "gui/fonts/Metron"
+        }
+       }
+      }
+      PanelWidgetClass Positions {
+       ignorepointer 1
+       position 0 0.005
+       size 0.2 0.55
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       {
+        WindowWidgetClass PoistionsBck {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.498
+         position 0 0
+         size 1 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 0
+         style Colorable
+        }
+        TextListboxWidgetClass PositionsList {
+         position 0 0
+         size 0.98 0.99
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "title visible" 1
+         colums "POSITIONS"
+         lines 20
+        }
+       }
+      }
+      PanelWidgetClass DebugOptions {
+       position 0.205 0
+       size 0.79 0.06
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style editor_quad
+       {
+        WindowWidgetClass DebugOptionsBck {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.7843
+         position 0 0
+         size 1 1.05
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 0
+         style Colorable
+        }
+        TextWidgetClass txt_dbo_title {
+         ignorepointer 0
+         position 0 0
+         size 1 0.5
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text " DEBUG OPTIONS"
+         "exact text" 0
+         "text valign" center
+        }
+        CheckBoxWidgetClass cbx_LogsEnabled {
+         position 0.5 30
+         size 0.995 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Script Logs Enabled"
+        }
+       }
+      }
+      PanelWidgetClass HudDebug {
+       visible 1
+       position 0 0
+       size 0.2 0.3
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style editor_quad
+       {
+        WindowWidgetClass HudDebugBck {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.498
+         position 0 0
+         size 1 1.05
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 0
+         style Colorable
+        }
+        TextWidgetClass txt_Title {
+         ignorepointer 0
+         position 0 0
+         size 1 0.1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text "HUD DEBUG"
+         "exact text" 0
+         "text halign" center
+         "text valign" center
+        }
+        CheckBoxWidgetClass cbx_CharacterStats {
+         position 0 30
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Character Stats"
+        }
+        CheckBoxWidgetClass cbx_CharacterModifiers {
+         position 0 50
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Character Modifiers"
+        }
+        CheckBoxWidgetClass cbx_CharacterDebug {
+         position 1.39715 167.87201
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Debug"
+        }
+        CheckBoxWidgetClass cbx_FreeCamCross {
+         position 1.39715 147.72301
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Free camera crosshair"
+         checked 1
+        }
+        CheckBoxWidgetClass cbx_CharacterAgents {
+         position 0 70
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Character Agents"
+        }
+        CheckBoxWidgetClass cbx_CharacterLevels {
+         position 1.68 90.85001
+         size 149.70999 18.5576
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Character Levels"
+        }
+        CheckBoxWidgetClass cbx_CharacterStomach {
+         position 1.68 109.21999
+         size 154.18401 18.56
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Character Stomach"
+        }
+        CheckBoxWidgetClass cbx_Version {
+         position 1.68 208.776
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Version"
+        }
+        CheckBoxWidgetClass cbx_Temp {
+         position 1.68 189.78
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Temperature"
+        }
+       }
+      }
+      PanelWidgetClass TeleportSettings {
+       clipchildren 0
+       ignorepointer 1
+       position 0 0.56
+       size 0.2 0.125
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       {
+        WindowWidgetClass TeleportBck {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.498
+         position 0 0
+         size 1 1.05
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 0
+         style Colorable
+        }
+        TextWidgetClass TeleportPosLabelX {
+         visible 1
+         position 0.03 0.05
+         size 0.15 0.2
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Normal
+         text " X:"
+         "exact text" 0
+         "text valign" center
+        }
+        EditBoxWidgetClass TeleportX {
+         inheritalpha 1
+         color 1 1 1 1
+         position 0.2 0.05
+         size 0.65 0.2
+         halign left
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         priority 1
+         style Default
+         text "0"
+         "exact text" 1
+         font "gui/fonts/Metron"
+         "text color" 1 1 1 1
+        }
+        TextWidgetClass TeleportPosLabelZ {
+         position 0.03 0.3
+         size 0.15 0.2
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Normal
+         text " Z:"
+         "exact text" 0
+         "text valign" center
+        }
+        EditBoxWidgetClass TeleportY {
+         inheritalpha 1
+         color 1 1 1 1
+         position 0.2 0.3
+         size 0.65 0.2
+         halign left
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         priority 1
+         style Default
+         text "0"
+         "exact text" 1
+         font "gui/fonts/Metron"
+         "text color" 1 1 1 1
+        }
+        TextWidgetClass TeleportPosLabelXYZ {
+         position 0.03 0.55
+         size 0.15 0.2
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Normal
+         text " XYZ:"
+         "exact text" 0
+         "text valign" center
+        }
+        EditBoxWidgetClass TeleportXYZ {
+         inheritalpha 1
+         color 1 1 1 1
+         position 0.2 0.55
+         size 0.65 0.2
+         halign left
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         priority 1
+         style Default
+         "exact text" 1
+         font "gui/fonts/Metron"
+         "text color" 1 1 1 1
+        }
+        ButtonWidgetClass ButtonTeleport {
+         visible 1
+         position 0.03 0.8
+         size 0.82 0.2
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style MenuDefault
+         text "TELEPORT"
+         font "gui/fonts/Metron"
+        }
+       }
+      }
+      PanelWidgetClass Map {
+       visible 1
+       ignorepointer 1
+       position 0.205 0.045
+       size 0.79 0.88
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       {
+        WindowWidgetClass MapBackground {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.498
+         position 0 0
+         size 1 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Colorable
+        }
+        MapWidgetClass MapWidget {
+         visible 1
+         disabled 0
+         position 0.0081 0.005
+         size 0.99 0.95
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+        }
+        TextWidgetClass PlayerPosLabel {
+         position 0.005 0.01
+         size 0.3 0.03
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Normal
+         text "Current Pos:"
+         "exact text" 0
+         "text valign" center
+         {
+          ButtonWidgetClass Button_CopyPos {
+           visible 1
+           size 0.1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Default
+           font "gui/fonts/Metron"
+          }
+          ImageWidgetClass CopyPic {
+           visible 1
+           ignorepointer 1
+           position 0 0
+           size 0.08 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           image0 "set:dayz_gui image:icon_copy"
+           mode additive
+           "src alpha" 1
+           "no wrap" 1
+           stretch 1
+          }
+         }
+        }
+        TextWidgetClass MousePosLabel {
+         position -0.065 0.01
+         size 0.25 0.03
+         halign center_ref
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Normal
+         text "Mouse Pos:"
+         font "gui/fonts/Metron"
+         "exact text" 0
+         "text valign" center
+        }
+        TextWidgetClass PlayerMouseDiff {
+         position 0.19 0.01
+         size 0.25 0.03
+         halign center_ref
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style Normal
+         text "Distance:"
+         font "gui/fonts/Metron"
+         "exact text" 0
+         "text valign" center
+        }
+        CheckBoxWidgetClass ShowOthersCheckbox {
+         position 0.005 0.01
+         size 0.18 0.03
+         halign right_ref
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text "Show Others"
+        }
+       }
+      }
+      PanelWidgetClass TimeSettings {
+       ignorepointer 1
+       position 0.205 0.01
+       size 0.79 0.03
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style blank
+       {
+        WindowWidgetClass TimeBck {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         color 0 0 0 0.498
+         position 0 -0.01677
+         size 1 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 0
+         style debugUI
+         "title visible" 0
+        }
+        TextWidgetClass "Date Label" {
+         position 0.005 0
+         size 61 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         scaled 0
+         style Normal
+         text "DATE:"
+         font "gui/fonts/Metron"
+         "exact text" 0
+         "text valign" center
+        }
+        EditBoxWidgetClass DateDay {
+         position 0.08 0.01
+         size 24 0.9
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         scaled 0
+         style Default
+         text "22"
+         {
+          TextWidgetClass DateDayShort {
+           clipchildren 0
+           position 1.05 0.5
+           size 8 0.4
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 0
+           scaled 1
+           style Normal
+           text "d"
+           font "gui/fonts/Metron"
+           "exact text" 0
+           "text valign" center
+          }
+         }
+        }
+        EditBoxWidgetClass DateMonth {
+         clipchildren 0
+         position 0.12 0.01
+         size 24 0.9
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         scaled 0
+         style Default
+         text "12"
+         {
+          TextWidgetClass DateMonthShort {
+           clipchildren 0
+           position 1.05 0.5
+           size 10 0.4
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 0
+           style Normal
+           text "m"
+           font "gui/fonts/Metron"
+           "exact text" 0
+           "text valign" center
+          }
+         }
+        }
+        EditBoxWidgetClass DateYear {
+         clipchildren 0
+         position 0.16 0.01
+         size 50 0.9
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         scaled 0
+         style Default
+         text "2022"
+         {
+          TextWidgetClass DateYearShort {
+           clipchildren 0
+           position 1.05 0.5
+           size 8 0.4
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 0
+           style Normal
+           text "y"
+           font "gui/fonts/Metron"
+           "exact text" 0
+           "text valign" center
+          }
+         }
+        }
+        TextWidgetClass TimeLabel {
+         position 0.42 -0.024
+         size 61 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         style Normal
+         text "TIME:"
+         font "gui/fonts/Metron"
+         "exact text" 0
+         "text valign" center
+        }
+        EditBoxWidgetClass DateHour {
+         position 0.48 0.005
+         size 23 0.9
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         scaled 0
+         style Default
+         text "22"
+        }
+        EditBoxWidgetClass DateMinute {
+         position 0.51 0.005
+         size 23 0.9
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         scaled 0
+         style Default
+         text "22"
+        }
+        TextWidgetClass TimeDblDot {
+         position 0.505 0.005
+         size 6 0.9
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         style Normal
+         text ":"
+         font "gui/fonts/Metron"
+         "exact text" 0
+         "text valign" center
+        }
+        FrameWidgetClass TimeSliderParent {
+         ignorepointer 1
+         position 0.55 0.016
+         size 320 1
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 0
+         {
+          SliderWidgetClass TimeSlider {
+           position 0.1 0.05
+           size 240 0.9
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 0
+           scaled 0
+           style Editor
+          }
+          ImageWidgetClass Night0 {
+           visible 1
+           ignorepointer 1
+           position 0.01 0
+           size 22 22
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           image0 "set:dayz_gui image:icon_moon"
+           mode additive
+           "src alpha" 1
+           "no wrap" 1
+           stretch 1
+          }
+          ImageWidgetClass Day {
+           visible 1
+           ignorepointer 1
+           position 0 0
+           size 22 22
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           image0 "set:dayz_gui image:icon_sun"
+           mode additive
+           "src alpha" 1
+           "no wrap" 1
+           stretch 1
+          }
+          ImageWidgetClass Night1 {
+           visible 1
+           ignorepointer 1
+           position 0.01 0
+           size 22 22
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           image0 "set:dayz_gui image:icon_moon"
+           mode additive
+           "src alpha" 1
+           "no wrap" 1
+           stretch 1
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass OutputPanel {
+     visible 1
+     clipchildren 1
+     inheritalpha 1
+     position 0.008 0.05556
+     size 0.984 0.87778
+     style rover_sim_black
+     {
+      TextListboxWidgetClass TextListbox {
+       position 0 0.01266
+       size 0.98374 0.89873
+       style Default
+       "next down" ""
+       "title visible" 0
+       lines 50
+      }
+      CheckBoxWidgetClass CheckBoxAutoScroll {
+       position 0.00813 0.92405
+       size 0.15 0.04
+       text "Auto Scroll"
+       checked 1
+      }
+      ButtonWidgetClass ButtonClear {
+       position 0.9187 0.93671
+       size 0.06504 0.05063
+       style Default
+       text "CLEAR"
+      }
+     }
+    }
+    ButtonWidgetClass CloseConsoleButtonWidget {
+     visible 1
+     position 0.12 0.04
+     size 0.15 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 1
+     userID 0
+     style OldStyle
+     text "Close"
+     switch once
+    }
+    ButtonWidgetClass SelectedRowCopy {
+     visible 1
+     position 0.3 0.04
+     size 0.15 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 1
+     userID 0
+     style OldStyle
+     text "Copy to clipboard"
+     switch normal
+    }
+   }
+  }
+ }
+}

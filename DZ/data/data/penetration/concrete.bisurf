@@ -1,0 +1,13 @@
+Density=2000;
+deflection=1.2;
+bulletPenetrability=200;
+transparency=0;
+rough=0.1;
+dust=0;
+audibility=0.89999998;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.89999998;
+restitution=0;
+impact="Hit_Concrete";
+soundHit="concrete";

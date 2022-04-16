@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{960FE452251ACE5B}Graphics/Particles/sprites/dust_04.edds"
+ Author "3112"
+ ChangeDate 580019886
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "dust_04.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+  DDSResourceClass LINUX : PC {
+  }
+ }
+}

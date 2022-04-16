@@ -1,0 +1,147 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef smoke_fast_left {
+   ShapeType Cone
+   ConeAngle 360 0 50
+   MaxNum 60
+   BirthRate 10
+   Offset 0 0 0
+   Angles 0 -70 0
+   LocalTransform 0
+   Material "{CF8A36CE7D239262}Graphics/Particles/materials/smoke/steam_random_M7A2_01.emat"
+   SizeMultiplier 2
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 180
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 10
+   VelocityRND 10
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 10
+   GravityMultiply 0
+   GravityMultiplyRND -1
+   Wind 1
+   RandomFrame 1
+   LifeTime 3
+   LifeTimeRND 2
+   Color {
+    0 0.8144 0.7399 0.4868 1 1 1 1
+   }
+   Alpha {
+    0 1 0.05 0.5 1 0
+   }
+   RotationSpeed {
+    0 0.18354 1 0.1962
+   }
+   Size {
+    0 0 0.025 0.75 1 1
+   }
+   EffectTime 5
+   Repeat 0
+   VelocityMast {
+    0 0.25 0.10063 0.99367 1 0.5
+   }
+  }
+  EmitorDef smoke_fast_right {
+   ShapeType Cone
+   ConeAngle 360 0 50
+   MaxNum 60
+   BirthRate 10
+   Offset 0 0 0
+   Angles 0 70 0
+   LocalTransform 0
+   Material "{CF8A36CE7D239262}Graphics/Particles/materials/smoke/steam_random_M7A2_01.emat"
+   SizeMultiplier 2
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 180
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 10
+   VelocityRND 10
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 10
+   GravityMultiply 0
+   GravityMultiplyRND -1
+   Wind 1
+   RandomFrame 1
+   LifeTime 3
+   LifeTimeRND 2
+   Color {
+    0 0.7288 0.6893 0.4419 1 1 1 1
+   }
+   Alpha {
+    0 1 0.05 0.5 1 0
+   }
+   RotationSpeed {
+    0 0.18354 1 0.1962
+   }
+   Size {
+    0 0 0.025 0.75 1 1
+   }
+   EffectTime 5
+   Repeat 0
+   VelocityMast {
+    0 0.25 0.1 1 1 0.5
+   }
+  }
+  EmitorDef explo_dust_01_up_slow {
+   ShapeType Cone
+   ConeAngle 360 0 90
+   MaxNum 100
+   BirthRate 8
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{CF8A36CE7D239262}Graphics/Particles/materials/smoke/steam_random_M7A2_01.emat"
+   SizeMultiplier 6
+   SizeRND 6
+   RandomRotDir 1
+   RotMultiplier 90
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 1
+   VelocityRND 1
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Wind 1
+   RandomFrame 1
+   LifeTime 4
+   LifeTimeRND 3
+   Color {
+    0 0.7381 0.6604 0.4627 1 1 1 1
+   }
+   Alpha {
+    0 0 0.05 0.75 0.625 0.75 1 0
+   }
+   RotationSpeed {
+    0 0.18354 1 0.1962
+   }
+   Size {
+    0 0.1 1 1
+   }
+   EffectTime 5
+   Repeat 0
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+  }
+ }
+}

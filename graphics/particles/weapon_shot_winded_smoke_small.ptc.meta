@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D0801508A96E7EC9}Graphics/Particles/weapon_shot_winded_smoke_small.ptc"
+ Author "3112"
+ ChangeDate -1764563281
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

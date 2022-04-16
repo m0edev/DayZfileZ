@@ -1,0 +1,40 @@
+mainLight="Sun";
+fogMode="Fog";
+ambient[]={0.2,0.25,0.2,2};
+diffuse[]={0.30000001,0.30000001,0.2,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0,0,0,1};
+specularPower=1;
+shadowBias=0.40000001;
+plantWind[]={0.029999999,0.13,0.94,50.5};
+renderFlags[]=
+{
+	"AlphaTest32"
+};
+PixelShaderID="Grass";
+VertexShaderID="Grass";
+class Stage2
+{
+	texture="dz\plants\clutter\data\c_vaccinium_tall_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="dz\plants\clutter\data\c_vaccinium_tall_mask_co.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

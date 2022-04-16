@@ -1,0 +1,23 @@
+EffectDef {
+ Emitors {
+  EmitorDef orientation_test {
+   MaxNum 1
+   Material "{63BE29A8894ED708}Graphics/Particles/materials/test/test_no_material.emat"
+   StretchMultiplier 1
+   Velocity 1
+   GravityMultiply 0.2
+   LifeTime 1
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.125 1 0.675 1 1 0
+   }
+   Size {
+    0 0.45 0.675 1 0.725 0.5 0.775 1 0.825 0.75 0.875 1 1 1
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+ }
+}

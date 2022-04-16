@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CE439F543EBAE16A}Graphics/Particles/Hatchback_exhaust.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

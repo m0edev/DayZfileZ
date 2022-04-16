@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CDBB8E269AD2FE05}Graphics/Particles/fire_small_house_01_start.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

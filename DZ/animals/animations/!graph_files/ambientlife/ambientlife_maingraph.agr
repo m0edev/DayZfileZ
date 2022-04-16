@@ -1,0 +1,571 @@
+$AnimGraph 7 {
+	$Sheet "Master" {
+		$Node AnimNodeStateMachine {
+			 "Calm_SM" "TagAnimatedTurn"
+			$States 7 {
+				$State {
+					 "Eating_ST" "" "Eating_Switch" "behaviorAction == 1" "realtime" 0
+					$EditorData {
+						#EditorPos 2.5 -3.0
+					}
+				}
+				$State {
+					 "LookAround_ST" "" "LookaAround_Switch" "behaviorAction == 3" "realtime" 0
+					$EditorData {
+						#EditorPos 6.7000003 -3.0
+					}
+				}
+				$State {
+					 "Nervous2Eating_ST" "" "Nervous2StandEating_ANIM" "" "realtime" 0
+					$EditorData {
+						#EditorPos 4.5999999 -1.9
+					}
+				}
+				$State {
+					 "Eating2Nervous_ST" "" "StandEating2Nervous_ANIM" "" "realtime" 0
+					$EditorData {
+						#EditorPos 4.7000003 -4.0
+					}
+				}
+				$State {
+					 "WalkEating_ST" "" "WalkEating_Switch" "behaviorAction == 4" "realtime" 0
+					$EditorData {
+						#EditorPos 4.5999999 0.4
+					}
+				}
+				$State {
+					 "LookAroundLeft_ST" "" "LookAroundLeft_ANIM" "" "realtime" 0
+					$EditorData {
+						#EditorPos 9.8000002 -2.2
+					}
+				}
+				$State {
+					 "LookAroundRight_ST" "" "LookAroundRight_ANIM" "" "realtime" 0
+					$EditorData {
+						#EditorPos 9.8000002 -3.7
+					}
+				}
+			}
+			$Transitions 13 {
+				$Transition {
+					 "Nervous2Eating_ST" "Eating_ST" "RemainingTimeLess(0.1)" "0.1" "0.0" 1 "S"
+				}
+				$Transition {
+					 "Eating2Nervous_ST" "LookAround_ST" "RemainingTimeLess(0.1)" "0.1" "0.0" 1 "S"
+				}
+				$Transition {
+					 "LookAround_ST" "Nervous2Eating_ST" "behaviorAction == 1 && alertLevel == 1|| behaviorAction == 4 && alertLevel == 1" "0.1" "" 0 "S"
+				}
+				$Transition {
+					 "Eating_ST" "Eating2Nervous_ST" "behaviorAction == 3 && RemainingTimeLess(0.1) || alertLevel >= 2" "0.1" "" 1 "S"
+				}
+				$Transition {
+					 "WalkEating_ST" "Eating_ST" "behaviorAction == 1  && RemainingTimeLess(0.1)" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "Eating_ST" "WalkEating_ST" "behaviorAction == 4 && RemainingTimeLess(0.1)" "0.1" "" 1 "S"
+				}
+				$Transition {
+					 "WalkEating_ST" "LookAround_ST" "behaviorAction == 3  && IsEvent(\"EatingPose1\") || alertLevel >=2" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "LookAround_ST" "LookAroundLeft_ST" "IsEvent(\"LookLeft\") && RandomPerc(70)" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "LookAroundLeft_ST" "LookAround_ST" "IsEvent(\"LookFront\") && RandomPerc(50)" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "LookAround_ST" "LookAroundRight_ST" "IsEvent(\"LookRight\") && RandomPerc(70)" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "LookAroundRight_ST" "LookAround_ST" "IsEvent(\"LookFront\") && RandomPerc(50)" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "LookAroundRight_ST" "LookAroundLeft_ST" "IsEvent(\"LookLeft\") && RandomPerc(70)" "0.2" "" 1 "S"
+				}
+				$Transition {
+					 "LookAroundLeft_ST" "LookAroundRight_ST" "IsEvent(\"LookRight\") && RandomPerc(70)" "0.2" "" 1 "S"
+				}
+			}
+			$EditorData {
+				#EditorPos 2.0 1.1
+			}
+		}
+		$Node AnimNodeSource {
+			 "DeathEnd_ANIM" "" "death_end" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -11.6999998 14.4000006
+			}
+		}
+		$Node AnimNodeSource {
+			 "Death_ANIM" "" "death" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -11.8000002 16.0
+			}
+		}
+		$Node AnimNodeSource {
+			 "EatingIdle1_ANIM" "" "stand_eating_idle_1" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -0.3 -7.8000002
+			}
+		}
+		$Node AnimNodeSource {
+			 "EatingIdle2_ANIM" "" "stand_eating_idle_2" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -0.3 -8.8000002
+			}
+		}
+		$Node AnimNodeSource {
+			 "EatingIdle3_ANIM" "" "stand_eating_idle_3" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -0.3 -9.6000004
+			}
+		}
+		$Node AnimNodeSource {
+			 "EatingIdle4_ANIM" "" "stand_eating_idle_4" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -0.3 -10.4000006
+			}
+		}
+		$Node AnimNodeSource {
+			 "Eating_ANIM" "" "stand_eating" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -0.3 -6.9000001
+			}
+		}
+		$Node AnimNodeSwitch {
+			 "Eating_Switch" "" 0 0.0
+			$switchitems 5 {
+				$si {
+					 "Eating_ANIM" "RandomPerc(80)" "20%=0,20%=1,20%=2,20%=3,20%=4"
+				}
+				$si {
+					 "EatingIdle1_ANIM" "RandomPerc(80)" "20%=0,20%=1,20%=2,20%=3,20%=4"
+				}
+				$si {
+					 "EatingIdle2_ANIM" "RandomPerc(80)" "20%=0,20%=1,20%=2,20%=3,20%=4"
+				}
+				$si {
+					 "EatingIdle3_ANIM" "RandomPerc(80)" "20%=0,20%=1,20%=2,20%=3,20%=4"
+				}
+				$si {
+					 "EatingIdle4_ANIM" "RandomPerc(80)" "20%=0,20%=1,20%=2,20%=3,20%=4"
+				}
+			}
+			$EditorData {
+				#EditorPos 1.6 -6.2000003
+			}
+		}
+		$Node AnimNodeSource {
+			 "JumpRunH110_ANIM" "" "jump_run_H110_L350" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -16.2000008 10.0
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "Jumps_SM" ""
+			$States 1 {
+				$State {
+					 "JumpRunH110_ST" "" "JumpRunH110_ANIM" "IsCommand(CMD_JumpType)" "realtime" 1
+					$EditorData {
+						#EditorPos -16.2000008 11.9000006
+					}
+				}
+			}
+			$Transitions 0 {
+			}
+			$EditorData {
+				#EditorPos -16.3000011 13.4000006
+			}
+		}
+		$Node AnimNodeSource {
+			 "LookAround2_ANIM" "" "stand_nervous_idle" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 7.0 -8.4000006
+			}
+		}
+		$Node AnimNodeSource {
+			 "LookAroundLeft_ANIM" "" "stand_nervous_left" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 13.1000004 -3.5
+			}
+		}
+		$Node AnimNodeSource {
+			 "LookAroundRight_ANIM" "" "stand_nervous_right" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 13.1999998 -4.4000001
+			}
+		}
+		$Node AnimNodeSource {
+			 "LookAround_ANIM" "" "stand_nervous" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 7.0 -7.5
+			}
+		}
+		$Node AnimNodeSwitch {
+			 "LookaAround_Switch" "" 0 0.0
+			$switchitems 2 {
+				$si {
+					 "LookAround_ANIM" "RandomPerc(80)" "50%=0,50%=1"
+				}
+				$si {
+					 "LookAround2_ANIM" "true" "100%=0,0%=1"
+				}
+			}
+			$EditorData {
+				#EditorPos 7.5 -6.3000002
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "Master_SM" ""
+			$States 7 {
+				$State {
+					 "Moving_St" "" "Moving_SM" "speed > 0.0" "notime" 0
+					$EditorData {
+						#EditorPos -4.5 8.1999998
+					}
+				}
+				$State {
+					 "Calm_St" "" "Calm_SM" "true" "notime" 0
+					$EditorData {
+						#EditorPos -0.6 8.1999998
+					}
+				}
+				$State {
+					 "StartMove_ST" "" "StartMove_SM" "" "realtime" 0
+					$EditorData {
+						#EditorPos -2.5 9.8000002
+					}
+				}
+				$State {
+					 "TurnWhileMoving_ST" "" "TurnWhileMoving_SM" "" "notime" 0
+					$EditorData {
+						#EditorPos -7.8000002 8.1999998
+					}
+				}
+				$State {
+					 "Jump_ST" "TagJumping" "Jumps_SM" "" "realtime" 0
+					$EditorData {
+						#EditorPos -2.8 13.6999998
+					}
+				}
+				$State {
+					 "Death_ST" "" "Death_ANIM" "" "realtime" 0
+					$EditorData {
+						#EditorPos -7.5999999 16.5
+					}
+				}
+				$State {
+					 "DeathEnd_ST" "" "DeathEnd_ANIM" "" "notime" 0
+					$EditorData {
+						#EditorPos -7.5999999 15.0
+					}
+				}
+			}
+			$Transitions 10 {
+				$Transition {
+					 "Moving_St" "Calm_St" "speed == 0" "" "" 0 "S"
+				}
+				$Transition {
+					 "StartMove_ST" "Moving_St" "RemainingTimeLess(0.1)" "" "" 1 "S"
+				}
+				$Transition {
+					 "Calm_St" "StartMove_ST" "speed >= 2" "" "" 0 "S"
+				}
+				$Transition {
+					 "Moving_St" "TurnWhileMoving_ST" "turn < 180 && turn > 108 || turn < -108 && turn > -180" "" "" 0 "S"
+				}
+				$Transition {
+					 "TurnWhileMoving_ST" "Moving_St" "RemainingTimeLess(0.1)" "" "" 1 "S"
+				}
+				$Transition {
+					 "" "Jump_ST" "IsCommand(CMD_JumpType)" "" "" 0 "S"
+				}
+				$Transition {
+					 "Jump_ST" "Moving_St" "speed >= 1 && RemainingTimeLess(0.1)" "" "" 1 "S"
+				}
+				$Transition {
+					 "Jump_ST" "Calm_St" "speed < 1 && RemainingTimeLess(0.1)" "" "" 1 "S"
+				}
+				$Transition {
+					 "Death_ST" "DeathEnd_ST" "RemainingTimeLess(0.1)" "" "" 1 "S"
+				}
+				$Transition {
+					 "" "Death_ST" "IsCommand(CMD_Death)" "" "" 0 "S"
+				}
+			}
+			$EditorData {
+				#EditorPos -4.0 18.6000004
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "Moving_SM" ""
+			$States 1 {
+				$State {
+					 "Movement_ST" "" "WalkAndRun_BlendT" "" "notime" 0
+					$EditorData {
+						#EditorPos -9.3000002 -1.7
+					}
+				}
+			}
+			$Transitions 0 {
+			}
+			$EditorData {
+				#EditorPos -11.1999998 -0.6
+			}
+		}
+		$Node AnimNodeSource {
+			 "Nervous2StandEating_ANIM" "" "stand_nervous_2_stand_eating" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 13.1000004 -2.1000001
+			}
+		}
+		$Node AnimNodeSource {
+			 "RunEscape_Anim" "" "run_escape" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -7.4000001 -7.8000002
+			}
+		}
+		$Node AnimNodeSource {
+			 "Run_Anim" "" "run" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -7.4000001 -7.0999999
+			}
+		}
+		$Node AnimNodeSwitch {
+			 "Run_Switch" "" 0 0.0
+			$switchitems 2 {
+				$si {
+					 "Run_Anim" "RandomPerc(50)" "70%=0,30%=1"
+				}
+				$si {
+					 "RunEscape_Anim" "RandomPerc(50)" "100%=0"
+				}
+			}
+			$EditorData {
+				#EditorPos -7.4000001 -5.7000003
+			}
+		}
+		$Node AnimNodeSource {
+			 "StandEating2Nervous_ANIM" "" "stand_eating_2_stand_nervous" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 4.5 -6.3000002
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "StartMove_SM" "TagAnimatedTurn"
+			$States 5 {
+				$State {
+					 "StartF_ST" "" "StartRun_F_Anim" "turn < 36 && turn > -36" "realtime" 1
+					$EditorData {
+						#EditorPos 9.6999998 7.2000003
+					}
+				}
+				$State {
+					 "StartL144_ST" "" "StartRun_L144_Anim" "turn < -108 && turn > -180" "realtime" 1
+					$EditorData {
+						#EditorPos 8.1999998 5.0999999
+					}
+				}
+				$State {
+					 "StartL72_ST" "" "StartRun_L72_Anim" "turn < -36 && turn > -108" "realtime" 1
+					$EditorData {
+						#EditorPos 8.1000004 6.2000003
+					}
+				}
+				$State {
+					 "StartR72_ST" "" "StartRun_R72_Anim" "turn < 108 && turn > 36" "realtime" 1
+					$EditorData {
+						#EditorPos 11.3000002 6.0999999
+					}
+				}
+				$State {
+					 "StartR144_ST" "" "StartRun_R144_Anim" "turn < 180 && turn > 108" "realtime" 1
+					$EditorData {
+						#EditorPos 11.3000002 5.0
+					}
+				}
+			}
+			$Transitions 0 {
+			}
+			$EditorData {
+				#EditorPos 7.4000001 9.3000002
+			}
+		}
+		$Node AnimNodeSource {
+			 "StartRun_F_Anim" "" "start_run_F" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos 9.6999998 10.1000004
+			}
+		}
+		$Node AnimNodeSource {
+			 "StartRun_L144_Anim" "" "start_run_L144" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos 8.1999998 3.0
+			}
+		}
+		$Node AnimNodeSource {
+			 "StartRun_L72_Anim" "" "start_run_L72" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos 4.4000001 5.5999999
+			}
+		}
+		$Node AnimNodeSource {
+			 "StartRun_R144_Anim" "" "start_run_R144" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos 11.3000002 2.9000001
+			}
+		}
+		$Node AnimNodeSource {
+			 "StartRun_R72_Anim" "" "start_run_R72" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos 15.0 5.5999999
+			}
+		}
+		$Node AnimNodeSource {
+			 "TurnL144_ANIM" "" "run_turn_L144" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos -16.0 4.3000002
+			}
+		}
+		$Node AnimNodeSource {
+			 "TurnR144_ANIM" "" "run_turn_R144" "noloop"
+			$Predictions {
+				$Prediction {
+					 "PredictionTurn" "EntityPosition" "" 1.0 3
+				}
+			}
+			$EditorData {
+				#EditorPos -12.6999998 4.3000002
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "TurnWhileMoving_SM" "TagAnimatedTurn"
+			$States 2 {
+				$State {
+					 "TurnL144_ST" "" "TurnL144_ANIM" "turn < -108 && turn >= -180" "realtime" 1
+					$EditorData {
+						#EditorPos -16.0 6.4000001
+					}
+				}
+				$State {
+					 "TurnR144_ST" "" "TurnR144_ANIM" "turn <= 180 && turn > 108" "realtime" 1
+					$EditorData {
+						#EditorPos -12.6999998 6.4000001
+					}
+				}
+			}
+			$Transitions 0 {
+			}
+			$EditorData {
+				#EditorPos -15.9000006 7.7000003
+			}
+		}
+		$Node AnimNodeBlendT {
+			 "WalkAndRun_BlendT" "" "Walk_Anim" "Run_Switch" "" "" "speed >= 2.5" 0.1 "S" 3
+			$EditorData {
+				#EditorPos -9.1999998 -3.9000001
+			}
+		}
+		$Node AnimNodeSource {
+			 "WalkEatingIdle1_ANIM" "" "walk_eating_idle_1" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 13.0 -0.2
+			}
+		}
+		$Node AnimNodeSource {
+			 "WalkEating_ANIM" "" "walk_eating" "noloop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos 13.0 -1.0
+			}
+		}
+		$Node AnimNodeSwitch {
+			 "WalkEating_Switch" "" 0 0.0
+			$switchitems 2 {
+				$si {
+					 "WalkEating_ANIM" "RandomPerc(50)" "100%=1"
+				}
+				$si {
+					 "WalkEatingIdle1_ANIM" "RandomPerc(50)" "100%=0"
+				}
+			}
+			$EditorData {
+				#EditorPos 12.9000006 0.7
+			}
+		}
+		$Node AnimNodeSource {
+			 "Walk_Anim" "" "walk" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -11.4000006 -5.7000003
+			}
+		}
+	}
+}

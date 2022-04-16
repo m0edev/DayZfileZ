@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AB96516AE02009AF}hbao_highest.emat"
+ Author "inv3256"
+ ChangeDate -1456298723
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

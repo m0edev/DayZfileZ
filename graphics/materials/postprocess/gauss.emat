@@ -1,0 +1,4 @@
+material "graphics/materials/postprocess/gauss": GaussFilterEffect
+{
+	Intensity 0.0
+}

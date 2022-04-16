@@ -1,0 +1,16 @@
+mainLight="Sun";
+fogMode="Fog";
+ambient[]={0.2,0.2,0.125,1.5};
+diffuse[]={0.40000001,0.25,0.25,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0,0,0,1};
+specularPower=1;
+shadowBias=0.2;
+plantWind[]={0.15000001,0.25,0.25,50.5};
+renderFlags[]=
+{
+	"AlphaTest32"
+};
+PixelShaderID="Grass";
+VertexShaderID="Grass";

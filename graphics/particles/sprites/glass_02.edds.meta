@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E338C4F1DAAD017B}Graphics/Particles/sprites/glass_02.edds"
+ Author "ferko"
+ ChangeDate 622617785
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "glass_02.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

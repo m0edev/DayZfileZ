@@ -1,0 +1,13 @@
+Density=820;
+deflection=0.1;
+bulletPenetrability=370;
+transparency=0;
+soundEnviron="Empty";
+isLiquid="false";
+impact="Hit_MeatBones";
+soundHit="body";
+rough=0.1;
+dust=0;
+audibility=0.2;
+friction=0.89999998;
+restitution=0.5;

@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{DC272B594AF9B3C}Graphics/Textures/efx/ref_Tracer_2.edds"
+ Author "fido"
+ ChangeDate -353099226
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "ref_Tracer_2.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

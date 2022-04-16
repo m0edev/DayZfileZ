@@ -1,0 +1,15 @@
+Density=600;
+Thickness=20;
+deflection=0.40000001;
+bulletPenetrabilityWithThickness=150;
+bulletPenetrability=300;
+transparency=0;
+rough=0.1;
+dust=0;
+audibility=0.69999999;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.69999999;
+restitution=0.40000001;
+impact="Hit_Wood";
+soundHit="wood";

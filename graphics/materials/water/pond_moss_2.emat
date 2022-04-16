@@ -1,0 +1,32 @@
+MatWaterPool {
+ Color 0.16 0.1451 0.0614 1
+ ZWrite 0
+ DepthScattering 0.8
+ NormalMap "{00043BD4DA5F1244}Graphics/Textures/Water/dayzwater1_no.edds" 
+ NormalPower 0.073
+ NormalMapping 0.066
+ SunPower 1024
+ SunInfluence 5
+ SunNormalMul 0.643
+ WaterExtinction 0.35
+ GeometryBlend 0.05
+ RefractScale 0.164
+ ChromAberation 0.148
+ WindInfl 0.2
+ CausticMap "{EA764AD7A6112284}Graphics/Textures/Water/caustic.edds" 
+ Caustic 0.5
+ WetFloor 0.962
+ EnvironmentMap "{C0641DC4133AFA10}Graphics/Textures/Water/envForest_stream_co.edds" 
+ ReflectionColor 0.2 0.4 0.2 0
+ Fresnel 0.5
+ FoamMap "{2F8BDD7FA4769A6D}Graphics/Textures/Water/algae_foam.edds" 
+ FoamTerrainBlend 1.5
+ FoamMapping 0.1
+ FoamMove 0.5
+ FoamPower 4
+ FoamColor 0.1608 0.1373 0.0706 1
+ UserMapping 0.25
+ UserTerrainBlend 0.5
+ UserPower 0.1
+ UserNormalMove 0.05
+}

@@ -1,0 +1,8 @@
+material "Graphics/Particles/materials/enviroment/blood_red_01": ParticleSprite
+{
+	AlbedoMap "{DC028712CBE7334C}Graphics/Particles/sprites/gray_noise_01.edds"
+	Color "0.505882 0.505882 0.505882 1"
+	Diffuse "0.52549 0.52549 0.52549 1"
+	Ambient "0.454902 0 0 1"
+}
+

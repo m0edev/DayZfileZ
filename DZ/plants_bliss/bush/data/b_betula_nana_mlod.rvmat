@@ -1,0 +1,33 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,0.80000001,0.69999999};
+forcedDiffuse[]={0,0,0,1};
+emmisive[]={0,0,0,0};
+specular[]={0,0,0,0};
+specularPower=20;
+PixelShaderID="TreeAdv";
+VertexShaderID="TreeAdv";
+plantWind[]={0.050000001,0.0099999998,50.990002,10.5};
+class Stage1
+{
+	texture="dz\plants_bliss\bush\data\b_betula_nana_mlod_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,MC)";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{83AFFB564105BB71}Gui/textures/controller_ps4.tga"
+ Author "3672"
+ ChangeDate 987440988
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "controller_ps4.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

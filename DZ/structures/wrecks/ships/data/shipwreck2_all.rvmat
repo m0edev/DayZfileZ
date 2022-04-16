@@ -1,0 +1,44 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,1};
+emmisive[]={0,0,0,1};
+specular[]={1,1,1,1};
+specularPower=15;
+PixelShaderID="NormalMapDetailSpecularDIMap";
+VertexShaderID="NormalMap";
+class Stage1
+{
+	texture="dz\structures\wrecks\ships\data\shipwreck_rust_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={10,0,0};
+		up[]={0,10,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\structures\wrecks\ships\data\shipwreck_ship2_dt.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="#(rgb,8,8,3)color(1,0,0,1,SMDI)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

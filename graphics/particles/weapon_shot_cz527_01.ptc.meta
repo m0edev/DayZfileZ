@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{948255C7C0E65AA2}Graphics/Particles/weapon_shot_cz527_01.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

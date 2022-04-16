@@ -1,0 +1,7 @@
+HBAOEffect {
+ RadiusMeters 6
+ Intensity 3
+ NumDirections 1
+ NumSamples 1
+ Deinterleave 0
+}

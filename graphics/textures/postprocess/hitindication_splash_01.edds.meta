@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2A76972AB687C22C}Graphics/Textures/postprocess/HitIndication_Splash_01.edds"
+ Author "4948"
+ ChangeDate 1056090991
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "HitIndication_Splash_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

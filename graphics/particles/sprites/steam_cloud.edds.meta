@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{DB5AFE43BFC32C}Graphics/Particles/sprites/steam_cloud.edds"
+ Author "ferko"
+ ChangeDate 1923342736
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "steam_cloud.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

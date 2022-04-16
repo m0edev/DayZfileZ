@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{56D2614FCC1F93D}Graphics/Materials/postprocess/chromaber.emat"
+ Author "fido"
+ ChangeDate -1722129879
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

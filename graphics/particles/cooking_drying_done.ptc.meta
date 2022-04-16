@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EA26AC42AEF1523A}Graphics/Particles/cooking_drying_done.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

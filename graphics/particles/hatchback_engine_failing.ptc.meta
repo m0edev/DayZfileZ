@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2B9D7017611FD4F4}Graphics/Particles/Hatchback_engine_failing.ptc"
+ Author "3112"
+ ChangeDate -1831672145
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

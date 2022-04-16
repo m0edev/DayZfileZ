@@ -1,0 +1,8 @@
+Particle {
+ AlbedoMap "{AFA85E2D4951CF24}Graphics/Particles/sprites/ring_02.edds" 
+ Color 0.0784 0.0784 0.0784 0
+ Diffuse 0.0941 0.0941 0.0941 1
+ Emissive 0.251 0.251 0.251 0
+ Sort translucent
+ BlendMode Additive_AlphaModulate
+}

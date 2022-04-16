@@ -1,0 +1,174 @@
+$animsettemplate {
+ #ngrouptypes 6
+ $groupType {
+  #ngroupnames 0
+  #nanims 64
+  $anims {
+    "attack_high"
+    "attack_high_success"
+    "attack_low"
+    "attack_low_success"
+    "attack_profi_L_jump_fail"
+    "attack_profi_L_turn"
+    "attack_proxi_F_jump_fail"
+    "attack_proxi_R_jump_fail"
+    "attack_proxi_R_turn"
+    "attackproxi_stand_test"
+    "death"
+    "death_end"
+    "eating_idle_1"
+    "eating_idle_2"
+    "eating_idle_3"
+    "jump_run_H110_L800"
+    "jump_run_H160_L800"
+    "nervous_lookat_LD_FD_RD_LZ_FZ_RZ_LU_FU_RU"
+    "resting"
+    "resting_2_stand_tracking"
+    "resting_idle_1"
+    "resting_idle_2"
+    "resting_idle_3"
+    "resting_idle_4"
+    "resting_idle_5"
+    "run_fast"
+    "run_opt"
+    "run_opt_preturn"
+    "run_slow"
+    "stand_nervous"
+    "stand_nervous_2_stand_tracking"
+    "stand_siege_B_1"
+    "stand_siege_FB"
+    "stand_siege_FBFB"
+    "stand_siege_F_1"
+    "stand_siege_F_2"
+    "stand_siege_F_3"
+    "stand_siege_InPlace_1"
+    "stand_siege_LR"
+    "stand_siege_LRL"
+    "stand_siege_RLR"
+    "stand_siege_preturn"
+    "stand_siege_turn_L100"
+    "stand_siege_turn_L150"
+    "stand_siege_turn_L40"
+    "stand_siege_turn_R100"
+    "stand_siege_turn_R150"
+    "stand_siege_turn_R40"
+    "stand_tracking_2_resting"
+    "stand_tracking_2_stand_nervous"
+    "stand_tracking_2_walk_tracking_F"
+    "stand_tracking_idle_1"
+    "stand_tracking_idle_2"
+    "stand_tracking_idle_3"
+    "trot_fast"
+    "trot_slow"
+    "walk_fast"
+    "walk_opt"
+    "walk_slow"
+    "walk_tracking"
+    "walk_tracking_2_stand_nervous"
+    "walk_tracking_2_stand_tracking"
+    "walk_tracking_lookat"
+    "walk_tracking_lookat_2_stand_nervous"
+   
+  }
+ }
+ $groupType "Hits" {
+  #ngroupnames 2
+  #nanims 9
+  $groupnames {
+    "HitsRun"
+    "HitsStand"
+   
+  }
+  $anims {
+    "hit_chest_F"
+    "hit_chest_L"
+    "hit_chest_R"
+    "hit_head_F"
+    "hit_head_L"
+    "hit_head_R"
+    "hit_pelvis_F"
+    "hit_pelvis_L"
+    "hit_pelvis_R"
+   
+  }
+ }
+ $groupType "StartTurns" {
+  #ngroupnames 3
+  #nanims 5
+  $groupnames {
+    "stand_siege_2_run_opt"
+    "stand_tracking_2_trot_med"
+    "stand_tracking_2_walk_opt"
+   
+  }
+  $anims {
+    "Start_F"
+    "Start_L144"
+    "Start_L72"
+    "Start_R144"
+    "Start_R72"
+   
+  }
+ }
+ $groupType "StopTurns" {
+  #ngroupnames 2
+  #nanims 5
+  $groupnames {
+    "run_opt_2_stand_siege"
+    "walk_slow_2_stand_tracking"
+   
+  }
+  $anims {
+    "Stop_F"
+    "Stop_L144"
+    "Stop_L72"
+    "Stop_R144"
+    "Stop_R72"
+   
+  }
+ }
+ $groupType "TurnInMove" {
+  #ngroupnames 2
+  #nanims 2
+  $groupnames {
+    "Run_turn"
+    "Trot_turn"
+   
+  }
+  $anims {
+    "TurnInMove_L144"
+    "TurnInMove_R144"
+   
+  }
+ }
+ $groupType "deaths" {
+  #ngroupnames 2
+  #nanims 18
+  $groupnames {
+    "death_run"
+    "death_stand"
+   
+  }
+  $anims {
+    "death_chest_F"
+    "death_chest_L"
+    "death_chest_R"
+    "death_end_chest_F"
+    "death_end_chest_L"
+    "death_end_chest_R"
+    "death_end_head_F"
+    "death_end_head_L"
+    "death_end_head_R"
+    "death_end_pelvis_F"
+    "death_end_pelvis_L"
+    "death_end_pelvis_R"
+    "death_head_F"
+    "death_head_L"
+    "death_head_R"
+    "death_pelvis_F"
+    "death_pelvis_L"
+    "death_pelvis_R"
+   
+  }
+ }
+}

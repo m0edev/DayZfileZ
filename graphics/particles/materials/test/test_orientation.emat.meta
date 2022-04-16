@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{5EEA86FA4E283B}Graphics/Particles/materials/test/test_orientation.emat"
+ Author "ferko"
+ ChangeDate 958128528
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

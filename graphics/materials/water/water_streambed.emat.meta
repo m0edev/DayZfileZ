@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{91A55528BB40D671}Graphics/Materials/water/water_streambed.emat"
+ Author "namalsk"
+ ChangeDate 641443129
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

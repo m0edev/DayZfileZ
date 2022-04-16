@@ -1,0 +1,43 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1 {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 0 0 0
+   MaxNum 120
+   BirthRate 20
+   BirthRateRND 0
+   Material "{1342DBD29AA4AC16}Graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_cooking_01.emat"
+   SizeMultiplier 1
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.3
+   VelocityRND 0.1
+   AirResistance 1
+   AirResistanceRND 0.1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 2
+   Color {
+    0 0.1647 0.1165 0.0865 1 0.2374 0.2471 0.2432
+   }
+   Alpha {
+    0 0 0.22619 0.16456 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.1 1 1
+   }
+  }
+ }
+}

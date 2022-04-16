@@ -1,0 +1,14 @@
+MetaFileClass  {
+ Name "{E7898DF80CA494DD}Graphics/Particles/sprites/explosion_01.edds"
+ Author "ferko"
+ ChangeDate 697000696
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "explosion_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

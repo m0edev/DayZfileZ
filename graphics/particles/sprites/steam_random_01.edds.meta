@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C25803E83EEEDC22}Graphics/Particles/sprites/steam_random_01.edds"
+ Author "3112"
+ ChangeDate -595302769
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "steam_random_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

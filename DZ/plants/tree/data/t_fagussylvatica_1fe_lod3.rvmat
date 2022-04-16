@@ -1,0 +1,58 @@
+ambient[]={0.050000001,0.55000001,0.15000001,0.15000001};
+diffuse[]={0.60000002,0.5,0.5,2.5};
+forcedDiffuse[]={1,1,1,1};
+emmisive[]={1.5,1,1,0.050000001};
+specular[]={0.035294119,0.035294119,0.035294119,0.2};
+specularPower=300;
+PixelShaderID="TreeAdv";
+VertexShaderID="TreeAdv";
+plantWind[]={0.1,0.15000001,60.950001,20.5};
+class Stage1
+{
+	texture="dz\plants\tree\data\t_fagussylvatica_leaves1_no.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\plants\tree\data\t_fagussylvatica_1fe_leaves_mca.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+treeColorization[]={0.12,10,3,0};
+class Stage3
+{
+	texture="dz\plants\tree\data\t_fagussylvatica_lod1_dxt5.paa";
+	uvSource="WorldPos";
+	class uvTransform
+	{
+		aside[]={512,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage4
+{
+	texture="dz\plants\tree\data\t_fagussylvatica_leaves1_windmask_co.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

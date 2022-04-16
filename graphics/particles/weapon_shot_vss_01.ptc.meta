@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{46E1E860D92D2A84}Graphics/Particles/weapon_shot_vss_01.ptc"
+ Author "3112"
+ ChangeDate -1764563281
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

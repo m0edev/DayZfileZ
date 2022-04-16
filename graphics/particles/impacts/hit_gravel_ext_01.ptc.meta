@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F2495E971D0B9340}Graphics/Particles/impacts/hit_gravel_ext_01.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,32 @@
+ambient[]={0.60000002,0.5,0.40000001,1};
+diffuse[]={0.60000002,0.5,0.40000001,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.0099999998,0.0099999998,0.0099999998,0.0099999998};
+specularPower=100;
+PixelShaderID="NormalMapSpecularMap";
+VertexShaderID="NormalMap";
+class Stage1
+{
+	texture="dz\structures_bliss\roads\decals\data\dirtroad_damage_long_02_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(1,0.1,1,1,SMDI)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

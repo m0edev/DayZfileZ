@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{46E50C71B2547E58}Graphics/Particles/sprites/fire_anim_06.edds"
+ Author "3112"
+ ChangeDate 979625596
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "fire_anim_06.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

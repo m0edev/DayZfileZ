@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{90199A410144358D}Graphics/Particles/impacts/_test_impact_exit_debug.ptc"
+ Author "3112"
+ ChangeDate -1698502993
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

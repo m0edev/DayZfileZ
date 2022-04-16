@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EFD31CE137DF4995}Graphics/Particles/materials/enviroment/glass_01.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

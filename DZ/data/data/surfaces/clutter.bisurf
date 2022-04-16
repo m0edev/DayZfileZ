@@ -1,0 +1,11 @@
+terrainClutterFactor=1;
+rough=0.1;
+dust=0;
+bulletPenetrability=50;
+deflection=0.30000001;
+soundEnviron="Empty";
+isLiquid="false";
+friction=0.89999998;
+restitution=0.1;
+impact="Hit_Gravel";
+soundHit="soft_ground";

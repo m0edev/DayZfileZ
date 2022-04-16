@@ -1,0 +1,4 @@
+material "graphics/materials/postprocess/dynamicblur": DynamicBlurEffect
+{
+	Blurriness 20.0
+}

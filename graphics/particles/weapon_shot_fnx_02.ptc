@@ -1,0 +1,113 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef sparks_front_cloned {
+   ConeAngle 360 0 20
+   MaxNum 20
+   BirthRate 0
+   BirthRateRND 30
+   Angles 0 0 -90
+   LocalTransform 0
+   Material "{B6F29F6C89BF6E08}Graphics/Particles/materials/fire/sparks_02.emat"
+   ScaleX 0.189
+   ScaleY 1
+   SizeMultiplier 0.02
+   SizeRND 0.01
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 1
+   VelAngle 1
+   RandomAngle 0
+   Velocity 1
+   VelocityRND 1
+   AirResistance 0
+   RandomFrame 1
+   LifeTime 0.05
+   LifeTimeRND 0.05
+   Color {
+    0 0.9605 1 0 0.3374 1 0.3683 0.1984 1 1 0 0.061
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 0
+   }
+   EffectTime 0.05
+   Repeat 0
+  }
+  EmitorDef smoke_front_long {
+   ConeAngle 360 0 10
+   MaxNum 20
+   BirthRate 60
+   Angles 0 0 -90
+   LocalTransform 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 100
+   RandomAngle 1
+   Velocity 15
+   VelocityRND 5
+   AirResistance 30
+   AirResistanceRND 50
+   GravityMultiply 0
+   Wind 1
+   LifeTime 0.1
+   LifeTimeRND 0.1
+   Color {
+    0 0.7608 0.7608 0.7608 1 0.4706 0.4706 0.4706
+   }
+   Alpha {
+    0 0.04487 0.1 0.05 1 0
+   }
+   RotationSpeed {
+    0 0.09615 1 1
+   }
+   Size {
+    0 0.1519 0.1 0.6 1 0.84177
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef smoke_front_short {
+   ConeAngle 360 0 20
+   MaxNum 20
+   BirthRate 60
+   Angles 0 0 -90
+   LocalTransform 0
+   Material "{8E25684854DAB008}Graphics/Particles/materials/smoke/steam_small_cook_01.emat"
+   SizeMultiplier 0.1
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 100
+   RandomAngle 1
+   Velocity 5
+   VelocityRND 5
+   AirResistance 20
+   AirResistanceRND 10
+   GravityMultiply 0
+   Wind 1
+   LifeTime 0.1
+   LifeTimeRND 0.1
+   Color {
+    0 0.502 0.502 0.502 1 0.4706 0.4706 0.4706
+   }
+   Alpha {
+    0 0.04487 0.1 0.1 1 0
+   }
+   RotationSpeed {
+    0 0.09615 1 1
+   }
+   Size {
+    0 0.1519 0.1 0.6 1 0.84177
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+ }
+}

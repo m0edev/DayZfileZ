@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{221E0749AFC1A75B}Graphics/Particles/steam_medium_house_2end.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,56 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef toxin {
+   ShapeType Box
+   ShapeSize 10 0.2 10
+   ConeAngle 0 0 0
+   MaxNum 50
+   BirthRate 5
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 20 0 0
+   LocalTransform 0
+   Material "{391690195D614CE5}Graphics/Particles/materials/smoke/smoke_dust_02.emat"
+   SizeMultiplier 8
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 0
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0.2
+   VelocityRND 0.25
+   VelAffect 0
+   AirResistance 4
+   AirResistanceRND 3
+   Wind 1
+   AnimFPS 30
+   RandomFrame 1
+   LifeTime 10
+   LifeTimeRND 1.5
+   Color {
+    0 0.8544 0.8608 0.5886 1 0.8987 0.9114 0.7152
+   }
+   Alpha {
+    0 0.4557 0.14211 0.61392 0.91146 0.51266 1 0.14557
+   }
+   RotationSpeed {
+    0 0 0.50744 0.60759 1 0.65823
+   }
+   Size {
+    0 0.08228 0.49926 1 1 1
+   }
+   EffectTime 1
+   Repeat 1
+   ColorMast {
+    0 0.8101 0.8165 0.2089 1 0.9114 0.8797 0.5316
+   }
+   AirResistanceMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 1 0.49419
+   }
+  }
+ }
+}

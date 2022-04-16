@@ -1,0 +1,33 @@
+ambient[]={0.1,0.55000001,0.85000002,0.85000002};
+diffuse[]={2.2249999,2.25,2.25,1};
+forcedDiffuse[]={1,1,1,1};
+emmisive[]={1,1,1,1};
+specular[]={0.1,0.1,0.1,0.5};
+specularPower=10;
+PixelShaderID="TreeAdvTrunk";
+VertexShaderID="TreeAdvTrunk";
+plantWind[]={0.050000001,0.0099999998,0.99000001,0.5};
+class Stage1
+{
+	texture="dz\plants_bliss\bush\data\bark_corylus_heterophylla_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\plants_bliss\bush\data\b_corylus_heterophylla_1_trunk_mca.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

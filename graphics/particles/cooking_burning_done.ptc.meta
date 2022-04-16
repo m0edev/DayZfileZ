@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9D0252B6A6DC6B6B}Graphics/Particles/cooking_burning_done.ptc"
+ Author "3112"
+ ChangeDate -1865226577
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

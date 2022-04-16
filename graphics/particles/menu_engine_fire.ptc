@@ -1,0 +1,113 @@
+EffectDef {
+ Emitors {
+  EmitorDef short {
+   ShapeType Ellipse
+   ShapeSize 0.6 0 0.6
+   ConeAngle 0 0 0
+   MaxNum 120
+   BirthRate 10
+   BirthRateRND 0
+   Material "{0BEA27443975BE0B}Graphics/Particles/materials/smoke/smoke_anim_02.emat"
+   SizeMultiplier 0.4
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.3
+   VelocityRND 0.2
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 1
+   LifeTimeRND 0.5
+   Color {
+    0 0.1266 0.1076 0.1076 1 0.0886 0.1076 0.0886
+   }
+   Alpha {
+    0 0 0.6436 0.46203 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.25316 1 1
+   }
+  }
+  EmitorDef long_grey {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 90 -90 90
+   MaxNum 999
+   BirthRate 10
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{55020E0786F83004}Graphics/Particles/materials/smoke/smoke_anim_01.emat"
+   SizeMultiplier 1
+   SizeRND 3
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.4
+   VelocityRND 0.6
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 2
+   LifeTimeRND 5
+   Color {
+    0 0.1329 0.1266 0.1203 1 0.1582 0.1772 0.1392
+   }
+   Alpha {
+    0 0 0.07961 0.24684 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 1 1
+   }
+  }
+  EmitorDef long_dark {
+   ShapeType Ellipse
+   ShapeSize 0.3 0 0.3
+   ConeAngle 90 -90 90
+   MaxNum 999
+   BirthRate 10
+   BirthRateRND 0
+   Angles 0 0 0
+   Material "{55020E0786F83004}Graphics/Particles/materials/smoke/smoke_anim_01.emat"
+   SizeMultiplier 1
+   SizeRND 3
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 0.4
+   VelocityRND 0.6
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 2
+   LifeTimeRND 5
+   Color {
+    0 0.0127 0.0316 0.038 1 0.1013 0.0949 0.1139
+   }
+   Alpha {
+    0 0 0.08185 0.26582 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 1 1
+   }
+  }
+ }
+}

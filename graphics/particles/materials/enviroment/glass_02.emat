@@ -1,0 +1,8 @@
+Particle {
+ AlbedoMap "{E338C4F1DAAD017B}Graphics/Particles/sprites/glass_02.edds" 
+ Color 0.502 0.502 0.502 1
+ Diffuse 0.502 0.502 0.502 1
+ Ambient 0.502 0.502 0.502 1
+ Sort translucent
+ TileV 3
+}

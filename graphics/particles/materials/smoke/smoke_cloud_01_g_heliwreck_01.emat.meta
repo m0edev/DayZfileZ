@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5784934A1C87961A}Graphics/Particles/materials/smoke/smoke_cloud_01_g_heliwreck_01.emat"
+ Author "3112"
+ ChangeDate -557128017
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

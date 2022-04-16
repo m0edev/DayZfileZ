@@ -1,0 +1,46 @@
+EffectDef {
+ Emitors {
+  EmitorDef Tiny {
+   ShapeType Box
+   ShapeSize 20 0 2
+   ConeAngle 0 0 0
+   MaxNum 320
+   BirthRate 160
+   BirthRateRND 20
+   BirthRateVel 0
+   Offset 0 0.50696 8.02657
+   Angles 0 87.00004 0
+   Material "Graphics/Particles/materials/enviroment/water_splash_01_em.emat"
+   SizeMultiplier 0.1
+   SizeRND 0.05
+   RandomRotDir 1
+   RotMultiplier 90
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 10
+   VelocityRND 2
+   AirResistance 0
+   GravityMultiply 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 2.5
+   LifeTimeRND 0
+   Color {
+    0 0 0.1266 0 0.1696 0.6852 0.6991 0.125 0.756 0.1806 0.1456 0 1 0 0.0696 0
+   }
+   Alpha {
+    0 0 0.09226 0.74537 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.5 1 1
+   }
+  }
+ }
+}

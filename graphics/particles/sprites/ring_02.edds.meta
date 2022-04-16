@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AFA85E2D4951CF24}Graphics/Particles/sprites/ring_02.edds"
+ Author "ferko"
+ ChangeDate 1042523335
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "ring_02.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

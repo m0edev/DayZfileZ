@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{9EE9388CF882B46C}Gui/textures/radial_selector_mask@2x.tga"
+ Author "3672"
+ ChangeDate 181086044
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "radial_selector_mask@2x.tga"
+   FormatCompress Copy
+   Conversion DXTCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

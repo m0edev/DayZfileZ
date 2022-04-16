@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{54693D8A9F8A90F6}Graphics/Particles/weapon_shot_mosin9130_01.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

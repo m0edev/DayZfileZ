@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B5C76F0325E7900D}Graphics/Particles/weapon_shot_izh18_02.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

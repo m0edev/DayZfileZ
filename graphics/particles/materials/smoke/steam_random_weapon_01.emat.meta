@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{68CF090B6BE4ED52}Graphics/Particles/materials/smoke/steam_random_weapon_01.emat"
+ Author "3112"
+ ChangeDate -628332913
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

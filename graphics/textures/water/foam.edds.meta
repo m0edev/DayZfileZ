@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A3B149218D8C5200}Graphics/Textures/Water/foam.tga"
+ Author "namalsk"
+ ChangeDate 752035989
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "foam.tga"
+   Conversion DXTCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

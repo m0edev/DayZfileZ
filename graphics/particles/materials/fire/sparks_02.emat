@@ -1,0 +1,6 @@
+ParticleSprite {
+ AlbedoMap "{1CB2A649C121E980}Graphics/Particles/sprites/sparks_02.edds" 
+ Emissive 1 1 1 0
+ TileU 4
+ CameraBlendFar 0.001
+}

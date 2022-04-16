@@ -1,0 +1,15 @@
+Density=1;
+Thickness=1;
+deflection=0.050000001;
+bulletPenetrability=150000;
+bulletPenetrabilityWithThickness=150000;
+transparency=1;
+rough=0;
+dust=0;
+audibility=0.40000001;
+soundEnviron="Empty";
+isLiquid="false";
+friction=100;
+restitution=0;
+impact="Hit_Textile";
+soundHit="soft_ground";

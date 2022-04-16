@@ -1,0 +1,17 @@
+MetaFileClass  {
+ Name "{CCCEC816C576978E}Textures/Water/testWaterColor.png"
+ Author "miva"
+ ChangeDate 1238590327
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "testWaterColor.png"
+   Conversion DXTCompression
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

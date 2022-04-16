@@ -1,0 +1,268 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef emitor1_debris_micro {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 30
+   MaxNum 10
+   BirthRate 300
+   BirthRateRND 0
+   Material "{03BF5B947463775D}Graphics/Particles/materials/enviroment/blood_red_02.emat"
+   SizeMultiplier 0.1
+   SizeRND 0.2
+   RandomRotDir 1
+   RotMultiplier 720
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 3.5
+   VelocityRND 1
+   GravityMultiply 0.5
+   GravityMultiplyRND 0.4
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 0.6
+   LifeTimeRND 0.4
+   Color {
+    0 0.8863 0.8863 0.8863 0.075 0.8157 0.7205 0.6526 1 0.3922 0.3922 0.3922
+   }
+   Alpha {
+    0 1 0.75 0.75 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.1 1 0.25
+   }
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef emitor2_water_small {
+   ShapeType Point
+   ShapeSize 0 0 0
+   MaxNum 4
+   BirthRate 300
+   BirthRateRND 0
+   Material "{03BF5B947463775D}Graphics/Particles/materials/enviroment/blood_red_02.emat"
+   SizeMultiplier 1.5
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 5
+   VelocityRND 3
+   AirResistance 2
+   AirResistanceRND 1
+   GravityMultiply 0.5
+   GravityMultiplyRND 0.1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.8
+   LifeTimeRND 0.4
+   Color {
+    0 1 1 1 1 0.2039 0.2039 0.2039
+   }
+   Alpha {
+    0 0.5 0.25 0.2 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.05 1 1
+   }
+   EffectTime 0.2
+   Repeat 0
+  }
+  EmitorDef emitor3_water_big {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 50
+   MaxNum 4
+   BirthRate 300
+   BirthRateRND 0
+   Offset 0 0.56723 0
+   Material "{5A939336004F3C25}Graphics/Particles/materials/character/blood_01.emat"
+   CenterX 0
+   CenterY -1
+   ScaleX 0.4
+   SizeMultiplier 2
+   SizeRND 0.3
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType Full
+   Velocity 2
+   VelocityRND 1
+   AirResistance 2
+   AirResistanceRND 1
+   GravityMultiply 0.7
+   GravityMultiplyRND 0.3
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.6
+   LifeTimeRND 0.4
+   Color {
+    0 1 1 1 1 0.2039 0.2039 0.2039
+   }
+   Alpha {
+    0 0 0.36056 0.1962 1 0
+   }
+   RotationSpeed {
+    0 0 1 0.16456
+   }
+   Size {
+    0 0.05 1 1
+   }
+   EffectTime 0.2
+   Repeat 0
+  }
+  EmitorDef emitor4_cone {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 600
+   BirthRateRND 0
+   Material "{1B106473E3E6E911}Graphics/Particles/materials/enviroment/water_splash_01.emat"
+   CenterX 0
+   CenterY -1
+   ScaleX 0.412
+   SizeMultiplier 2
+   SizeRND 1
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   AirResistance 10
+   AirResistanceRND 5
+   GravityMultiply 0
+   GravityMultiplyRND 2
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.4
+   LifeTimeRND 0.2
+   Color {
+    0 1 1 1 1 0 0 0
+   }
+   Alpha {
+    0 0 0.12864 0.55696 1 0
+   }
+   RotationSpeed {
+    0 0 1 0
+   }
+   Size {
+    0 0.05 0.65 0.9 1 1
+   }
+   EffectTime 0.2
+   Repeat 0
+  }
+  EmitorDef emitor5_ring {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 0 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   Offset 0 0.1 0
+   Angles 180 90 180
+   Material "{EA2686148E09D4DD}Graphics/Particles/materials/enviroment/ring_01.emat"
+   SizeMultiplier 2
+   SizeRND 1
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 1
+   BillboardingType None
+   Velocity 0
+   VelocityRND 0
+   AirResistance 0
+   AirResistanceRND 5
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 0.1
+   LifeTimeRND 0.3
+   Color {
+    0 1 1 1 1 0 0 0
+   }
+   Alpha {
+    0 0.25 0.123 0.50633 1 0
+   }
+   RotationSpeed {
+    0 0 1 0
+   }
+   Size {
+    0 0.15 1 1
+   }
+   EffectTime 0.2
+   Repeat 0
+  }
+  EmitorDef emitor6_water_mist {
+   ShapeType Point
+   ShapeSize 0 0 0
+   MaxNum 4
+   BirthRate 300
+   BirthRateRND 0
+   Offset 0 0.30397 0
+   Material "{67FEB95AE2ECC2EA}Graphics/Particles/materials/smoke/smoke_dust_01.emat"
+   SizeMultiplier 1
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 45
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 4
+   VelocityRND 1
+   AirResistance 2
+   AirResistanceRND 1
+   GravityMultiply 0.05
+   GravityMultiplyRND 0.1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 4
+   LifeTimeRND 1
+   Color {
+    0 1 1 1 1 0.2039 0.2039 0.2039
+   }
+   Alpha {
+    0 0.5 0.25 0.1 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.05 0.21408 0.77215 0.375 0.95 1 1
+   }
+   EffectTime 0.2
+   Repeat 0
+  }
+ }
+}

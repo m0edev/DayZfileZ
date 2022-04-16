@@ -1,0 +1,171 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.2,0.2,0.2,1};
+specularPower=30;
+PixelShaderID="Multi";
+VertexShaderID="Multi";
+class TexGen0
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen1
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen2
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={2,0,0};
+		up[]={0,2,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen3
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={2,0,0};
+		up[]={0,2,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen4
+{
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen5
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen6
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen7
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class Stage0
+{
+	texture="dz\structures\military\tisy\data\platform_floor_co.paa";
+	texGen="0";
+};
+class Stage1
+{
+	texture="dz\structures\military\tisy\data\platform_bottom_co.paa";
+	texGen="1";
+};
+class Stage2
+{
+	texture="dz\structures\data\concrete\tisybase_concrete_floor_2_co.paa";
+	texGen="2";
+};
+class Stage3
+{
+	texture="dz\structures\military\tisy\data\platform_dust_co.paa";
+	texGen="3";
+};
+class Stage4
+{
+	texture="dz\structures\military\tisy\data\platform_3_mask.paa";
+	texGen="4";
+};
+class Stage5
+{
+	texture="dz\structures\military\tisy\data\platform_floor_dtsmdi.paa";
+	texGen="5";
+};
+class Stage6
+{
+	texture="dz\structures\military\tisy\data\platform_bottom_dtsmdi.paa";
+	texGen="6";
+};
+class Stage7
+{
+	texture="dz\structures\data\concrete\tisybase_concrete_floor_2_dtsmdi.paa";
+	texGen="7";
+};
+class Stage8
+{
+	texture="dz\structures\military\tisy\data\platform_dust_dtsmdi.paa";
+	texGen="3";
+};
+class Stage9
+{
+	texture="dz\structures\military\tisy\data\platform_3_mc.paa";
+	texGen="4";
+};
+class Stage10
+{
+	texture="dz\structures\military\tisy\data\platform_3_as.paa";
+	texGen="4";
+};
+class Stage11
+{
+	texture="dz\structures\military\tisy\data\platform_floor_nohq.paa";
+	texGen="0";
+};
+class Stage12
+{
+	texture="dz\structures\military\tisy\data\platform_bottom_nohq.paa";
+	texGen="1";
+};
+class Stage13
+{
+	texture="dz\structures\data\concrete\tisybase_concrete_floor_2_nohq.paa";
+	texGen="2";
+};
+class Stage14
+{
+	texture="dz\structures\military\tisy\data\platform_dust_nohq.paa";
+	texGen="3";
+};

@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{7B4F4B4EE2566E84}Graphics/Textures/postprocess/noise.edds"
+ Author "fido"
+ ChangeDate -1460919770
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "noise.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

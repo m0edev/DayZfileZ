@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2464BF39D3CB6E73}Graphics/Particles/impacts/bullet_riochet_placeholder.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

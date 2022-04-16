@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D923C11414200B83}Graphics/Particles/sprites/Leaves_anim_02.edds"
+ Author "ferko"
+ ChangeDate 1686430868
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "Leaves_anim_02.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

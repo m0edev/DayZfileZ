@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D8C44A552439429C}Graphics/Materials/water/water_stream.emat"
+ Author "namalsk"
+ ChangeDate -746216556
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

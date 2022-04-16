@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E12D6AC5690C7745}Graphics/Particles/sprites/ceramic_01.edds"
+ Author "ferko"
+ ChangeDate -430660381
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "ceramic_01.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

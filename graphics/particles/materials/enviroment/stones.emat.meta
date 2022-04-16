@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{118F069016CE1546}Graphics/Particles/materials/enviroment/stones.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

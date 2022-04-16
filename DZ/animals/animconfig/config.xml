@@ -1,0 +1,1259 @@
+<animconfig version="1.0">
+    <class name="file">
+        <class name="CfgPatches">
+            <class name="DZ_Animals_AnimConfig">
+                <array name="units" />
+                <array name="weapons" />
+                <variable name="requiredVersion" value="0.1" />
+                <array name="requiredAddons">
+                    <variable value="DZ_Animals" />
+                </array>
+            </class>
+        </class>
+        <class name="CfgMovesAnimalsBase">
+            <class name="Default">
+                <variable name="minPlayTime" value="-1" />
+                <class name="AnimHooks" />
+                <variable name="canBlendStep" value="0" />
+                <variable name="actions" value="" />
+                <variable name="access" value="3" />
+                <variable name="file" value="" />
+                <variable name="looped" value="1" />
+                <variable name="speed" value="0.5" />
+                <variable name="disableWeapons" value="1" />
+                <variable name="enableOptics" value="0" />
+                <variable name="disableWeaponsLong" value="1" />
+                <variable name="showWeaponAim" value="0" />
+                <variable name="enableMissile" value="0" />
+                <variable name="enableBinocular" value="0" />
+                <variable name="showItemInHand" value="0" />
+                <variable name="showItemInRightHand" value="0" />
+                <variable name="showHandGun" value="0" />
+                <variable name="onLandBeg" value="0" />
+                <variable name="onLandEnd" value="0" />
+                <variable name="onLadder" value="0" />
+                <variable name="canPullTrigger" value="1" />
+                <variable name="duty" value="-0.51" />
+                <variable name="predictSpeedCoef" value="1" />
+                <variable name="visibleSize" value="1" />
+                <variable name="aimPrecision" value="1" />
+                <variable name="relSpeedMin" value="1" />
+                <variable name="relSpeedMax" value="1" />
+                <variable name="soundEnabled" value="0" />
+                <variable name="controlHead" value="0" />
+                <variable name="headBobMode" value="0" />
+                <variable name="headBobStrength" value="0" />
+                <variable name="soundOverride" value="" />
+                <array name="soundEdge">
+                    <variable value="0.5" />
+                    <variable value="1" />
+                </array>
+                <variable name="terminal" value="0" />
+                <variable name="limitGunMovement" value="1" />
+                <array name="variantsPlayer" />
+                <array name="variantsAI">
+                    <variable value="" />
+                </array>
+                <variable name="equivalentTo" value="" />
+                <variable name="connectAs" value="" />
+                <array name="variantAfter">
+                    <variable value="5" />
+                    <variable value="10" />
+                    <variable value="20" />
+                </array>
+                <array name="connectFrom" />
+                <array name="connectTo" />
+                <array name="interpolateWith" />
+                <array name="interpolateTo" />
+                <array name="interpolateFrom" />
+                <variable name="aiming" value="aimingNo" />
+                <variable name="leaning" value="aimingNo" />
+                <variable name="untiltWeapon" value="aimingNo" />
+                <variable name="aimingBody" value="aimingUpDefault" />
+                <variable name="legs" value="legsNo" />
+                <variable name="head" value="headDefault" />
+                <variable name="leaningFactorBeg" value="0" />
+                <variable name="leaningFactorEnd" value="0" />
+                <variable name="leaningFactorZeroPoint" value="-1" />
+                <variable name="leaningCorrectionAngleBeg" value="0" />
+                <variable name="leaningCorrectionAngleEnd" value="0" />
+                <variable name="interpolationSpeed" value="6" />
+                <variable name="interpolationRestart" value="0" />
+                <variable name="collisionShape" value="dz\animals\data\geom\basicColide.p3d" />
+                <variable name="hasCollShapeSafe" value="0" />
+                <variable name="collisionShapeSafe" value="" />
+                <variable name="boundingSphere" value="1" />
+                <variable name="enableDirectControl" value="1" />
+                <variable name="enableAutoActions" value="0" />
+                <variable name="leftHandIKBeg" value="0" />
+                <variable name="leftHandIKEnd" value="0" />
+                <variable name="rightHandIKBeg" value="0" />
+                <variable name="rightHandIKEnd" value="0" />
+                <variable name="weaponIK" value="0" />
+                <variable name="preload" value="0" />
+                <variable name="walkcycles" value="1" />
+                <variable name="forceAim" value="0" />
+                <array name="rightHandIKCurve" />
+                <array name="leftHandIKCurve" />
+            </class>
+            <class name="StandBase" base="Default">
+                <variable name="aiming" value="aimingDefault" />
+                <variable name="disableWeapons" value="1" />
+                <variable name="leaningFactorBeg" value="1" />
+                <variable name="leaningFactorEnd" value="1" />
+            </class>
+            <class name="StandBaseLatin" base="StandBase">
+                <variable name="file" value="NoAnim.rtm" />
+            </class>
+            <class name="DefaultDie" base="Default">
+                <variable name="aiming" value="aimingNo" />
+                <variable name="legs" value="legsNo" />
+                <variable name="head" value="headNo" />
+                <variable name="disableWeapons" value="1" />
+                <variable name="interpolationRestart" value="1" />
+                <variable name="soundOverride" value="fallbody" />
+                <array name="soundEdge">
+                    <variable value="0.45" />
+                </array>
+                <variable name="soundEnabled" value="0" />
+            </class>
+            <class name="DefaultDieLatin" base="DefaultDie">
+                <array name="InterpolateTo" />
+                <array name="ConnectTo" />
+                <variable name="terminal" value="1" />
+                <array name="variantAfter">
+                    <variable value="0" />
+                    <variable value="0" />
+                    <variable value="0" />
+                </array>
+                <variable name="looped" value="0" />
+                <variable name="speed" value="1" />
+                <variable name="file" value="NoAnim.rtm" />
+                <variable name="actions" value="NoActions" />
+                <variable name="soundEnabled" value="0" />
+            </class>
+            <class name="ManActions">
+                <variable name="Stop" value="" />
+                <variable name="StopRelaxed" value="" />
+                <variable name="TurnL" value="" />
+                <variable name="TurnR" value="" />
+                <variable name="TurnLRelaxed" value="" />
+                <variable name="TurnRRelaxed" value="" />
+                <variable name="Default" value="" />
+                <variable name="JumpOff" value="" />
+                <variable name="ReloadMagazine" value="" />
+                <variable name="ReloadMGun" value="" />
+                <variable name="ReloadAT" value="" />
+                <variable name="ReloadMortar" value="" />
+                <variable name="ThrowGrenade" value="" />
+                <variable name="WalkF" value="" />
+                <variable name="WalkLF" value="" />
+                <variable name="WalkRF" value="" />
+                <variable name="WalkL" value="" />
+                <variable name="WalkR" value="" />
+                <variable name="WalkLB" value="" />
+                <variable name="WalkRB" value="" />
+                <variable name="WalkB" value="" />
+                <variable name="SlowF" value="" />
+                <variable name="SlowLF" value="" />
+                <variable name="SlowRF" value="" />
+                <variable name="SlowL" value="" />
+                <variable name="SlowR" value="" />
+                <variable name="SlowLB" value="" />
+                <variable name="SlowRB" value="" />
+                <variable name="SlowB" value="" />
+                <variable name="FastF" value="" />
+                <variable name="FastLF" value="" />
+                <variable name="FastRF" value="" />
+                <variable name="FastL" value="" />
+                <variable name="FastR" value="" />
+                <variable name="FastLB" value="" />
+                <variable name="FastRB" value="" />
+                <variable name="FastB" value="" />
+                <variable name="EvasiveForward" value="" />
+                <variable name="EvasiveLeft" value="" />
+                <variable name="EvasiveRight" value="" />
+                <variable name="EvasiveBack" value="" />
+                <variable name="StartSwim" value="" />
+                <variable name="StopSwim" value="" />
+                <variable name="Down" value="" />
+                <variable name="Up" value="" />
+                <variable name="PlayerStand" value="" />
+                <variable name="PlayerCrouch" value="" />
+                <variable name="PlayerProne" value="" />
+                <variable name="Lying" value="" />
+                <variable name="Stand" value="" />
+                <variable name="Combat" value="" />
+                <variable name="Crouch" value="" />
+                <variable name="CanNotMove" value="" />
+                <variable name="Civil" value="" />
+                <variable name="CivilLying" value="" />
+                <variable name="FireNotPossible" value="" />
+                <variable name="Die" value="" />
+                <variable name="WeaponOn" value="" />
+                <variable name="WeaponOff" value="" />
+                <variable name="StrokeFist" value="" />
+                <variable name="StrokeGun" value="" />
+                <variable name="SitDown" value="" />
+                <variable name="Salute" value="" />
+                <variable name="BinocOn" value="" />
+                <variable name="BinocOff" value="" />
+                <variable name="PutDown" value="" />
+                <variable name="PutDownEnd" value="" />
+                <variable name="Medic" value="" />
+                <variable name="Treated" value="" />
+                <variable name="LadderOnDown" value="" />
+                <variable name="LadderOnUp" value="" />
+                <variable name="LadderOff" value="" />
+                <variable name="LadderOffTop" value="" />
+                <variable name="LadderOffBottom" value="" />
+                <variable name="GetInLow" value="" />
+                <variable name="GetInMedium" value="" />
+                <variable name="GetInHigh" value="" />
+                <variable name="GetOutLow" value="" />
+                <variable name="GetOutMedium" value="" />
+                <variable name="GetOutHigh" value="" />
+                <variable name="TakeFlag" value="" />
+                <variable name="HandGunOn" value="" />
+                <variable name="LookAround" value="" />
+                <variable name="Eat" value="" />
+                <variable name="StopEat" value="" />
+                <variable name="Rest" value="" />
+                <variable name="StopRest" value="" />
+            </class>
+            <class name="NoActionsLatin" base="ManActions">
+                <variable name="upDegree" value="0" />
+                <variable name="useFastMove" value="0" />
+                <variable name="limitFast" value="5.5" />
+                <variable name="turnSpeed" value="8" />
+            </class>
+            <class name="BlendAnims">
+                <array name="aimingDefault" />
+                <array name="untiltWeaponDefault" />
+                <array name="legsDefault" />
+                <array name="headDefault" />
+                <array name="aimingNo" />
+                <array name="legsNo" />
+                <array name="headNo" />
+                <array name="aimingUpDefault" />
+            </class>
+            <array name="collisionVertexPattern">
+                <variable value="1a" />
+                <variable value="2a" />
+                <variable value="3a" />
+                <variable value="4a" />
+                <variable value="5a" />
+                <variable value="6a" />
+                <variable value="7a" />
+                <variable value="8a" />
+                <variable value="9a" />
+                <variable value="10a" />
+                <variable value="11a" />
+                <variable value="12a" />
+                <variable value="13a" />
+                <variable value="14a" />
+                <variable value="15a" />
+                <variable value="16a" />
+                <variable value="17a" />
+                <variable value="18a" />
+                <variable value="19a" />
+                <variable value="20a" />
+                <variable value="21a" />
+                <variable value="22a" />
+                <variable value="23a" />
+                <variable value="24a" />
+                <variable value="25a" />
+                <variable value="26a" />
+                <variable value="27a" />
+                <variable value="28a" />
+                <variable value="29a" />
+                <variable value="30a" />
+                <variable value="31a" />
+                <variable value="32a" />
+                <variable value="33a" />
+                <variable value="34a" />
+            </array>
+            <array name="collisionGeomCompPattern">
+                <variable value="1" />
+            </array>
+        </class>
+        <class name="CfgMovesAnimalsLatin" base="CfgMovesAnimalsBase">
+            <array name="transitionsDisabled" />
+            <array name="transitionsSimple" />
+            <array name="transitionsInterpolated" />
+            <variable name="skeletonName" value="" />
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+            </array>
+            <editor>
+                <groups />
+                <CurGroup name="" />
+            </editor>
+        </class>
+        <class name="CfgMovesButterfly">
+            <variable name="access" value="0" />
+            <array name="collisionVertexPattern" />
+            <array name="collisionGeomCompPattern" />
+            <class name="ManActions">
+                <variable name="default" value="" />
+                <variable name="open" value="" />
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="ManActions">
+                    <variable name="upDegree" value="-1" />
+                    <variable name="turnSpeed" value="1" />
+                    <variable name="limitFast" value="5" />
+                    <variable name="useFastMove" value='&quot;false&quot;' />
+                </class>
+                <class name="DefaultActions" base="NoActions">
+                    <variable name="default" value="Fly" />
+                    <variable name="open" value="Open" />
+                    <variable name="upDegree" value="0" />
+                </class>
+            </class>
+            <class name="Default">
+                <variable name="actions" value="DefaultActions" />
+                <class name="AnimHooks" />
+                <variable name="file" value="" />
+                <variable name="looped" value='&quot;true&quot;' />
+                <variable name="speed" value="0.5" />
+                <variable name="onLandBeg" value='&quot;false&quot;' />
+                <variable name="onLandEnd" value='&quot;false&quot;' />
+                <variable name="predictSpeedCoef" value="1" />
+                <variable name="relSpeedMin" value="1" />
+                <variable name="relSpeedMax" value="1" />
+                <variable name="soundEnabled" value='&quot;false&quot;' />
+                <variable name="soundOverride" value="" />
+                <array name="soundEdge" />
+                <variable name="terminal" value='&quot;false&quot;' />
+                <variable name="equivalentTo" value="" />
+                <variable name="connectAs" value="" />
+                <array name="connectFrom" />
+                <array name="connectTo" />
+                <array name="interpolateWith" />
+                <array name="interpolateTo" />
+                <array name="interpolateFrom" />
+                <variable name="interpolationSpeed" value="6" />
+                <variable name="interpolationRestart" value='&quot;false&quot;' />
+                <variable name="preload" value='&quot;false&quot;' />
+                <variable name="controlHead" value='&quot;false&quot;' />
+                <variable name="headBobMode" value='&quot;false&quot;' />
+                <variable name="headBobStrength" value='&quot;false&quot;' />
+                <variable name="walkcycles" value="1" />
+                <variable name="forceAim" value="0" />
+            </class>
+            <class name="States">
+                <class name="Fly" base="Default">
+                    <variable name="file" value="\dz\animals\data\rtm\Butterfly_Fly.rtm" />
+                    <variable name="looped" value='&quot;true&quot;' />
+                    <variable name="speed" value="-0.25" />
+                </class>
+                <class name="Open" base="Default">
+                    <variable name="file" value="\dz\animals\data\rtm\Butterfly_Open.rtm" />
+                    <variable name="looped" value='&quot;false&quot;' />
+                    <variable name="speed" value="-1" />
+                    <array name="connectFrom">
+                        <variable value="Fly" />
+                        <variable value="1" />
+                    </array>
+                    <array name="connectTo">
+                        <variable value="Fly" />
+                        <variable value="1" />
+                    </array>
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <array name="transitionsInterpolated" />
+            <array name="transitionsSimple" />
+            <array name="transitionsDisabled" />
+        </class>
+        <class name="CfgMovesBird">
+            <variable name="access" value="0" />
+            <array name="collisionVertexPattern" />
+            <array name="collisionGeomCompPattern" />
+            <class name="ManActions">
+                <variable name="default" value="" />
+                <variable name="open" value="" />
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="ManActions">
+                    <variable name="upDegree" value="-1" />
+                    <variable name="turnSpeed" value="1" />
+                    <variable name="limitFast" value="5" />
+                    <variable name="useFastMove" value='&quot;false&quot;' />
+                </class>
+                <class name="DefaultActions" base="NoActions">
+                    <variable name="default" value="Fly" />
+                    <variable name="open" value="Open" />
+                    <variable name="upDegree" value="0" />
+                </class>
+            </class>
+            <class name="default">
+                <variable name="actions" value="DefaultActions" />
+                <class name="AnimHooks" />
+                <variable name="file" value="" />
+                <variable name="looped" value='&quot;true&quot;' />
+                <variable name="reversed" value='&quot;false&quot;' />
+                <variable name="autocenter" value='&quot;false&quot;' />
+                <variable name="speed" value="0.5" />
+                <variable name="onLandBeg" value='&quot;false&quot;' />
+                <variable name="onLandEnd" value='&quot;false&quot;' />
+                <variable name="predictSpeedCoef" value="1" />
+                <variable name="relSpeedMin" value="1" />
+                <variable name="relSpeedMax" value="1" />
+                <variable name="soundEnabled" value='&quot;true&quot;' />
+                <variable name="soundOverride" value="" />
+                <array name="soundEdge">
+                    <variable value="0.5" />
+                    <variable value="1" />
+                </array>
+                <variable name="terminal" value='&quot;false&quot;' />
+                <variable name="equivalentTo" value="" />
+                <variable name="connectAs" value="" />
+                <array name="connectFrom" />
+                <array name="connectTo" />
+                <array name="interpolateWith" />
+                <array name="interpolateTo" />
+                <array name="interpolateFrom" />
+                <variable name="interpolationSpeed" value="6" />
+                <variable name="interpolationRestart" value='&quot;false&quot;' />
+                <variable name="preload" value='&quot;false&quot;' />
+                <variable name="controlHead" value='&quot;false&quot;' />
+                <variable name="headBobMode" value='&quot;false&quot;' />
+                <variable name="headBobStrength" value='&quot;false&quot;' />
+                <variable name="walkcycles" value="1" />
+            </class>
+            <class name="States">
+                <class name="Fly" base="default">
+                    <variable name="file" value="\dz\animals\birds\data\anim\flying.rtm" />
+                    <variable name="looped" value='&quot;true&quot;' />
+                    <variable name="speed" value="-0.25" />
+                </class>
+                <class name="Open" base="default">
+                    <variable name="file" value="\dz\animals\birds\data\anim\land.rtm" />
+                    <variable name="looped" value='&quot;false&quot;' />
+                    <variable name="speed" value="-1" />
+                    <array name="connectFrom">
+                        <variable value="Fly" />
+                        <variable value="1" />
+                    </array>
+                    <array name="connectTo">
+                        <variable value="Fly" />
+                        <variable value="1" />
+                    </array>
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <array name="transitionsInterpolated" />
+            <array name="transitionsSimple" />
+            <array name="transitionsDisabled" />
+        </class>
+        <class name="CfgMovesCervusElaphus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="CervusElaphusActions" />
+            </array>
+            <class name="States">
+                <class name="CervusElaphus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="dz\animals\cervus_elaphus\cervus_elaphus.p3d" />
+                    <variable name="actions" value="CervusElaphusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="CervusElaphus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="CervusElaphus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="dz\animals\cervus_elaphus\cervus_elaphus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="CervusElaphusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="CervusElaphus_Stand" />
+                    <variable name="Stand" value="CervusElaphus_Stand" />
+                    <variable name="Die" value="CervusElaphus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="CervusElaphusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="CervusElaphusGroup" GraphZoom="9" GraphViewPointX="96" GraphViewPointY="-216" />
+                </groups>
+                <CurGroup name="CervusElaphusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesSusScrofa" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="SusScrofaActions" />
+            </array>
+            <class name="States">
+                <class name="SusScrofa_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\sus_scrofa\sus_scrofa.p3d" />
+                    <variable name="actions" value="SusScrofaActions" />
+                    <array name="InterpolateTo">
+                        <variable value="SusScrofa_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="SusScrofaGroup" GraphPosX="-456.000000" GraphPosY="-173.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="SusScrofa_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\sus_scrofa\sus_scrofa.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="SusScrofaGroup" GraphPosX="66.000000" GraphPosY="-172.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="SusScrofaActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="SusScrofa_Stand" />
+                    <variable name="Stand" value="SusScrofa_Stand" />
+                    <variable name="Die" value="SusScrofa_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="SusScrofaAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="SusScrofaGroup" GraphZoom="11" GraphViewPointX="-59" GraphViewPointY="-113" />
+                </groups>
+                <CurGroup name="SusScrofaGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesSusDomesticus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="SusDomesticusActions" />
+            </array>
+            <class name="States">
+                <class name="SusDomesticus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\sus_domesticus\sus_domesticus.p3d" />
+                    <variable name="actions" value="SusDomesticusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="SusDomesticus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="SusDomesticusGroup" GraphPosX="-457.000000" GraphPosY="-159.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="SusDomesticus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\sus_domesticus\sus_domesticus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="SusDomesticusGroup" GraphPosX="66.000000" GraphPosY="-172.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="SusDomesticusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="SusDomesticus_Stand" />
+                    <variable name="Stand" value="SusDomesticus_Stand" />
+                    <variable name="Die" value="SusDomesticus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="SusDomesticusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="SusDomesticusGroup" GraphZoom="11" GraphViewPointX="-59" GraphViewPointY="-113" />
+                </groups>
+                <CurGroup name="SusDomesticusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesBosTaurus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="BosTaurusActions" />
+            </array>
+            <class name="States">
+                <class name="BosTaurus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\bos_taurus_fem\bos_taurus_fem.p3d" />
+                    <variable name="actions" value="BosTaurusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="BosTaurus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="BosTaurusGroup" GraphPosX="-455.000000" GraphPosY="-171.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="BosTaurus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\bos_taurus_fem\bos_taurus_fem.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="BosTaurusGroup" GraphPosX="66.000000" GraphPosY="-172.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="BosTaurusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="BosTaurus_Stand" />
+                    <variable name="Stand" value="BosTaurus_Stand" />
+                    <variable name="Die" value="BosTaurus_Die" />
+                    <variable name="Stop" value="BosTaurus_Stand" />
+                    <variable name="StopRelaxed" value="BosTaurus_Stand" />
+                    <variable name="TurnL" value="BosTaurus_Stand" />
+                    <variable name="TurnR" value="BosTaurus_Stand" />
+                    <variable name="TurnLRelaxed" value="BosTaurus_Stand" />
+                    <variable name="TurnRRelaxed" value="BosTaurus_Stand" />
+                    <variable name="JumpOff" value="BosTaurus_Stand" />
+                    <variable name="ReloadMagazine" value="BosTaurus_Stand" />
+                    <variable name="ReloadMGun" value="BosTaurus_Stand" />
+                    <variable name="ReloadAT" value="BosTaurus_Stand" />
+                    <variable name="ReloadMortar" value="BosTaurus_Stand" />
+                    <variable name="ThrowGrenade" value="BosTaurus_Stand" />
+                    <variable name="WalkF" value="BosTaurus_Stand" />
+                    <variable name="WalkLF" value="BosTaurus_Stand" />
+                    <variable name="WalkRF" value="BosTaurus_Stand" />
+                    <variable name="WalkL" value="BosTaurus_Stand" />
+                    <variable name="WalkR" value="BosTaurus_Stand" />
+                    <variable name="WalkLB" value="BosTaurus_Stand" />
+                    <variable name="WalkRB" value="BosTaurus_Stand" />
+                    <variable name="WalkB" value="BosTaurus_Stand" />
+                    <variable name="SlowLF" value="BosTaurus_Stand" />
+                    <variable name="SlowF" value="BosTaurus_Stand" />
+                    <variable name="SlowRF" value="BosTaurus_Stand" />
+                    <variable name="SlowL" value="BosTaurus_Stand" />
+                    <variable name="SlowR" value="BosTaurus_Stand" />
+                    <variable name="SlowLB" value="BosTaurus_Stand" />
+                    <variable name="SlowRB" value="BosTaurus_Stand" />
+                    <variable name="SlowB" value="BosTaurus_Stand" />
+                    <variable name="FastF" value="BosTaurus_Stand" />
+                    <variable name="FastLF" value="BosTaurus_Stand" />
+                    <variable name="FastRF" value="BosTaurus_Stand" />
+                    <variable name="FastL" value="BosTaurus_Stand" />
+                    <variable name="FastR" value="BosTaurus_Stand" />
+                    <variable name="FastLB" value="BosTaurus_Stand" />
+                    <variable name="FastRB" value="BosTaurus_Stand" />
+                    <variable name="FastB" value="BosTaurus_Stand" />
+                    <variable name="EvasiveForward" value="BosTaurus_Stand" />
+                    <variable name="EvasiveLeft" value="BosTaurus_Stand" />
+                    <variable name="EvasiveRight" value="BosTaurus_Stand" />
+                    <variable name="EvasiveBack" value="BosTaurus_Stand" />
+                    <variable name="StartSwim" value="BosTaurus_Stand" />
+                    <variable name="StopSwim" value="BosTaurus_Stand" />
+                    <variable name="Down" value="BosTaurus_Stand" />
+                    <variable name="Up" value="BosTaurus_Stand" />
+                    <variable name="PlayerStand" value="BosTaurus_Stand" />
+                    <variable name="PlayerCrouch" value="BosTaurus_Stand" />
+                    <variable name="PlayerProne" value="BosTaurus_Stand" />
+                    <variable name="Lying" value="BosTaurus_Stand" />
+                    <variable name="Crouch" value="BosTaurus_Stand" />
+                    <variable name="Combat" value="BosTaurus_Stand" />
+                    <variable name="CanNotMove" value="BosTaurus_Stand" />
+                    <variable name="Civil" value="BosTaurus_Stand" />
+                    <variable name="CivilLying" value="BosTaurus_Stand" />
+                    <variable name="FireNotPossible" value="BosTaurus_Stand" />
+                    <variable name="WeaponOn" value="BosTaurus_Stand" />
+                    <variable name="WeaponOff" value="BosTaurus_Stand" />
+                    <variable name="StrokeFist" value="BosTaurus_Stand" />
+                    <variable name="StrokeGun" value="BosTaurus_Stand" />
+                    <variable name="SitDown" value="BosTaurus_Stand" />
+                    <variable name="Salute" value="BosTaurus_Stand" />
+                    <variable name="BinocOn" value="BosTaurus_Stand" />
+                    <variable name="BinocOff" value="BosTaurus_Stand" />
+                    <variable name="PutDown" value="BosTaurus_Stand" />
+                    <variable name="PutDownEnd" value="BosTaurus_Stand" />
+                    <variable name="Medic" value="BosTaurus_Stand" />
+                    <variable name="Treated" value="BosTaurus_Stand" />
+                    <variable name="LadderOnDown" value="BosTaurus_Stand" />
+                    <variable name="LadderOnUp" value="BosTaurus_Stand" />
+                    <variable name="LadderOff" value="BosTaurus_Stand" />
+                    <variable name="LadderOffTop" value="BosTaurus_Stand" />
+                    <variable name="GetInLow" value="BosTaurus_Stand" />
+                    <variable name="LadderOffBottom" value="BosTaurus_Stand" />
+                    <variable name="GetInMedium" value="BosTaurus_Stand" />
+                    <variable name="GetOutLow" value="BosTaurus_Stand" />
+                    <variable name="GetInHigh" value="BosTaurus_Stand" />
+                    <variable name="GetOutMedium" value="BosTaurus_Stand" />
+                    <variable name="TakeFlag" value="BosTaurus_Stand" />
+                    <variable name="GetOutHigh" value="BosTaurus_Stand" />
+                    <variable name="HandGunOn" value="BosTaurus_Stand" />
+                    <variable name="LookAround" value="BosTaurus_Stand" />
+                    <variable name="Eat" value="BosTaurus_Stand" />
+                    <variable name="StopEat" value="BosTaurus_Stand" />
+                    <variable name="Rest" value="BosTaurus_Stand" />
+                    <variable name="StopRest" value="BosTaurus_Stand" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="BosTaurusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="BosTaurusGroup" GraphZoom="11" GraphViewPointX="-59" GraphViewPointY="-113" />
+                </groups>
+                <CurGroup name="BosTaurusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesOvisAries" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="OvisAriesActions" />
+            </array>
+            <class name="States">
+                <class name="OvisAries_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\ovis_aries_fem\ovis_aries_fem.p3d" />
+                    <variable name="actions" value="OvisAriesActions" />
+                    <array name="InterpolateTo">
+                        <variable value="OvisAries_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="OvisAriesGroup" GraphPosX="-455.000000" GraphPosY="-186.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="OvisAries_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\ovis_aries_fem\ovis_aries_fem.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="OvisAriesGroup" GraphPosX="66.000000" GraphPosY="-172.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="OvisAriesActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="OvisAries_Stand" />
+                    <variable name="Stand" value="OvisAries_Stand" />
+                    <variable name="Die" value="OvisAries_Die" />
+                    <variable name="Stop" value="OvisAries_Stand" />
+                    <variable name="StopRelaxed" value="OvisAries_Stand" />
+                    <variable name="TurnL" value="OvisAries_Stand" />
+                    <variable name="TurnR" value="OvisAries_Stand" />
+                    <variable name="TurnLRelaxed" value="OvisAries_Stand" />
+                    <variable name="TurnRRelaxed" value="OvisAries_Stand" />
+                    <variable name="JumpOff" value="OvisAries_Stand" />
+                    <variable name="ReloadMagazine" value="OvisAries_Stand" />
+                    <variable name="ReloadMGun" value="OvisAries_Stand" />
+                    <variable name="ReloadAT" value="OvisAries_Stand" />
+                    <variable name="ReloadMortar" value="OvisAries_Stand" />
+                    <variable name="ThrowGrenade" value="OvisAries_Stand" />
+                    <variable name="WalkF" value="OvisAries_Stand" />
+                    <variable name="WalkLF" value="OvisAries_Stand" />
+                    <variable name="WalkRF" value="OvisAries_Stand" />
+                    <variable name="WalkL" value="OvisAries_Stand" />
+                    <variable name="WalkR" value="OvisAries_Stand" />
+                    <variable name="WalkLB" value="OvisAries_Stand" />
+                    <variable name="WalkRB" value="OvisAries_Stand" />
+                    <variable name="WalkB" value="OvisAries_Stand" />
+                    <variable name="SlowLF" value="OvisAries_Stand" />
+                    <variable name="SlowF" value="OvisAries_Stand" />
+                    <variable name="SlowRF" value="OvisAries_Stand" />
+                    <variable name="SlowL" value="OvisAries_Stand" />
+                    <variable name="SlowR" value="OvisAries_Stand" />
+                    <variable name="SlowLB" value="OvisAries_Stand" />
+                    <variable name="SlowRB" value="OvisAries_Stand" />
+                    <variable name="SlowB" value="OvisAries_Stand" />
+                    <variable name="FastF" value="OvisAries_Stand" />
+                    <variable name="FastLF" value="OvisAries_Stand" />
+                    <variable name="FastRF" value="OvisAries_Stand" />
+                    <variable name="FastL" value="OvisAries_Stand" />
+                    <variable name="FastR" value="OvisAries_Stand" />
+                    <variable name="FastLB" value="OvisAries_Stand" />
+                    <variable name="FastRB" value="OvisAries_Stand" />
+                    <variable name="FastB" value="OvisAries_Stand" />
+                    <variable name="EvasiveForward" value="OvisAries_Stand" />
+                    <variable name="EvasiveLeft" value="OvisAries_Stand" />
+                    <variable name="EvasiveRight" value="OvisAries_Stand" />
+                    <variable name="EvasiveBack" value="OvisAries_Stand" />
+                    <variable name="StartSwim" value="OvisAries_Stand" />
+                    <variable name="StopSwim" value="OvisAries_Stand" />
+                    <variable name="Down" value="OvisAries_Stand" />
+                    <variable name="Up" value="OvisAries_Stand" />
+                    <variable name="PlayerStand" value="OvisAries_Stand" />
+                    <variable name="PlayerCrouch" value="OvisAries_Stand" />
+                    <variable name="PlayerProne" value="OvisAries_Stand" />
+                    <variable name="Lying" value="OvisAries_Stand" />
+                    <variable name="Crouch" value="OvisAries_Stand" />
+                    <variable name="Combat" value="OvisAries_Stand" />
+                    <variable name="CanNotMove" value="OvisAries_Stand" />
+                    <variable name="Civil" value="OvisAries_Stand" />
+                    <variable name="CivilLying" value="OvisAries_Stand" />
+                    <variable name="FireNotPossible" value="OvisAries_Stand" />
+                    <variable name="WeaponOn" value="OvisAries_Stand" />
+                    <variable name="WeaponOff" value="OvisAries_Stand" />
+                    <variable name="StrokeFist" value="OvisAries_Stand" />
+                    <variable name="StrokeGun" value="OvisAries_Stand" />
+                    <variable name="SitDown" value="OvisAries_Stand" />
+                    <variable name="Salute" value="OvisAries_Stand" />
+                    <variable name="BinocOn" value="OvisAries_Stand" />
+                    <variable name="BinocOff" value="OvisAries_Stand" />
+                    <variable name="PutDown" value="OvisAries_Stand" />
+                    <variable name="PutDownEnd" value="OvisAries_Stand" />
+                    <variable name="Medic" value="OvisAries_Stand" />
+                    <variable name="Treated" value="OvisAries_Stand" />
+                    <variable name="LadderOnDown" value="OvisAries_Stand" />
+                    <variable name="LadderOnUp" value="OvisAries_Stand" />
+                    <variable name="LadderOff" value="OvisAries_Stand" />
+                    <variable name="LadderOffTop" value="OvisAries_Stand" />
+                    <variable name="GetInLow" value="OvisAries_Stand" />
+                    <variable name="LadderOffBottom" value="OvisAries_Stand" />
+                    <variable name="GetInMedium" value="OvisAries_Stand" />
+                    <variable name="GetOutLow" value="OvisAries_Stand" />
+                    <variable name="GetInHigh" value="OvisAries_Stand" />
+                    <variable name="GetOutMedium" value="OvisAries_Stand" />
+                    <variable name="TakeFlag" value="OvisAries_Stand" />
+                    <variable name="GetOutHigh" value="OvisAries_Stand" />
+                    <variable name="HandGunOn" value="OvisAries_Stand" />
+                    <variable name="LookAround" value="OvisAries_Stand" />
+                    <variable name="Eat" value="OvisAries_Stand" />
+                    <variable name="StopEat" value="OvisAries_Stand" />
+                    <variable name="Rest" value="OvisAries_Stand" />
+                    <variable name="StopRest" value="OvisAries_Stand" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="OvisAriesAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="OvisAriesGroup" GraphZoom="11" GraphViewPointX="-59" GraphViewPointY="-113" />
+                </groups>
+                <CurGroup name="OvisAriesGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesLepusEuropaeus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="LepusEuropaeusActions" />
+            </array>
+            <class name="States">
+                <class name="LepusEuropaeus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\lepus_europaeus\lepus_europaeus.p3d" />
+                    <variable name="actions" value="LepusEuropaeusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="LepusEuropaeus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="LepusEuropaeusGroup" GraphPosX="-550.000000" GraphPosY="-196.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="LepusEuropaeus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\lepus_europaeus\lepus_europaeus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="LepusEuropaeusGroup" GraphPosX="84.000000" GraphPosY="-195.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="LepusEuropaeusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="LepusEuropaeus_Stand" />
+                    <variable name="Stand" value="LepusEuropaeus_Stand" />
+                    <variable name="Die" value="LepusEuropaeus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="LepusEuropaeusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="LepusEuropaeusGroup" GraphZoom="10" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="LepusEuropaeusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesUrsusArctos" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="UrsusArctosActions" />
+            </array>
+            <class name="States">
+                <class name="UrsusArctos_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\ursus_arctos\ursus_arctos.p3d" />
+                    <variable name="actions" value="UrsusArctosActions" />
+                    <array name="InterpolateTo">
+                        <variable value="UrsusArctos_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="UrsusArctosGroup" GraphPosX="-478.000000" GraphPosY="-197.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="UrsusArctos_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\ursus_arctos\ursus_arctos.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="UrsusArctosGroup" GraphPosX="84.000000" GraphPosY="-195.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="UrsusArctosActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="UrsusArctos_Stand" />
+                    <variable name="Stand" value="UrsusArctos_Stand" />
+                    <variable name="Die" value="UrsusArctos_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="UrsusArctosAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="UrsusArctosGroup" GraphZoom="10" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="UrsusArctosGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesVulpesVulpes" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="VulpesVulpesActions" />
+            </array>
+            <class name="States">
+                <class name="VulpesVulpes_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\vulpes_vulpes\vulpes_vulpes.p3d" />
+                    <variable name="actions" value="VulpesVulpesActions" />
+                    <array name="InterpolateTo">
+                        <variable value="VulpesVulpes_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="VulpesVulpesGroup" GraphPosX="-550.000000" GraphPosY="-196.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="VulpesVulpes_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\vulpes_vulpes\vulpes_vulpes.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="VulpesVulpesGroup" GraphPosX="132.000000" GraphPosY="-195.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="VulpesVulpesActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="VulpesVulpes_Stand" />
+                    <variable name="Stand" value="VulpesVulpes_Stand" />
+                    <variable name="Die" value="VulpesVulpes_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="VulpesVulpesAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="VulpesVulpesGroup" GraphZoom="10" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="VulpesVulpesGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesGallusGallus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="GallusGallusActions" />
+            </array>
+            <class name="States">
+                <class name="GallusGallus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\lepus_europaeus\lepus_europaeus.p3d" />
+                    <variable name="actions" value="GallusGallusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="GallusGallus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="GallusGallusGroup" GraphPosX="-550.000000" GraphPosY="-196.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="GallusGallus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\lepus_europaeus\lepus_europaeus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="GallusGallusGroup" GraphPosX="84.000000" GraphPosY="-195.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="GallusGallusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="GallusGallus_Stand" />
+                    <variable name="Stand" value="GallusGallus_Stand" />
+                    <variable name="Die" value="GallusGallus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="GallusGallusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="GallusGallusGroup" GraphZoom="10" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="GallusGallusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesGallusGallusFeminam" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="GallusGallusFeminamActions" />
+            </array>
+            <class name="States">
+                <class name="GallusGallusFeminam_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\lepus_europaeus\lepus_europaeus.p3d" />
+                    <variable name="actions" value="GallusGallusFeminamActions" />
+                    <array name="InterpolateTo">
+                        <variable value="GallusGallus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                            <ref group="GallusGallusGroup" GraphPosX="-550.000000" GraphPosY="-196.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="GallusGallusFeminam_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\lepus_europaeus\lepus_europaeus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                            <ref group="GallusGallusGroup" GraphPosX="84.000000" GraphPosY="-195.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="GallusGallusFeminamActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="GallusGallusFeminam_Stand" />
+                    <variable name="Stand" value="GallusGallusFeminam_Stand" />
+                    <variable name="Die" value="GallusGallusFeminam_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="GallusGallusFeminamAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="GallusGallusGroup" GraphZoom="10" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="GallusGallusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesCapraHircus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="CapraHircusActions" />
+            </array>
+            <class name="States">
+                <class name="CapraHircus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\capra_hircus\capra_hircus.p3d" />
+                    <variable name="actions" value="CapraHircusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="CapraHircus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CapraHircusGroup" GraphPosX="-412.000000" GraphPosY="-156.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="CapraHircus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\capra_hircus\capra_hircus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CapraHircusGroup" GraphPosX="90.000000" GraphPosY="-151.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="CapraHircusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="CapraHircus_Stand" />
+                    <variable name="Stand" value="CapraHircus_Stand" />
+                    <variable name="Die" value="CapraHircus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="CapraHircusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="CapraHircusGroup" GraphZoom="11" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="CapraHircusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesCanisLupus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="CanisLupusActions" />
+            </array>
+            <class name="States">
+                <class name="CanisLupus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\canis_lupus\canis_lupus.p3d" />
+                    <variable name="actions" value="CanisLupusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="CanisLupus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CanisLupusGroup" GraphPosX="-319.000000" GraphPosY="-153.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="CanisLupus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\canis_lupus\canis_lupus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CanisLupusGroup" GraphPosX="90.000000" GraphPosY="-151.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="CanisLupusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="CanisLupus_Stand" />
+                    <variable name="Stand" value="CanisLupus_Stand" />
+                    <variable name="Die" value="CanisLupus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="CanisLupusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="CanisLupusGroup" GraphZoom="9" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="CanisLupusGroup" />
+            </editor>
+        </class>
+        <class name="CfgMovesCapreolusCapreolus" base="CfgMovesAnimalsLatin">
+            <array name="primaryActionMaps">
+                <variable value="NoActions" />
+                <variable value="CapreolusCapreolusActions" />
+            </array>
+            <class name="States">
+                <class name="CapreolusCapreolus_Stand" base="StandBaseLatin">
+                    <variable name="collisionShape" value="DZ\animals\canis_lupus\canis_lupus.p3d" />
+                    <variable name="actions" value="CapreolusCapreolusActions" />
+                    <array name="InterpolateTo">
+                        <variable value="CapreolusCapreolus_Die" />
+                        <variable value="0.000000" />
+                    </array>
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CapreolusCapreolusGroup" GraphPosX="-348.090881" GraphPosY="-147.545471" />
+                            <ref group="CervusElaphusGroup" GraphPosX="-385.000000" GraphPosY="-396.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+                <class name="CapreolusCapreolus_Die" base="DefaultDieLatin">
+                    <variable name="collisionShape" value="DZ\animals\canis_lupus\canis_lupus.p3d" />
+                    <editor>
+                        <GroupRefs>
+                            <ref group="CapreolusCapreolusGroup" GraphPosX="90.000000" GraphPosY="-151.000000" />
+                            <ref group="CervusElaphusGroup" GraphPosX="195.000000" GraphPosY="-397.000000" />
+                        </GroupRefs>
+                    </editor>
+                </class>
+            </class>
+            <class name="Actions">
+                <class name="NoActions" base="NoActionsLatin" />
+                <class name="CapreolusCapreolusActions" base="NoActions">
+                    <variable name="upDegree" value="ManPosNoWeapon" />
+                    <variable name="Default" value="CapreolusCapreolus_Stand" />
+                    <variable name="Stand" value="CapreolusCapreolus_Stand" />
+                    <variable name="Die" value="CapreolusCapreolus_Die" />
+                </class>
+            </class>
+            <class name="Interpolations" />
+            <class name="BlendAnims" base="BlendAnims" />
+            <variable name="skeletonName" value="CapreolusCapreolusAISkeleton" />
+            <editor>
+                <groups>
+                    <group name="CapreolusCapreolusGroup" GraphZoom="9" GraphViewPointX="0" GraphViewPointY="0" />
+                </groups>
+                <CurGroup name="CapreolusCapreolusGroup" />
+            </editor>
+        </class>
+        <editor>
+            <CurCharacter name="CfgMovesCapreolusCapreolus" />
+            <BaseClass name="CfgMovesAnimalsBase" />
+        </editor>
+    </class>
+</animconfig>

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DFDD4BD5357D1078}Gui/textures/reserved.edds"
+ Author "3672"
+ ChangeDate 1282647763
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "reserved.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

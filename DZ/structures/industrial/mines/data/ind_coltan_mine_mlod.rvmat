@@ -1,0 +1,37 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.050980002,0.050980002,0.050980002,1};
+specularPower=200;
+PixelShaderID="NormalMapSpecularDIMap";
+VertexShaderID="NormalMap";
+class Stage0
+{
+	texture="dz\structures\industrial\mines\data\ind_coltan_main_mlod_co.paa";
+	uvSource="tex";
+};
+class Stage1
+{
+	texture="dz\structures\industrial\mines\data\ind_coltan_main_mlod_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\structures\industrial\mines\data\ind_coltan_main_mlod_smdi.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

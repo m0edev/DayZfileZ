@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{61400648B4A734CA}Graphics/Particles/smoke_small_generator_01.ptc"
+ Author "ferko"
+ ChangeDate 1592550088
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

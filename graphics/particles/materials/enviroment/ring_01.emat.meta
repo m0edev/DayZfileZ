@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EA2686148E09D4DD}Graphics/Particles/materials/enviroment/ring_01.emat"
+ Author "3112"
+ ChangeDate -1496652113
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

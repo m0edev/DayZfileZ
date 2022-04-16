@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{5AA63F87AFA58E}Graphics/Materials/postprocess/ssao.emat"
+ Author "fido"
+ ChangeDate -1655021015
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5A939336004F3C25}Graphics/Particles/materials/character/blood_01.emat"
+ Author "3112"
+ ChangeDate -490543441
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{EA764AD7A6112284}Graphics/Textures/Water/caustic.edds"
+ Author "fido"
+ ChangeDate -255581658
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "caustic.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

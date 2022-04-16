@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{968A09D343D1B03D}Graphics/Particles/weapon_shot_akm_02.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

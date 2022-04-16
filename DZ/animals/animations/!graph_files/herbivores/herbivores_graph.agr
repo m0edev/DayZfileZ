@@ -1,0 +1,63 @@
+$AnimGraph 7 {
+	#AnimSetTemplate "{E38A912167E878BF}DZ/animals/animations/!graph_files/Herbivores/Herbivores_AnimTemplate.ast"
+	#AnimSyncTable "{267D34E1911C5729}DZ/animals/animations/!graph_files/Herbivores/Herbivores_synctables.asy"
+	$Controls {
+		$Commands {
+			 CMD_Death -1
+			 CMD_JumpType -1
+			 CMD_LookAt 0
+			 CMD_Attack -1
+			 CMD_AttackSuccess -1
+			 CMD_AnimCallBack -1
+			 CMD_Hit -1
+			 CMD_LookAtXChange -1
+		}
+		$Vars {
+			#Var behaviorAction int 2 0 14 ""
+			#Var speed float 0.0 0.0 5.0 ""
+			#Var turn float 0.0 -180.0 180.0 ""
+			#Var alertLevel int 1 0 4 ""
+			#Var lookXAngle float 0.0 -180.0 180.0 ""
+			#Var lookYAngle float 0.0 -90.0 90.0 ""
+			#Var SlopeAngleX float 0.0 -90.0 90.0 ""
+			#Var SlopeAngleZ float 0.0 -90.0 90.0 ""
+			#Var InjuryLevel int 0 0 2 ""
+			#Var behaviorSlotID int 0 0 31 ""
+		}
+		$Expressions {
+		}
+		$DebugControls {
+			
+			#DCtrl 2 "" "LookAtOn" "" "CMD_LookAt" 0.0 1
+			
+			#DCtrl 2 "" "LookAtOff" "" "CMD_LookAt" 0.0 0
+			
+			#DCtrl 2 "" "AnimCallBack_LookAtPose" "" "CMD_AnimCallBack" 0.0 0
+			
+			#DCtrl 2 "" "AnimCallBack_Speed0" "" "CMD_AnimCallBack" 0.0 3
+			
+			#DCtrl 2 "" "Jump110_160" "" "CMD_JumpType" 0.0 101
+			
+			#DCtrl 2 "" "Jump50_110" "" "CMD_JumpType" 0.0 100
+			
+			#DCtrl 2 "" "AnimCallBack_WalkMoo" "" "CMD_AnimCallBack" 0.0 12
+			
+			#DCtrl 2 "" "IsDeath_L" "" "CMD_Death" 0.0 2
+			
+			#DCtrl 2 "" "TailSwingWalkOpt" "" "CMD_AnimCallBack" 0.0 11
+			
+			#DCtrl 2 "" "TailSwingWalkGrazing" "" "CMD_AnimCallBack" 0.0 10
+			
+			#DCtrl 2 "" "isHit_R" "" "CMD_Hit" 0.0 3
+			
+			#DCtrl 2 "" "isHit_L" "" "CMD_Hit" 0.0 2
+			
+			#DCtrl 2 "" "isDeath_R" "" "CMD_Death" 0.0 3
+			
+			#DCtrl 2 "" "isDeath_F" "" "CMD_Death" 0.0 1
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/herbivores/Herbivores_MainGraph.agr"
+	}
+}

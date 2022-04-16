@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{91F68C1BFB35C2A2}Graphics/Particles/sprites/smoke_anim_01.edds"
+ Author "3112"
+ ChangeDate 1434691204
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "smoke_anim_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

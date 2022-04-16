@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1B735CF871BB718D}Graphics/Particles/steam_medium_camp_2end.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

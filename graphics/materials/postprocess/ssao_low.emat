@@ -1,0 +1,18 @@
+material "graphics/materials/postprocess/ssao_low": SSAOEffect
+{
+	NumPasses 2
+	NumBlurPasses 1
+	BlurSize 2
+	RadiusNear 70.0 
+	RadiusFar 10.0 
+	CosAngle0 0.3 
+	CosAngle1 1.0
+	MaxDistance 0.55
+	MaxBlurDistance 0.2 
+	NearIntensity 0.001
+	Intensity 150
+	FarIntensity 2.45
+	FarIntensityDistance 31
+	ColorAmount 0.5
+	ColorSsaoAmount 0.25
+}

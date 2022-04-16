@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{632B5AB47AF384}Graphics/Textures/efx/RefractWave01.edds"
+ Author "fido"
+ ChangeDate -587455962
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "RefractWave01.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

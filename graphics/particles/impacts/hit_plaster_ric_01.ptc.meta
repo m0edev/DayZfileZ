@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DA1A2386EB9D8A26}Graphics/Particles/impacts/hit_plaster_ric_01.ptc"
+ Author "3112"
+ ChangeDate -1631394129
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{27322997F638D102}Graphics/Particles/sprites/blood_squirt_anim_05.edds"
+ Author "ferko"
+ ChangeDate 1909613875
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "blood_squirt_anim_05.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

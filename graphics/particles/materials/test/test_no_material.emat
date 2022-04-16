@@ -1,0 +1,4 @@
+ParticleSprite {
+ AlbedoMap "{5FBF3ADA4E3A2E0C}Graphics/Particles/sprites/_test_no_material.edds" 
+ Sort overlay
+}

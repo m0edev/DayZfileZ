@@ -1,0 +1,33 @@
+ambient[]={0.02,0.56,0.15000001,0.15000001};
+diffuse[]={0.37058824,0.36666667,0.31176472,0.98000002};
+forcedDiffuse[]={1,1,1,0};
+emmisive[]={0.5480004,1,0.46235326,1};
+specular[]={0,0,0,1.7508864e-009};
+specularPower=1;
+PixelShaderID="TreeAdvTrunk";
+VertexShaderID="TreeAdvTrunk";
+plantWind[]={0.050000001,0.15000001,0.94999999,0.5};
+class Stage1
+{
+	texture="dz\plants\tree\data\t_pyruscommunis_3s_trunk_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="dz\plants\tree\data\t_pyruscommunis_2s_trunk_mc.paa";
+	uvSource="tex1";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};

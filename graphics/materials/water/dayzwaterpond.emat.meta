@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{15B9A94519F37848}Graphics/Materials/water/dayzwaterpond.emat"
+ Author "fido"
+ ChangeDate -938286518
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

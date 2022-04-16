@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C34EE1639A1D787}Graphics/Materials/postprocess/depthoffieldTest2.emat"
+ Author "fido"
+ ChangeDate -1722129879
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

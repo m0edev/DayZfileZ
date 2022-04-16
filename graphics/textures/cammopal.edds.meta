@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{0463FA79392DABF3}Graphics/Textures/cammopal.tga"
+ Author "1501"
+ ChangeDate 1446733124
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "cammopal.tga"
+   GenerateMips 0
+   TiledTexture 0
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

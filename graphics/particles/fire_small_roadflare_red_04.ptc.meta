@@ -1,0 +1,13 @@
+MetaFileClass  {
+ Name "{5D2C9704DBB77D27}Graphics/Particles/fire_small_roadflare_red_04.ptc"
+ Author "ferko"
+ ChangeDate 749380294
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+ }
+}

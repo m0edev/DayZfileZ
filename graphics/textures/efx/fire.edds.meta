@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{532399D4296C45D}Graphics/Textures/efx/fire.edds"
+ Author "fido"
+ ChangeDate -688643546
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "fire.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

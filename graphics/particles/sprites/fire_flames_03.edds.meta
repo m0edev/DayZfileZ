@@ -1,0 +1,14 @@
+MetaFileClass  {
+ Name "{39B311FF276CF007}Graphics/Particles/sprites/fire_flames_03.edds"
+ Author "ferko"
+ ChangeDate 230433539
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "fire_flames_03.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+ }
+}

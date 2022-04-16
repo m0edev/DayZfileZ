@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D5CDB037CC9FAA6B}Graphics/Particles/sprites/fly_anim_01.edds"
+ Author "3112"
+ ChangeDate -1574148471
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "fly_anim_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

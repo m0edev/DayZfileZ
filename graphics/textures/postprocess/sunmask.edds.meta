@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D6B7A741EA83B67E}graphics/textures/postprocess/sunmask.edds"
+ Author "fido"
+ ChangeDate -1733533146
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "sunmask.dds"
+   ContainsMips 1
+   GenerateMips 0
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{57534C9565C7FBC}Graphics/Textures/efx/fire_billowing.edds"
+ Author "fido"
+ ChangeDate -420208090
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "fire_billowing.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+ }
+}

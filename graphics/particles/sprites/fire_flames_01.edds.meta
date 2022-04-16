@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{93537F24953C167C}Graphics/Particles/sprites/fire_flames_01.tga"
+ Author "3112"
+ ChangeDate 490464922
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "fire_flames_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

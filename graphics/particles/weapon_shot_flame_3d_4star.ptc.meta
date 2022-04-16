@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4BF2C332606FA8C8}Graphics/Particles/weapon_shot_Flame_3D_4star.ptc"
+ Author "3112"
+ ChangeDate -1798117713
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

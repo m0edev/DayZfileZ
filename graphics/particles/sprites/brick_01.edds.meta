@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3384D579D72A90A5}Graphics/Particles/sprites/brick_01.edds"
+ Author "ferko"
+ ChangeDate 1167828210
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "brick_01.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

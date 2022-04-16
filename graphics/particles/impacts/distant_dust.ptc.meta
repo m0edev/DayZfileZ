@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A59D470FC33591EF}Graphics/Particles/impacts/distant_dust.ptc"
+ Author "3112"
+ ChangeDate -1664948561
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

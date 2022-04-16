@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{51A8EB1F5E220385}Graphics/Materials/postprocess/depthoffieldbokeh0.emat"
+ Author "1501"
+ ChangeDate 336274694
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}
