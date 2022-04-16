@@ -1,8 +1,11 @@
+<div align="center">
 <h3 align="center">Extracted DayZ Files</h3>
 
-All these files are extracted directly from the game, Untouched vanilla goodness.
+  <p align="center">
+    <br />
+    <a>All these files are extracted directly from the game, Untouched vanilla goodness.</a>
+  </p>
 
-<div align="center">
   <a href="https://github.com/m0edev/dayzfiles">
     <img src="https://i.ibb.co/L6GC0r9/Git.png" alt="Logo" width="80" height="80">
   </a>
