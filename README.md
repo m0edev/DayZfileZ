@@ -7,7 +7,7 @@
   
   <p align="center">
     <br />
-    <a>All these files are extracted directly from the game, Untouched vanilla goodness.</a>
+    <a>All files you find here are extracted directly from the game. You will probaly notice that there is no models or image files. These have been removed to allow it to be uploaded to GitHub.</a>
   </p>
 <br />
 
