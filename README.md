@@ -2,7 +2,7 @@
 
 All these files are extracted directly from the game, Untouched vanilla goodness.
 
-<img src="https://i.ibb.co/L6GC0r9/Git.png" alt="Git" border="0">
+<center><img src="https://i.ibb.co/L6GC0r9/Git.png" alt="Git" border="0" width="200" height="200"></center>
 
 
 
