@@ -15,19 +15,6 @@
 <details>
   <summary>Scripts</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/1_core">1_core</a></li>
     <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/2_gamelib">2_gamelib</a></li>
     <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/3_game">3_game</a></li>
