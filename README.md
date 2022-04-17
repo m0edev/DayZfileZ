@@ -8,6 +8,7 @@
   <p align="center">
     <br />
     <a>All files you find here are extracted directly from the game. You will probaly notice that there is no models. These have been removed to allow it to be uploaded to GitHub.</a>
+    <a>All files are in there orignal directory. Simply go hunting for what your afer or just search for the file you looking for. All .paa files have been converted to .png files for you convenience.</a>
   </p>
 <br />
 </div>
