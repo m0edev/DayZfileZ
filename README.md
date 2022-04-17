@@ -12,28 +12,6 @@
 <br />
 </div>
 
- <!-- TABLE OF CONTENTS -->
- <h2>Contents</h2>
-<details>
-  <summary>Scripts</summary>
-  <ol>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/1_core">1_core</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/2_gamelib">2_gamelib</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/3_game">3_game</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/4_world">4_world</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/5_mission">5_mission</a></li>
-  </ol>
- </details>
- <details>
-    <summary>Textures</summary>
-  <ol>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/1_core">1_core</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/2_gamelib">2_gamelib</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/3_game">3_game</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/4_world">4_world</a></li>
-    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/5_mission">5_mission</a></li>
-  </ol>
-</details>
 
 <h2 align="center">License</h2>
   <p align="center">
