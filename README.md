@@ -23,6 +23,8 @@
     <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/4_world">4_world</a></li>
     <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/5_mission">5_mission</a></li>
   </ol>
+ </details>
+ <details>
     <summary>Textures</summary>
   <ol>
     <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/1_core">1_core</a></li>
