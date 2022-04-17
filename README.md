@@ -10,6 +10,31 @@
     <a>All files you find here are extracted directly from the game. You will probaly notice that there is no models. These have been removed to allow it to be uploaded to GitHub.</a>
   </p>
 <br />
+ 
+ <!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Scripts</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/1_core">1_core</a></li>
+    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/2_gamelib">2_gamelib</a></li>
+    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/3_game">3_game</a></li>
+    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/4_world">4_world</a></li>
+    <li><a href="https://github.com/m0edev/DayZfileZ/tree/main/scripts/5_mission">5_mission</a></li>
+  </ol>
+</details>
 
 <h2 align="center">License</h2>
   <p align="center">
