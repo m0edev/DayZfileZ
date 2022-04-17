@@ -11,7 +11,7 @@
     </p>
   <br />
    <p align="center">
-    <a>All files are in there orignal directory. Simply go hunting for what your afer or just search for the file you looking for. All .paa files have been converted to .png files for you convenience.</a>
+    <a>All files are in there orignal directory. Simply go hunting for what your after or just search for the file you looking for. All .paa files have been converted to .png files for you convenience.</a>
   </p>
 <br />
 </div>
