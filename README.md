@@ -11,7 +11,9 @@
   </p>
 <br />
 </div>
+
  <!-- TABLE OF CONTENTS -->
+ <h2>Contents</h2>
 <details>
   <summary>Scripts</summary>
   <ol>
